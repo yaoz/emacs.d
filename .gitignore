@@ -3,5 +3,4 @@
 *.elc
 *.zip
 session*
-tramp
 \#*
