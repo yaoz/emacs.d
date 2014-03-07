@@ -1,0 +1,7 @@
+/elpa/
+*~
+*.elc
+*.zip
+session*
+tramp
+\#*

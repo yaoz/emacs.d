@@ -1,0 +1,369 @@
+;; -*- coding: utf-8-unix -*-
+;; Automatically written history of nREPL session
+;; Edit at your own risk
+
+("(fx-day #'uv 1)" "k" "(uvdir)" "(cat \"uvdir\" :date (day -1))" "(cat \"uv\" :date (day -1))" "(uvdir  (day -1))" "(cat \"uv\" (day -1))" "(cat \"uv\" (str  (day -1)))" "(cat \"uv\" (day -1))" "(cat \"uv\" )" "(cat \"uv\" (day -1))" "(cat \"uvdir\" (day -1))" "(cat \"uvdir\")" "(cat uvdir)" "(uvdir)" "(bootstrap-emacs)" "(uvdir)" "(defn uvdir []
+	    (let [file (format \"/home/fx/uvdir/%s/part-00000\" (day -1))]
+	      (?- (stdout) (fx/textline-parsed file 2))))" "(defn uvdir []
+	    (let [file (format \"/home/fx/uvdir/%s/part-00000\" (day -1))]
+	      (fx/?- (stdout) (fx/textline-parsed file 2))))" "(defn uvdir []
+	    (let [file (format \"/home/fx/uvdir/%s/part-00000\" (day -1))]
+	      (fx/<- (stdout) (fx/textline-parsed file 2))))" "(defn uvdir []
+	    (let [file (format \"/home/fx/uvdir/%s/part-00000\" (day -1))]
+	      (fx/<- (fx/textline-parsed file 2))))" "(uvdir)" "(defn uvdir []
+	    (let [file (format \"/home/fx/uvdir/%s/part-00000\" (day -1))]
+	      (fx/textline-parsed file 2)))" "(defn uvdir []
+	    (let [uvdir-file (format \"/home/fx/uvdir/%s/part-00000\" (day -1)) 
+			     uvdir  (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(defn uvdir []
+	    (let [date #spy/d (day -1)
+		       uvdir-file (format \"/home/fx/uvdir/%s/part-00000\" date) 
+		       uvdir  (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+	    (let [date #spy/d (day -1)
+		       uvdir-file (format \"/home/fx/uvdir/%s/part-00000\" date) 
+		       uvdir  (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+	    (let [date #spy/d (day -1)
+		       uvdir-file #spy/d (format \"/home/fx/uvdir/%s/part-00000\" date) 
+		       uvdir #spy/d (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+	    (let [date #spy/d (day 1)
+		       uvdir-file #spy/d (format \"/home/fx/uvdir/%s/part-00000\" date) 
+		       uvdir #spy/d (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+	    (let [date #spy/d (day 1)
+		       uvdir-file #spy/d (format \"/home/fx/uv/%s/part-00000\" date) 
+		       uvdir #spy/d (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+	    (let [date #spy/d (day 1)
+		       uvdir-file #spy/d (format \"/home/fx/uv/%s/part-00000\" date) 
+		       uvdir (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+	    (let [date #spy/d (day 1)
+		       uvdir-file (format \"/home/fx/uv/%s/part-00000\" date) 
+		       uvdir (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+	    (let [date (day 1)
+		       uvdir-file (format \"/home/fx/uv/%s/part-00000\" date) 
+		       uvdir (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(uvdir)" "(defn uvdir []
+  (let [date (day 1)
+        uvdir-file (map #(format \"/home/fx/uv/%s/part-00000\" %) date)
+        uvdir (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))" "(defn uvdir []
+  (let [date (day 1)
+        uvdir-file (map #(format \"/home/fx/uv/%s/part-00000\" %) date)
+        uvdir (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))(uvdir)" "(defn uvdir [limit]
+  (let [date (day 1)
+        uvdir-file (map #(format \"/home/fx/uv/%s/part-00000\" %) date)
+        uvdir (if (fs/exists? uvdir-file) (slurp uvdir-file) \"0\")
+        ]
+    (print-table (uvdir))))(uvdir)" "(uvdir)" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (do (fs/copy in out) (println in \" \" out \"复制\"))
+	    (println in \"不存在\")
+	    ))" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (do (fs/copy in out) (println in \" \" out \"复制\"))
+	    (println in \"不存在\")
+	    ))" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (do (fs/copy in out) (println in \" \" out \"复制\"))
+	    (println in \" \" out \"不存在\")
+	    ))" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (do (fs/copy in out) (println in \"复制\"))
+	    (println in \"不存在\")
+	    ))" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (do (fs/copy in out) (println in \"复制\"))
+	    (println out \"不存在\")
+	    ))" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (do (fs/copy in out) (println \"复制\"))
+	    (println out \"不存在\")
+	    ))" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (do (fs/copy in out) \"复制\")
+	    (println out \"不存在\")
+	    ))" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (fs/copy in out)
+	    (println out \"不存在\")
+	    ))" "(if nil 1 2)" "(if 1 1 2)" "(if 0 1 2)" "(if 0 1 1)" "(if 0 1)" "(if 0 )" "(sql)" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (fs/copy in out)
+	    (println out \"不存在\")
+	    ))" "(defn my-copy [in out]
+	  (if (fs/exists? in)
+	      (fs/copy in out)))" "(sql)" "(fx-many #'ex-manyagent #'today (partial in-file-fx \"manyagent-5\") (partial ?out true \"ex-manyagent-5\")  1)" "(log.cli/fx-many #'ex-manyagent #'today (partial in-file-fx \"manyagent-5\") (partial ?out true \"ex-manyagent-5\")  1)" "(fx-many #'ex-manyagent #'today (partial in-file-fx \"manyagent-5\") (partial ?out true \"ex-manyagent-5\")  1)" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+  \"导出多agent\"
+  (<- 
+   [?iptables]
+   ( (c/first-n 
+      (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+      2000 :sort [\"?ip\"] :reverse true  
+      ) :> ?ip)
+   (gudingip? ?ip)
+   (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+  )
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+  \"导出多agent\"
+  (<- 
+   [?ip]
+   ( (c/first-n 
+      (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+      2000 :sort [\"?ip\"] :reverse true  
+      ) :> ?ip)
+   
+)
+  )
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+  \"导出多agent\"
+  (<- 
+   [?ip]
+   (c/first-n 
+    (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+    2000 :sort [\"?ip\"] :reverse true  
+    )
+)
+  )
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+  \"导出多agent\"
+  (c/first-n 
+   (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+   2000 :sort [\"?ip\"] :reverse true  
+   )
+  )
+" "(defn ex-manyagent [in-file]
+  \"导出多agent\"
+  (<- 
+   [?iptables]
+   (c/first-n 
+    (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+    2000 :sort [\"?ip\"] :reverse true  
+    )
+   (gudingip? ?ip)
+   (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+  )
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (<- 
+	   [?iptables]
+	   (c/first-n 
+	    (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	    2000 :sort [\"?ip\"] :reverse true  
+	    )
+	   (gudingip? ?ip)
+	   (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+	  )
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (<- 
+	   [?iptables]
+	   (c/first-n 
+	    (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	    2000 :sort [\"?ip\"] :reverse true  
+	    )
+	   (gudingip? ?ip)
+	   (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+	  )
+" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (c/first-n 
+	    (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	    2000 :sort [\"?ip\"] :reverse true  
+	    )
+	   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (c/first-n 
+	    (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	    2000 :sort [\"?ip\"] :reverse true  
+	    )
+	   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- 
+	    [?iptables]
+	    (c/first-n 
+	     (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	     2000 :sort [\"?ip\"] :reverse true  
+	     )
+	    (gudingip? ?ip)
+	    (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+	   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- 
+	    [?iptables]
+	    (c/first-n 
+	     (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	     2000 :sort [\"?ip\"] :reverse true  
+	     )
+	    (gudingip? ?ip)
+	    (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+	   ))
+" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- 
+	    [?iptables]
+	    (c/first-n 
+	     ((textline-parsed in-file 2) :> ?ip _)
+	     2000 :sort [\"?ip\"] :reverse true  
+	     )
+	    (gudingip? ?ip)
+	    (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+	   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- 
+	    [?iptables]
+	    (c/first-n 
+	     (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	     2000 :sort [\"?ip\"] :reverse true  
+	     )
+	    (gudingip? ?ip)
+	    (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+	   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "
+(defn ex-manyagent [in-file]
+  \"导出多agent\"
+  (c/first-n 
+   (<- 
+    [?iptables]
+    (c/first-n 
+     (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+     2000 :sort [\"?ip\"] :reverse true  
+     )
+    (gudingip? ?ip)
+    (format \"-A INPUT -s %s/32 -p tcp -m tcp --dport 80 -j DROP\" ?ip :> ?iptables))
+   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	   2000 :sort [\"?ip\"] :reverse true  
+	   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+	   2000 :sort [\"?count\"] :reverse true  
+	   ))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/part-00000\" \"/root/1\")" "(fx-file #'ex-manyagent \"/home/fx/manyagent-5/part-00000\" \"/root/1\")" "(defn ex-manyagent [in-file]
+	  (<- [?ip]  ( (textline-parsed in-file 2) :> ?ip _))
+
+	  )
+" "(defn ex-manyagent [in-file]
+	  (<- [?ip]  (textline-parsed in-file 2) :> ?ip _)
+
+	  )
+" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- [?ip]  (textline-parsed in-file 2) :> ?ip _)
+	   2000 :sort [\"?count\"] :reverse true  
+	   ))
+" "(defn ex-manyagent [in-file]
+	  (c/first-n 
+	   (<- [?ip]  (textline-parsed in-file 2) :> ?ip _)
+	   ?ip 2000 :sort [\"?count\"] :reverse true  
+	   ))
+" "(defn ex-manyagent [in-file]
+  \"导出多agent\"
+  (c/first-n 
+   (<- [?ip]  (textline-parsed in-file 2) :> ?ip _)
+?ip 2000 :sort [\"?count\"] :reverse true  
+))
+" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(bootstrap-emacs)" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/20131008/part-00000\" \"/root/1\")" "(log.cli/fx-file #'ex-manyagent \"/home/fx/manyagent-5/part-00000\" \"/root/1\")" "(fx-file #'ex-manyagent \"/home/fx/manyagent-5/part-00000\" \"/root/1\")" "(ex-manyagent \"/home/fx/manyagent-5/part-00000\")" "(ex-manyagent)" "ls" "nil" "nilnilnilnilnilnilnilnilnilnilnilnilnilnilnilnil" "nil" "(uv 30)" "(uv 10)" "(week \"20130921\")" "(let [[_ year month day] (re-find #\"(\\d{4})(\\d{2})(\\d{2})\" \"20130921\") ]
+	    (print year month day)
+	    (day-of-week (to-int year) (to-int month) (to-int day))
+	    )
+" "(let [[_ year month day] (re-find #\"(\\d{4})(\\d{2})(\\d{2})\" \"20130921\") ]
+	    (print year month day)
+	    (day-of-week year month day)
+	    )
+" "(let [[_ year month day] (re-find #\"(\\d{4})(\\d{2})(\\d{2})\" \"20130921\") ]
+	    (print year month day)
+	    )
+" "(let [[all year month day] (re-find #\"(\\d{4})(\\d{2})(\\d{2})\" \"20130921\") ]
+	    (print year month day)
+	    )
+" "(let [[a year month day] (re-find #\"(\\d{4})(\\d{2})(\\d{2})\" \"20130921\") ]
+	    (print year month day)
+	    )
+" "(let [[year month day] (re-find #\"(\\d{4})(\\d{2})(\\d{2})\" \"20130921\") ]
+	    (print year month day)
+	    )
+" "(let [[year month day] (re-find #\"(\\d{4})(\\d{2})(\\d{2})\" \"20130921\") ]
+	    )
+" "(day-of-week \"2013\" 9 22)" "(let )
+" "(defn shift0 [i]
+  (+ (mod (+ i 6) 7) 1))" "(day-of-week 2013 9 22)" "(let [day-vector (vec (seq (.getWeekdays (java.text.DateFormatSymbols.))))]
+  (defn day-str [day-num] (when (<= 1 day-num 7) (day-vector day-num))))
+
+(defn day-of-week [year month day]
+  (day-str (shift0 (zeller year month day))))" "(defn zeller [year month day]
+  (let [m (+ (mod (+ month 9) 12) 3)
+        y (- year (quot (- m month) 12))
+        J (quot y 100)
+        K (mod y 100)
+        q day]
+    (mod (+ q
+            (quot (* 26 (inc m)) 10)
+            K
+            (quot K 4)
+            (quot J 4)
+            (* 5 J))
+         7)))" "(let [day-vector (vec (seq (.getWeekdays (java.text.DateFormatSymbols.))))]
+  (defn day-str [day-num] (when (<= 1 day-num 7) (day-vector day-num))))
+
+(defn day-of-week [year month day]
+  (day-str (shift0 (zeller year month day))))" "(defn shift0 [i]
+  (+ (mod (+ i 6) 7) 1))" "(let [day-vector (vec (seq (.getWeekdays (java.text.DateFormatSymbols.))))]
+  (defn day-str [day-num] (when (<= 1 day-num 7) (day-vector day-num))))
+
+(defn day-of-week [year month day]
+  (day-str (shift0 (zeller year month day))))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddF\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddf\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddff\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddFF\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMdd\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddw\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddww\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddA\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(week)" "(defn week [& {:keys [day hour formatter] :or {day 0 hour 0 formatter \"YYYYMMddAA\"}}]
+  (df/unparse (df/formatter formatter)
+              (now :day day :hour hour)))" "(d/day-of-week (df/parse  \"20130923\"))" "(d/day-of-week (df/parse  \"20130921\"))" "(d/day-of-week (df/parse  \"20130922\"))" "(d/day-of-week (df/parse  \"2013/09/22\"))" "(d/day-of-week (df/parse  \"20132009\"))" "(d/day-of-week (df/parse  \"20132109\"))" "(d/day-of-week (df/parse  \"20132009\"))" "(d/day-of-week (df/parse  \"20132109\"))" "(d/day-of-week (df/parse  \"20132209\"))" "(d/day-of-week (d/now))" "(d/day-of-week (df/parse  \"20130922\"))" "(d/day-of-week (df/parse  \"20130924\"))" "(d/day-of-week (df/parse  \"20130921\"))" "(df/parse  \"20130921\")" "(df/parse \"YYYY\" \"20130921\")" "(df/unparse \"YYYY\" \"20130921\")" "(df/unparse \"20130921\")" "(df/unparse \"\")" "(clj-time.core/day-of-week (clj-time.core/today))" "(clj-time.core/today)" "(clj-time.core/day-of-week (clj-time.core/today))" "(clj-time.core/day-of-week \"\")" "(uv 30)" "(clj-time.core/day-of-week )" "(uv 30)" "(uv 20)" "(uv 10)" "(uv 1)" "(uv)" "(log.ex/-main)" "(fx-many #'xiangguan-id-top-10 #'day-7 (partial in-file-fx-re \"xiangguan\") (partial ?out nil \"xiangguan-id-top-10\") 1)" "(fx-many #'xiangguan-id-top-10 #'day (partial in-file-fx-re \"xiangguan\") (partial ?out nil \"xiangguan-id-top-10\") 1)" "(fx-fx-many #'xiangguan-id-top-10 #'day-7 \"xiangguan\" 1)" "(fx-fx-many #'xiangguan-id-top-10 #'day \"xiangguan\" 1)" "(fx-many #'xiangguan-id-top-10 #'day (partial in-file-fx \"xiangguan\") (partial ?out nil \"xiangguan-id-top-10\") 1)" "(fx-fx-many #'xiangguan-id-top-10 #'day \"xiangguan\" 1)" "(fx-fx-many #'xiangguan-id-top-10 #'day-7 \"xiangguan\" 1)" "(fx-fx-many #'xiangguan-id-top-10 #'day \"xiangguan\" 1)" "(sh \"jps\" \"-m\")" "(fx-fx-many #'xiangguan-id-top-10 #'day \"xiangguan\" 1)" "(fx-fx-many #'xiangguan-id-top-10 #day \"xiangguan\" 1)" "(fx-day #'xiangguan-id-top-10 1)" "(concat (list 12 2) (list 1 2))" "(list 1 2 3)" "(list 1 2 (list 3))" "(concat (list 1 2 (list 3)))" "(concat (list 1 2))" "ls" " " "(count  (re-seq #\"a\" \"aaaa\"))" "(re-seq #\"a\" \"aaaa\")" "(re-find #\"a\" \"aaaa\")" "(-main)" "(defn a []
+	   (doall  (map #(println % ) '( \"a\" \"b\")))
+	   (doall  (map #(println % ) '( \"a\" \"b\")))
+	   (map #(println % ) '( \"a\" \"b\")))" "(-main)" "(if  (re-find #\"log.cli\" (:out  (sh \"jps\" \"-m\"))) 0 1)" "(re-find #\"log.cli\" (:out  (sh \"jps\" \"-m\")))" "(-main)" "(pprint (re-find #\"log.cli\" (:out  (sh \"jps\" \"-m\"))))" " (sh \"jps\" \"m\")" "(sh \"jps\" \"m\")" "(a)" "(defn a []
+	   (doall  (map #(println % ) '( \"a\" \"b\")))
+	   (doall  (map #(println % ) '( \"a\" \"b\")))
+	   (map #(println % ) '( \"a\" \"b\")))" "(defn a []
+	   (doall  (map #(println % ) '( \"a\" \"b\")))
+	   	   (doall  (map #(println % ) '( \"a\" \"b\")))
+	   (map #(println % ) '( \"a\" \"b\")))" "(a)" "(defn a []
+	   (doall  (map #(println % ) '( \"a\" \"b\")))
+	   (map #(println % ) '( \"a\" \"b\")))" "(a)" "(defn a []
+	   (map #(println % ) '( \"a\" \"b\"))
+	   (map #(println % ) '( \"a\" \"b\")))" "(a)" "(defn a []
+	   (map #(println % ) '( \"a\" \"b\")))" "(defn a [])" "(map #(println % ) [\"a\" \"b\"])" "(map #(println ) [\"a\" \"b\"])" "(println \"a\")" "(map #(println) [\"a\" \"b\"])" "(pprint (re-find #\"log.cli\" (:out  (sh \"jps\" \"-m\"))))" "(-main1)" "(use '[clojure.java.shell :only [sh]])" "(pprint (re-find #\"log.cli\" (:out  (sh \"jps\" \"-m\"))))" "(pprint (:out  (sh \"jps\" \"-m\")))" "(pprint (re-seq #\"log\" (:out  (sh \"jps\" \"-m\"))))" "(pprint (re-find #\"log\" (:out  (sh \"jps\" \"-m\"))))" "(pprint (re-find #'log' (:out  (sh \"jps\" \"-m\"))))" "(pprint (:out  (sh \"jps\" \"-m\")))" "(pprint (sh \"jps\" \"-m\"))" "(pprint (:out  (sh \"jps\" \"-m\")))" "(pprint (sh \"jps\" \"-m\"))" "(use '[clojure.java.shell :only [sh]])" "(pprint (sh \"jps\" \"-m\"))" "(sh \"jps\" \"m\")" "(sh \"jps\" \"-m\")" "(sh \"jps -m\")" "(sh \"jps\")" "(sh \"ls\")" "(use '[clojure.java.shell :only [sh]])")

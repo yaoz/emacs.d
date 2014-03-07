@@ -1,0 +1,536 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(#1=(#("mulu.html" 0 9
+      (bmkp-full-record #1#))
+    (filename .
+              #("/srv/tool/mulu.html" 1 5
+                (face flx-highlight-face)))
+    (buffer-name . "mulu.html")
+    (front-context-string . "\">git手册</a><br>\n")
+    (rear-context-string . "scm.com/book/zh/")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(21273 21982 584717 898000))
+    (created . #2#)
+    (position . 2062))
+#1=(#("f3/audit.rules" 0 14
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/audit/audit.rules" 21 25
+                (face flx-highlight-face)))
+    (buffer-name . "audit.rules<3>")
+    (front-context-string . "-b 320\n\n# Feel f")
+    (rear-context-string . "or busy systems\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time 21270 58968 612021 367000)
+    (created 21270 58968 612021 367000)
+    (position . 307))
+#1=(#("f2/audit.rules" 0 14
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/audit/audit.rules" 4 5
+                (face flx-highlight-face)
+                6 8
+                (face flx-highlight-face)
+                21 25
+                (face flx-highlight-face)))
+    (buffer-name . "audit.rules<2>")
+    (front-context-string . "-k SRV\n# -w /var")
+    (rear-context-string . "\n-w /srv/ -p wa ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time 21270 58587 527602 670000)
+    (created 21270 58587 527602 670000)
+    (position . 410))
+#1=(#("f1/audit.rules" 0 14
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/audit/audit.rules" 20 24
+                (face flx-highlight-face)))
+    (buffer-name . "audit.rules")
+    (front-context-string . "_etc\n-w /srv/ -p")
+    (rear-context-string . "tc/ -p wa -k CFG")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time 21270 58437 872997 264000)
+    (created 21270 58437 872997 264000)
+    (position . 394))
+#1=(#("f2/bakcx.sh" 0 11
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/srv/bin/bakcx.sh" 21 25
+                (face flx-highlight-face)))
+    (buffer-name . "bakcx.sh")
+    (front-context-string . "6YEW6YFKG8551245")
+    (rear-context-string . "/sh\nsshpass -p '")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 21270 58501 790525 631000)
+    (created 21270 32472 308408 490000)
+    (position . 23))
+#1=(#("f2/baksql.sh" 0 12
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f2#54872|sudo:root@f2#54872:/srv/bin/baksql.sh")
+    (buffer-name . "baksql.sh")
+    (front-context-string)
+    (rear-context-string . "l.gz /home/yao/\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time 21270 32464 321824 352000)
+    (created 21270 32464 321824 352000)
+    (position . 143))
+#1=(#("f2/sphinx-update.sh" 0 19
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f2#54872|sudo:root@f2#54872:/srv/bin/sphinx-update.sh")
+    (buffer-name . "sphinx-update.sh")
+    (front-context-string . "' rsync --progre")
+    (rear-context-string . "YEW6YFKG85512454")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time 21270 32453 895474 775000)
+    (created 21270 32453 895474 775000)
+    (position . 40))
+#1=(#("f3/logro-sql" 0 12
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/logrotate.d/mysql-server")
+    (buffer-name . "mysql-server")
+    (front-context-string . "ysqld or rather ")
+    (rear-context-string . "	  # Really no m")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time 21268 16375 680143 350000)
+    (created 21268 16375 680143 350000)
+    (position . 569))
+#1=(#("过去,未来色" 0 6
+      (bmkp-full-record #1#))
+    (filename . "/home/fo/xyb.jin/zh.txt")
+    (buffer-name . "zh.txt")
+    (front-context-string . "　　“然者，诸比丘!如何为“追过")
+    (rear-context-string . "怠\n　　此一夜贤者 谓静寂默者\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(21268 5255 181813 33000))
+    (created . #2#)
+    (position . 548140))
+#1=(#("l1/crontab" 0 10
+      (bmkp-full-record #1#))
+    (filename .
+              #("/etc/crontab" 1 5
+                (face flx-highlight-face)))
+    (buffer-name . "crontab")
+    (front-context-string . "# /etc/crontab: ")
+    (rear-context-string)
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 21268 5537 423356 271000)
+    (created 21262 65263 298398 747000)
+    (position . 1))
+#1=(#("何为五阴" 0 4
+      (bmkp-full-record #1#))
+    (filename . "/home/fo/xyb.jin/xyb.org")
+    (buffer-name . "xyb.org")
+    (front-context-string . "* [七九] 第七 师子(二)\n")
+    (rear-context-string . "增支部经典第四集三十三经一致\n\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 3)
+    (time 21262 45858 812500 765000)
+    (created 21262 45568 775698 586000)
+    (position . 227934))
+#1=(#("施分别经 zh.txt" 0 11
+      (bmkp-full-record #1#))
+    (filename . "/fo/xyb.jin/zh.txt")
+    (buffer-name . "zh.txt")
+    (front-context-string . "第一四二 施分别经\n\n　　北传汉")
+    (rear-context-string . "比丘，随喜尊者舍利弗之所说。\n\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 21261 17689 871863 350000)
+    (created 21261 17140 782348 469000)
+    (position . 581760))
+#1=(#("404" 0 3
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/nginx/404.log")
+    (front-context-string . "2014/02/12 06:32")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f2/main.cf" 0 10
+      (bmkp-full-record #1#))
+    (time 21252 29422 155247 80000)
+    (visits . 1)
+    (filename .
+              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/postfix/main.cf" 21 25
+                (face flx-highlight-face)
+                25 33
+                (face flx-highlight-face)))
+    (front-context-string . "# See /usr/share")
+    (rear-context-string)
+    (position . 1))
+#1=(#("phpmail" 0 7
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f1#2746:/var/log/phpmail" 18 22
+                (face flx-highlight-face)
+                22 26
+                (face flx-highlight-face)))
+    (front-context-string . "Mailer Error: SM")
+    (rear-context-string)
+    (position . 1))
+#1=(#("l1/php.ini" 0 10
+      (bmkp-full-record #1#))
+    (filename .
+              #("/etc/php5/fpm/php.ini" 1 5
+                (face flx-highlight-face)))
+    (front-context-string . "\n\n; If html_erro")
+    (rear-context-string . "html_errors = On")
+    (position . 16381))
+#1=(#("l1/php5-fpm.log" 0 15
+      (bmkp-full-record #1#))
+    (filename .
+              #("/var/log/php5-fpm.log" 1 5
+                (face flx-highlight-face)
+                5 9
+                (face flx-highlight-face)))
+    (front-context-string . "[05-Jan-2014 06:")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f1/administrator.php" 0 20
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/srv/adm/app/config/packages/frozennode/administrator/administrator.php")
+    (front-context-string . "\nreturn array(\n\n")
+    (rear-context-string . "     );\n    });\n")
+    (position . 199))
+#1=(#("DataTable.php" 0 13
+      (bmkp-full-record #1#))
+    (filename . "/home/srv/test/l/vendor/frozennode/administrator/src/Frozennode/Administrator/DataTable/DataTable.php")
+    (front-context-string . " COUNT({$model->")
+    (rear-context-string . "FROM /i\",\"SELECT")
+    (position . 5334))
+#1=(#("f1/apachedefault" 0 16
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/apache2/sites-available/default" 24 30
+                (face flx-highlight-face)))
+    (front-context-string . "\n	DocumentRoot /")
+    (rear-context-string . "aster@localhost\n")
+    (position . 65))
+#1=(#("f1/apachephp.ini" 0 16
+      (bmkp-full-record #1#))
+    (time 21252 29725 750238 664000)
+    (visits . 0)
+    (filename .
+              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/php5/apache2/php.ini" 20 24
+                (face flx-highlight-face)))
+    (front-context-string . "; /path, what th")
+    (rear-context-string . "ession files in\n")
+    (position . 48604)
+    (annotation . ""))
+#1=(#("app.php" 0 7
+      (bmkp-full-record #1#))
+    (filename .
+              #("/srv/test/l/app/config/app.php" 12 16
+                (face flx-highlight-face)))
+    (front-context-string . "\n	),\n\n	/*\n	|----")
+    (rear-context-string . "ceProvider', */\n")
+    (position . 3977))
+#1=(#("f2/crontab" 0 10
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/crontab")
+    (front-context-string . "# /etc/crontab: ")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f3/crontab" 0 10
+      (bmkp-full-record #1#))
+    (time 21270 58610 202625 992000)
+    (visits . 0)
+    (filename . "/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/crontab")
+    (front-context-string . "# /etc/crontab: ")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f2/sphinx.conf" 0 14
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/sphinx.conf")
+    (front-context-string . "# Sphinx configu")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f3/sphinx.conf" 0 14
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/sphinx.conf")
+    (front-context-string . "# Sphinx configu")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f1/start.cls.php" 0 16
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746:/srv/fenzhi/start.cls.php")
+    (front-context-string . "        $this->s")
+    (rear-context-string . "heck=false;\n		}\n")
+    (position . 847))
+#1=(#("php慢" 0 4
+      (bmkp-full-record #1#))
+    (time 21268 11996 487048 522000)
+    (visits . 0)
+    (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php/slow.log")
+    (front-context-string . "\n[25-Dec-2013 10")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f1/fpm/www.conf" 0 15
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/php5/fpm/pool.d/www.conf")
+    (front-context-string . "s\n; Default Valu")
+    (rear-context-string . "for slow request")
+    (position . 11797))
+#1=(#("f1/crontab" 0 10
+      (bmkp-full-record #1#))
+    (time 21252 29434 631730 329000)
+    (visits . 0)
+    (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/crontab")
+    (front-context-string . "\n*/50  *  *  *  ")
+    (rear-context-string . "auth*\n\n#自动抓取校园招聘")
+    (position . 2920))
+#1=(#("f1/php.ini" 0 10
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/php5/fpm/php.ini")
+    (front-context-string . "rrors.log\n; Log ")
+    (rear-context-string . "rror_log = php_e")
+    (position . 25897))
+#1=(#("mysql慢查询" 0 8
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f3#35072|sudo:root@f3#35072:/home/mysql/f3-slow.log")
+    (front-context-string . "\n# Time: 131127 ")
+    (rear-context-string)
+    (position . 1))
+#1=(#("error mysql" 0 11
+      (bmkp-full-record #1#))
+    (time 21271 59652 847030 757000)
+    (visits . 6)
+    (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/my_log")
+    (front-context-string . "02/12 11:25 www.")
+    (rear-context-string)
+    (position . 1))
+#1=(#("error php" 0 9
+      (bmkp-full-record #1#))
+    (end-position . 332)
+    (time 21271 59553 256895 89000)
+    (visits . 10)
+    (filename .
+              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php5-fpm.log" 36 40
+                (face flx-highlight-face)
+                40 44
+                (face flx-highlight-face)))
+    (front-context-string . "[10-Feb-2014 14:")
+    (rear-context-string . "6 sec), logging\n")
+    (position . 332))
+#1=(#("l1/MyPaginator.m" 0 16
+      (bmkp-full-record #1#))
+    (filename . "/home/src/fz/fz/MyPaginator.m")
+    (front-context-string . "#import \"MyPagin")
+    (rear-context-string)
+    (position . 1))
+#1=(#("l1/MainViewController.m" 0 23
+      (bmkp-full-record #1#))
+    (filename . "/home/src/fz/fz/MainViewController.m")
+    (front-context-string . "#import \"MainVie")
+    (rear-context-string)
+    (position . 1))
+#1=(#("test" 0 4
+      (bmkp-full-record #1#))
+    (filename . "/srv/gz/test/")
+    (front-context-string . "bak.php\n  -rw-r-")
+    (rear-context-string . "2K  9月 23 15:45 ")
+    (position . 165))
+#1=(#("ip.php" 0 6
+      (bmkp-full-record #1#))
+    (filename .
+              #("/srv/bin/ip.php" 1 5
+                (face flx-highlight-face)
+                5 9
+                (face flx-highlight-face)))
+    (front-context-string . "<?php\n$hosts=arr")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f2/nginx.conf" 0 13
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/nginx/nginx.conf" 38 42
+                (face flx-highlight-face)
+                42 48
+                (face flx-highlight-face)))
+    (front-context-string . "	# multi_accept ")
+    (rear-context-string . "nnections 1300;\n")
+    (position . 98))
+#1=(#("f3/nginx.conf" 0 13
+      (bmkp-full-record #1#))
+    (time 21268 16054 581240 356000)
+    (visits . 0)
+    (filename .
+              #("/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/nginx/nginx.conf" 38 42
+                (face flx-highlight-face)
+                42 48
+                (face flx-highlight-face)))
+    (front-context-string . "#\nuser www-data;")
+    (rear-context-string)
+    (position . 1))
+#1=(#("xinshui.cls.php" 0 15
+      (bmkp-full-record #1#))
+    (filename . "/srv/gz/xinshui.cls.php")
+    (front-context-string . "<?php\n/* vim: se")
+    (rear-context-string)
+    (position . 1))
+#1=(#("xcode 编译" 0 8
+      (bmkp-full-record #1#))
+    (filename . "/mnt/macyao/Library/Developer/Xcode/DerivedData/")
+    (front-context-string . "..\n  drwxr-xr-x ")
+    (rear-context-string . "42 11月 27 15:22 ")
+    (position . 154))
+#1=(#("drawable-hdpi" 0 13
+      (bmkp-full-record #1#))
+    (filename . "/srv/xyzp/res/drawable-hdpi/")
+    (front-context-string . "accepted.png\n  -")
+    (rear-context-string . "4K  1月 19  2013 ")
+    (position . 180))
+#1=(#("FlickrPaginator.m" 0 17
+      (bmkp-full-record #1#))
+    (filename .
+              #("/home/src/page/NMPaginator/FlickrPaginator.m" 6 10
+                (face flx-highlight-face)))
+    (front-context-string . "//\n//  FlickrPag")
+    (rear-context-string)
+    (position . 1))
+#1=(#("MainViewController.m" 0 20
+      (bmkp-full-record #1#))
+    (filename .
+              #("/mnt/mac/fz/fz/MainViewController.m" 1 5
+                (face flx-highlight-face)
+                5 9
+                (face flx-highlight-face)))
+    (front-context-string . "#import \"MainVie")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f1/gz3" 0 6
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746:/srv/fenzhi/tpl/gz3/")
+    (front-context-string . "111.html\n  -rw-r")
+    (rear-context-string . "5K Nov  5  2012 ")
+    (position . 185))
+#1=(#("l1/cli.clj" 0 10
+      (bmkp-full-record #1#))
+    (filename . "/home/src/log/src/log/cli.clj")
+    (front-context-string . "\n            [lo")
+    (rear-context-string . "ynes.fs  :as fs]")
+    (position . 172))
+#1=(#("l1/fx.clj" 0 9
+      (bmkp-full-record #1#))
+    (filename .
+              #("/home/src/log/src/log/fx.clj" 14 18
+                (face flx-highlight-face)
+                18 22
+                (face flx-highlight-face)))
+    (front-context-string . "(ns log.fx\n  (:r")
+    (rear-context-string)
+    (position . 1))
+#1=(#("top.cls.php" 0 11
+      (bmkp-full-record #1#))
+    (filename . "/srv/gz/top.cls.php")
+    (front-context-string . "<?php\nrequire_on")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f1/nginx.conf" 0 13
+      (bmkp-full-record #1#))
+    (filename .
+              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/nginx/nginx.conf" 36 40
+                (face flx-highlight-face)
+                40 46
+                (face flx-highlight-face)))
+    (front-context-string . "#\nuser www-data;")
+    (rear-context-string)
+    (position . 1))
+#1=(#("org-capture-last-stored" 0 23
+      (bmkp-full-record #1#))
+    (filename . "/doc/lisp.org")
+    (front-context-string . "** w3m\n安装\n需要cvs最")
+    (rear-context-string . "tegoryTemplates\n")
+    (position . 75638))
+#1=(#("一" 0 1
+      (bmkp-full-record #1#))
+    (time 21273 20633 179749 217000)
+    (visits . 9)
+    (filename .
+              #("/fo/doc/yi.org" 1 4
+                (face flx-highlight-face)))
+    (front-context-string . "* 正见观,首楞严 \n** 见\n")
+    (rear-context-string)
+    (position . 1))
+#1=(#("l2/fx" 0 5
+      (bmkp-full-record #1#))
+    (filename . "/ssh:root@l2:/home/fx/")
+    (front-context-string . "ex\n  drwxr-xr-x ")
+    (rear-context-string . "0K Sep 26 16:24 ")
+    (position . 182))
+#1=(#("f1/xinshui1.php" 0 15
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746:/srv/fenzhi/xinshui1.php")
+    (front-context-string . "<?php\n/* vim: se")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f1/iptables" 0 11
+      (bmkp-full-record #1#))
+    (filename . "/ssh:yao@f1#2746:/etc/iptables.up.rules")
+    (front-context-string . "# Generated by i")
+    (rear-context-string)
+    (position . 1))
+#1=(#("l2/iptables" 0 11
+      (bmkp-full-record #1#))
+    (filename . "/ssh:root@l2:/home/fx/ex/iptables")
+    (front-context-string . "-A INPUT -s 220.")
+    (rear-context-string)
+    (position . 1))
+#1=(#("l1/nginx.conf" 0 13
+      (bmkp-full-record #1#))
+    (filename .
+              #("/etc/nginx/nginx.conf" 1 5
+                (face flx-highlight-face)
+                5 11
+                (face flx-highlight-face)
+                11 14
+                (face flx-highlight-face)))
+    (front-context-string . "#\nuser www-data;")
+    (rear-context-string)
+    (position . 1))
+#1=(#("l1/gz/tpl" 0 9
+      (bmkp-full-record #1#))
+    (filename . "/srv/gz/tpl/gz3/")
+    (front-context-string . "  /srv/gz/tpl/gz")
+    (rear-context-string)
+    (position . 1))
+#1=(#("f1" 0 2
+      (bmkp-full-record #1#))
+    (end-position . 19272)
+    (time 21252 28861 58496 911000)
+    (visits . 0)
+    (filename . "/ssh:yao@f1#2746:/srv/fenzhi/")
+    (front-context-string . "x.php\n  drwxr-xr")
+    (rear-context-string . "ep 26 07:37 inde")
+    (position . 19272)
+    (annotation . ""))
+#1=(#("l1/gz" 0 5
+      (bmkp-full-record #1#))
+    (filename . "/srv/gz/")
+    (front-context-string . "  /srv/gz:\n  总用量")
+    (rear-context-string)
+    (position . 1)
+    (annotation . ""))
+)

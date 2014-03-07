@@ -1,0 +1,195 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Dec 17 11:49:12 2013
+;; Desktop file format version 206
+;; Emacs version 24.3.9
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("fenzhi.com" "my_ip" " s(" "sphinx" " " "no_pl(" "relate_zhaopin" "no_pl" "hot(" "search(" "search" "sear"))
+(setq regexp-search-ring '("sphin" "sph" "suo"))
+(setq register-alist '((48 . "require_once (dirname(__FILE__).\"/t_base.pt\");\nrequire_once (dirname(__FILE__).\"/jiu.php\");\n/** @backupGlobals disabled */\nclass xs_html_test extends my_test{ /* ‘¼ì‘²é‘¸÷‘ÖÖ‘Òì‘³£ */\n    function test_500(){\n    }\n}")))
+(setq file-name-history '("/srv/gz/test/t_base.pt" "/srv/gz/test/t_xs_html.pt" "/srv/gz/test/t_run.pt" "/srv/gz/test/t_jiancha.pt" "/mnt/mac/fz/fz/MainViewController.m" "~/.emacs.d/bookmarks" "/ssh:yao@f1#2746:/srv/android/start.cls.php" "/ssh:yao@f1#2746:/srv/m/start.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/start.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/xinshui1.php" "/ssh:yao@f1#2746:/srv/m/job1.cls.php" "/home/srv/gz/job1.cls.php" "/home/srv/gz/job.cls.php" "/ssh:yao@f1#2746:/srv/m/job.cls.php" "/home/srv/gz/pinglun.cls.php" "/ssh:yao@f1#2746:/srv/m/pinglun.cls.php" "/ssh:yao@f1#2746:/srv/m/pic.cls.php" "/ssh:yao@f1#2746:/srv/m/msh.cls.php" "/srv/gz/msh.cls.php" "/srv/gz/gongzuo.cls.php" "/ssh:yao@f1#2746:/srv/m/gongzuo.cls.php" "/ssh:yao@f1#2746:/srv/m/gongsi.cls.php" "/srv/gz/gongsi.cls.php" "/srv/gz/start.cls.php" "/ssh:yao@f1#2746:/srv/m/start.cls.php" "~/.emacs.d/php-completion-file" "/srv/bin/ip.php" "/ssh:yao@f1#2746:/srv/service/msh.cls.php" "/ssh:yao@f1#2746:/srv/open/xinshui.cls.php" "/ssh:yao@f1#2746:/srv/open/msh.cls.php" "/ssh:yao@f1#2746:/srv/android/xinshui.cls.php" "/ssh:yao@f1#2746:/srv/android/pic.cls.php" "/ssh:yao@f1#2746:/srv/android/pinglun.cls.php" "/ssh:yao@f1#2746:/srv/android/msh.cls.php"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+
+(desktop-create-buffer 206
+  nil
+  "gz"
+  'dired-mode
+  '(flx-ido-mode projectile-mode)
+  160
+  '(nil nil)
+  t
+  '("/home/srv/gz/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/doc/todo.org"
+  "todo.org"
+  'org-mode
+  '(abbrev-mode flx-ido-mode projectile-mode)
+  70004
+  '(50295 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/doc/lisp.org"
+  "lisp.org"
+  'org-mode
+  '(auto-fill-mode abbrev-mode flx-ido-mode projectile-mode)
+  79767
+  '(79848 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/doc/php.org"
+  "php.org"
+  'org-mode
+  '(auto-fill-mode abbrev-mode flx-ido-mode projectile-mode)
+  693
+  '(314 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/doc/tip.org"
+  "tip.org"
+  'org-mode
+  '(abbrev-mode flx-ido-mode projectile-mode)
+  52128
+  '(52135 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/doc/z"
+  "z"
+  'text-mode
+  '(auto-fill-mode abbrev-mode flx-ido-mode projectile-mode)
+  995
+  '(984 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/etc/sphinx.conf"
+  "sphinx.conf"
+  'conf-unix-mode
+  '(flx-ido-mode projectile-mode)
+  1607
+  '(1559 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/set/misc-config.el"
+  "misc-config.el"
+  'emacs-lisp-mode
+  '(flx-ido-mode projectile-mode auto-complete-mode)
+  886
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/set/mode-line-config.el"
+  "mode-line-config.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  103
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/set/php-config.el"
+  "php-config.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/set/tabbar-config.el"
+  "tabbar-config.el"
+  'emacs-lisp-mode
+  '(flx-ido-mode projectile-mode auto-complete-mode)
+  3431
+  '(2724 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  6104
+  '(2162 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/.emacs.desktop"
+  ".emacs.desktop"
+  'emacs-lisp-mode
+  '(flx-ido-mode projectile-mode auto-complete-mode)
+  1
+  '(2807 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . emacs-mule-unix)))
+
+(desktop-create-buffer 206
+  "/etc/nginx/nginx.conf"
+  "nginx.conf"
+  'conf-unix-mode
+  '(flx-ido-mode projectile-mode)
+  8030
+  '(8055 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/cmd.el"
+  "cmd.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  8874
+  '(8874 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/in.el"
+  "in.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

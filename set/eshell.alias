@@ -1,0 +1,4 @@
+# 不能有空行
+alias ll ls -l $*
+alias g grep -nH -e $*
+alias ff find-file
