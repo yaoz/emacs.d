@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("法念处" 0 3
+(#1=(#("修行如地风水火" 0 7
+      (bmkp-full-record #1#))
+    (filename . "/home/fo/xyb.jin/zh.txt")
+    (buffer-name . "zh.txt")
+    (front-context-string . "以其净物、不净物等而恼之、或耻之")
+    (rear-context-string . "、亦投弃脓水、亦投弃血液;然地不")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(21277 28611 477074 6000))
+    (created . #2#)
+    (position . 266327))
+#1=(#("法念处" 0 3
       (bmkp-full-record #1#))
     (filename . "/home/fo/xyb.jin/zh.txt")
     (buffer-name . "zh.txt")
@@ -10,9 +22,9 @@
     (rear-context-string . "。如是，比丘于心随观心而住。 \n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(21277 25828 366784 889000))
-    (created . #2#)
+    (visits . 1)
+    (time 21277 25853 493627 372000)
+    (created 21277 25828 366784 889000)
     (position . 37122))
 #1=(#("心念处" 0 3
       (bmkp-full-record #1#))
@@ -248,6 +260,8 @@
     (position . 581760))
 #1=(#("404" 0 3
       (bmkp-full-record #1#))
+    (time 21277 27666 615603 237000)
+    (visits . 0)
     (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/nginx/404.log")
     (front-context-string . "2014/02/12 06:32")
     (rear-context-string)
@@ -365,8 +379,8 @@
     (position . 847))
 #1=(#("php慢" 0 4
       (bmkp-full-record #1#))
-    (time 21268 11996 487048 522000)
-    (visits . 0)
+    (time 21277 27603 847068 953000)
+    (visits . 1)
     (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php/slow.log")
     (front-context-string . "\n[25-Dec-2013 10")
     (rear-context-string)
@@ -393,16 +407,16 @@
     (position . 25897))
 #1=(#("mysql慢查询" 0 8
       (bmkp-full-record #1#))
-    (time 21277 20780 916104 680000)
-    (visits . 0)
+    (time 21277 27616 978954 103000)
+    (visits . 1)
     (filename . "/ssh:yao@f3#35072|sudo:root@f3#35072:/home/mysql/f3-slow.log")
     (front-context-string . "\n# Time: 131127 ")
     (rear-context-string)
     (position . 1))
 #1=(#("error_mysql" 0 11
       (bmkp-full-record #1#))
-    (time 21277 12927 107172 250000)
-    (visits . 7)
+    (time 21277 26852 258465 5000)
+    (visits . 8)
     (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/my_log")
     (front-context-string . "02/12 11:25 www.")
     (rear-context-string)
