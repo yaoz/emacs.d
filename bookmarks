@@ -10,9 +10,9 @@
     (rear-context-string . "而住。\n　　复次，诸比丘!比丘善")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(21275 55247 332907 898000))
-    (created . #2#)
+    (visits . 1)
+    (time 21277 20535 598036 342000)
+    (created 21275 55247 332907 898000)
     (position . 35491))
 #1=(#("何时修何觉支" 0 6
       (bmkp-full-record #1#))
@@ -136,7 +136,7 @@
     (time 21268 16375 680143 350000)
     (created 21268 16375 680143 350000)
     (position . 569))
-#1=(#("过去,未来色" 0 6
+#1=(#("过去未来色" 0 5
       (bmkp-full-record #1#))
     (filename . "/home/fo/xyb.jin/zh.txt")
     (buffer-name . "zh.txt")
@@ -144,9 +144,9 @@
     (rear-context-string . "怠\n　　此一夜贤者 谓静寂默者\n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(21268 5255 181813 33000))
-    (created . #2#)
+    (visits . 1)
+    (time 21277 20634 903145 525000)
+    (created 21268 5255 181813 33000)
     (position . 548140))
 #1=(#("l1/crontab" 0 10
       (bmkp-full-record #1#))
@@ -182,8 +182,8 @@
     (rear-context-string . "比丘，随喜尊者舍利弗之所说。\n\n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 1)
-    (time 21261 17689 871863 350000)
+    (visits . 2)
+    (time 21277 20555 214079 949000)
     (created 21261 17140 782348 469000)
     (position . 581760))
 #1=(#("404" 0 3
@@ -333,11 +333,13 @@
     (position . 25897))
 #1=(#("mysql慢查询" 0 8
       (bmkp-full-record #1#))
+    (time 21277 20780 916104 680000)
+    (visits . 0)
     (filename . "/ssh:yao@f3#35072|sudo:root@f3#35072:/home/mysql/f3-slow.log")
     (front-context-string . "\n# Time: 131127 ")
     (rear-context-string)
     (position . 1))
-#1=(#("error mysql" 0 11
+#1=(#("error_mysql" 0 11
       (bmkp-full-record #1#))
     (time 21277 12927 107172 250000)
     (visits . 7)
@@ -345,7 +347,7 @@
     (front-context-string . "02/12 11:25 www.")
     (rear-context-string)
     (position . 1))
-#1=(#("error php" 0 9
+#1=(#("error_php" 0 9
       (bmkp-full-record #1#))
     (end-position . 332)
     (time 21277 12122 298436 590000)
