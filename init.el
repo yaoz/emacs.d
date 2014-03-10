@@ -136,7 +136,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 ;;设置字体
 (defun frame-setting ()
-    (set-frame-font "Monaco-13")
+    (set-frame-font "Monaco-11")
     (set-fontset-font (frame-parameter nil 'font)
 		      'gb18030 '("文泉驿等宽微米黑" . "unicode-bmp")))
  
@@ -254,7 +254,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(bmkp-last-as-first-bookmark-file "/root/.emacs.d/bookmarks")
  '(session-use-package t nil (session))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
