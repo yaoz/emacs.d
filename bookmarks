@@ -242,9 +242,9 @@
     (rear-context-string . "t  dropbox stop\n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(21277 10275 334220 846000))
-    (created . #2#)
+    (visits . 1)
+    (time 21277 31202 494257 529000)
+    (created 21277 10275 334220 846000)
     (position . 1937))
 #1=(#("何为五阴" 0 4
       (bmkp-full-record #1#))
