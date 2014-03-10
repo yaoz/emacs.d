@@ -10,9 +10,9 @@
     (rear-context-string . "之皮聚，以其皮覆其牛，如是言：“")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(21277 29152 221450 411000))
-    (created . #2#)
+    (visits . 1)
+    (time 21277 29279 556201 740000)
+    (created 21277 29152 221450 411000)
     (position . 594428))
 #1=(#("修行如地风水火" 0 7
       (bmkp-full-record #1#))
@@ -34,8 +34,8 @@
     (rear-context-string . "。如是，比丘于心随观心而住。 \n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 1)
-    (time 21277 25853 493627 372000)
+    (visits . 2)
+    (time 21277 29514 812114 704000)
     (created 21277 25828 366784 889000)
     (position . 37122))
 #1=(#("心念处" 0 3
