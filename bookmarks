@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("修行如地风水火" 0 7
+(#1=(#("六处,牛皮" 0 5
+      (bmkp-full-record #1#))
+    (filename . "/home/fo/xyb.jin/zh.txt")
+    (buffer-name . "zh.txt")
+    (front-context-string . "如是，此牛与皮结合。”诸姊!而彼")
+    (rear-context-string . "之皮聚，以其皮覆其牛，如是言：“")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(21277 29152 221450 411000))
+    (created . #2#)
+    (position . 594428))
+#1=(#("修行如地风水火" 0 7
       (bmkp-full-record #1#))
     (filename . "/home/fo/xyb.jin/zh.txt")
     (buffer-name . "zh.txt")
