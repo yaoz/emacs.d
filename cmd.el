@@ -218,7 +218,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 (defun my-jump ()
   "跳转到书签"
   (interactive)
-  (bookmark-jump (replace-regexp-in-string "file:" "" (current-line))))
+  (bookmark-jump (s-trim (replace-regexp-in-string "file:" "" (current-line)))))
 (global-set-key (kbd "<f10>") 'my-jump)
 
 (defun my-exec-line ()

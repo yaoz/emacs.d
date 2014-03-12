@@ -8,6 +8,7 @@
   (package-refresh-contents))
 
 (defvar my-packages '(
+		      s
                       bookmark+
                       ;; markdown-mode
                       ;; smart-tab
