@@ -74,6 +74,7 @@
 ;; mini最大高度
 (setq max-mini-window-height 10)
 
+(defun ze () (interactive) (find-file "/fo/doc/zefa.org"))
 (defun xinshui1 () (interactive) (find-file "/ssh:yao@f1#2746:/srv/fenzhi/xinshui1.php"))
 (defun xinshuicls () (interactive) (find-file "/ssh:yao@f1#2746:/srv/fenzhi/xinshui.cls.php"))
 (defun iptables-f1 () (interactive) (find-file "/ssh:yao@f1#2746:/etc/iptables.up.rules"))
