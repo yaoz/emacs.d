@@ -538,5 +538,4 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; ))
 ;; (mapcar (function dos2unixall) (buffer-list))
 
-;; (add-hook 'org-mode-hook (lambda () (local-set-key [(control tab)] 'switch-view)))
 
