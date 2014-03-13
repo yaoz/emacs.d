@@ -4,17 +4,17 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (#1=(#("懒/放逸" 0 4
       (bmkp-full-record #1#))
-    (end-position . 22576)
+    (end-position . 22567)
     (filename . "/fo/doc/ji.org")
     (buffer-name . "ji.org")
     (front-context-string . "/放逸\n")
     (rear-context-string . "\n* 懒")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 3)
-    (time 21281 3508 761312 913000)
+    (visits . 4)
+    (time 21281 5246 331853 931000)
     (created 21281 3356 372880 384000)
-    (position . 22576))
+    (position . 22567))
 #1=(#("欲患" 0 2
       (bmkp-full-record #1#))
     (end-position . 52815)
