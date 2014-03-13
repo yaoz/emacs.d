@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Dec 17 11:49:12 2013
+;; Created Thu Mar 13 11:07:21 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.3.9
 
@@ -10,42 +10,74 @@
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("fenzhi.com" "my_ip" " s(" "sphinx" " " "no_pl(" "relate_zhaopin" "no_pl" "hot(" "search(" "search" "sear"))
-(setq regexp-search-ring '("sphin" "sph" "suo"))
+(setq search-ring '("org" "link" "org" "bookma" "‘µ±" "‘ÊÇ" "xinshui" "zefa" "‘Ð£‘Ô°	" "‘Ð£‘Ô°" "gongsi_id" "del_gongsi" "del_gong" " add(" "bak.sh" "cr"))
+(setq regexp-search-ring '("insert.*wd_wen" "insert.*gz_user " "num" "on line" "sea\\W" "sea[]" "msh_src" " s(" "su" "mysql_insert_id" "sphin" "sph" "suo"))
 (setq register-alist '((48 . "require_once (dirname(__FILE__).\"/t_base.pt\");\nrequire_once (dirname(__FILE__).\"/jiu.php\");\n/** @backupGlobals disabled */\nclass xs_html_test extends my_test{ /* ‘¼ì‘²é‘¸÷‘ÖÖ‘Òì‘³£ */\n    function test_500(){\n    }\n}")))
-(setq file-name-history '("/srv/gz/test/t_base.pt" "/srv/gz/test/t_xs_html.pt" "/srv/gz/test/t_run.pt" "/srv/gz/test/t_jiancha.pt" "/mnt/mac/fz/fz/MainViewController.m" "~/.emacs.d/bookmarks" "/ssh:yao@f1#2746:/srv/android/start.cls.php" "/ssh:yao@f1#2746:/srv/m/start.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/start.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/xinshui1.php" "/ssh:yao@f1#2746:/srv/m/job1.cls.php" "/home/srv/gz/job1.cls.php" "/home/srv/gz/job.cls.php" "/ssh:yao@f1#2746:/srv/m/job.cls.php" "/home/srv/gz/pinglun.cls.php" "/ssh:yao@f1#2746:/srv/m/pinglun.cls.php" "/ssh:yao@f1#2746:/srv/m/pic.cls.php" "/ssh:yao@f1#2746:/srv/m/msh.cls.php" "/srv/gz/msh.cls.php" "/srv/gz/gongzuo.cls.php" "/ssh:yao@f1#2746:/srv/m/gongzuo.cls.php" "/ssh:yao@f1#2746:/srv/m/gongsi.cls.php" "/srv/gz/gongsi.cls.php" "/srv/gz/start.cls.php" "/ssh:yao@f1#2746:/srv/m/start.cls.php" "~/.emacs.d/php-completion-file" "/srv/bin/ip.php" "/ssh:yao@f1#2746:/srv/service/msh.cls.php" "/ssh:yao@f1#2746:/srv/open/xinshui.cls.php" "/ssh:yao@f1#2746:/srv/open/msh.cls.php" "/ssh:yao@f1#2746:/srv/android/xinshui.cls.php" "/ssh:yao@f1#2746:/srv/android/pic.cls.php" "/ssh:yao@f1#2746:/srv/android/pinglun.cls.php" "/ssh:yao@f1#2746:/srv/android/msh.cls.php"))
+(setq file-name-history '("/root/.emacs.d/set/org-config.el" "~/.bmk-bmenu-state-emacs.el" "~/.emacs.d/elpa/org-20140217/org-loaddefs.el" "~/.emacs.d/elpa/org-20140217/org-autoloads.el" "/doc/lisp.org" "/doc/todo.org" "~/.emacs.d/bookmarks" "/fo/doc/ji.org" "/home/fo/doc/.git/COMMIT_EDITMSG" "/doc/lisp.org" "/fo/doc/sinian.org" "/home/fo/doc/jin.org" "/fo/doc/ku.org" "/fo/doc/zefa.org" "/home/srv/gz/.git/COMMIT_EDITMSG" "/home/zz.sql" "/ssh:yao@f1#2746:/srv/fenzhi/mysql.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/xinshui1.php" "/etc/crontab" "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php5-fpm.log" "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/nginx/404.log" "/fo/html/xyb.html" "/doc/todo.org" "/doc/tip.org" "/doc/php.org" "/doc/.projectile" "/doc/list" "~/.emacs.d/set/org-config.el" "/home/fo/html/ch.html" "/fo/xyb.jin/ch.org" "/home/fo/html/xyb.html" "/fo/xyb.jin/xyb.org" "/home/fo/html/zh.html" "/fo/xyb.jin/zh.org" "/home/fo/html/bei.html" "/home/fo/html/dao.html" "/home/fo/html/ji.html" "/home/fo/html/jin.html" "/home/fo/html/ku.html" "/home/fo/html/mie.html" "/home/fo/html/o.html" "/home/fo/html/sinian.html" "/home/fo/html/zefa.html" "/tmp/org/lisp.html" "/tmp/org/objc.html" "/doc/objc.org" "/tmp/org/php.html" "/tmp/org/py.html" "/doc/py.org" "/tmp/org/tip.html" "/tmp/org/todo.html" "/tmp/org/tt.html" "/doc/tt.org" "/tmp/org/yao.html" "/doc/yao.org" "/fo/doc/o.org" "/fo/doc/mie.org" "/fo/doc/jin.org" "/fo/doc/dao.org" "/fo/doc/bei.org" "/home/fo/xyb.jin/ch.html" "/home/fo/xyb.jin/ch.org" "/home/fo/xyb.jin/xyb.html" "/home/fo/xyb.jin/zh.html" "/home/fo/xyb.jin/xyb.org" "/home/fo/xyb.jin/zh.org" "/fo/xyb.jin/zh.txt" "/fo/xyb.jin/ch.txt" "/doc/.gitignore" "/doc/php.html" "/home/srv/gz/pinglun.cls.php" "/home/srv/gz/xinshui.cls.php" "/home/srv/gz/tpl/gz3/pl-new.tpl" "/ssh:yao@f1#2746:/srv/fenzhi/xy.php" "/ssh:yao@f1#2746:/srv/fenzhi/ajax/check_url.php" "/home/srv/gz/ajax/check_url.php" "/home/srv/gz/mysql1.cls.php" "/home/srv/gz/test/t_mysql.pt" "/home/srv/gz/mysql.cls.php" "/home/fo/xyb.jin/zh.txt" "/root/.emacs.d/bookmarks" "/doc/pass" "/fo/doc/zefa.org" "/home/srv/gz/test/bak.php" "/home/srv/gz/test/t_xs_data.pt" "/home/srv/gz/test/t_base.pt" "/home/fo/doc/bei.org" "/doc/tip.org" "/home/srv/gz/test/t_you.pt" "/home/srv/gz/u" "/ssh:yao@f3#35072|sudo:root@f3#35072:/home/mysql/f3-slow.log" "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/my_log" "/sudo:root@f1#2746:/srv/fenzhi/mysql.cls.php" "/sudo:root@f1#2746:/srv/fenzhi/mysql1.cls.php" "/sudo:root@f1#2746:/srv/fenzhi/xy.php" "/sudo:root@f1#2746:/srv/fenzhi/ajax/check_url.php" "/sudo:root@f1#2746:/srv/fenzhi/pinglun.cls.php" "/home/srv/gz/test/t_run.pt" "/root/.emacs.d/.git/config" "/doc/.git/config" "/fo/doc/.git/config" "/home/srv/gz/.git/config" "/home/fo/old/2014.org" "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php/slow.log" "~/.emacs.d/php-completion-file" "/ssh:yao@f1#2746:/srv/student/job.cls.php" "/home/fo/doc/ji.org" "/ssh:yao@f1#2746:/srv/fenzhi/mysql1.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/ajax/check_url.php" "/ssh:yao@f1#2746:/srv/fenzhi/start.cls.php" "/ssh:yao@f1#2746:/srv/m/start.cls.php" "/ssh:yao@f1#2746:/srv/m/job.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/sql.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/pinglun.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/misc.php" "/etc/crontab" "/home/srv/gz/y.php" "/home/srv/gz/.gitignore" "/fo/doc/yi.org" "~/.bmk-bmenu-state.el" "/home/root/.emacs.d/.git/COMMIT_EDITMSG" "/home/root/.emacs.d/set/dired-config.el" "/root/.emacs.d/.gitignore" "~/.emacs-bmk-bmenu-state.el" "/home/srv/gz/zz.php" "~/.emacs.d/projectile-bookmarks.eld" "/srv/tool/mulu.html" "/fo/doc/yi.org" "/home/srv/gz/.gitignore" "/home/fo/doc/.gitignore" "/srv/help/z" "/home/src/progit-master/zh/02-git-basics/01-chapter2.html" "/home/src/progit-master/zh/02-git-basics/01-chapter2.markdown" "/home/src/progit-master/zh/01-introduction/01-chapter1.html" "/home/src/progit-master/zh/01-introduction/01-chapter1.markdown" "/fo/doc/yi.org" "/ssh:yao@f1#2746:/srv/fenzhi/gsr1050408.html" "/ssh:yao@f1#2746:/srv/fenzhi/gso178058.html" "/ssh:yao@f1#2746:/srv/fenzhi/gsr178058.html" "/ssh:yao@f1#2746:/srv/fenzhi/gsr3203.html" "/ssh:yao@f1#2746:/srv/fenzhi/gsx178058.html" "/root/dl/yi.org" "/ssh:yao@f1#2746:/srv/fenzhi/job1.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/job.cls.php" "/home/srv/tool/.git/COMMIT_EDITMSG" "/home/srv/tool/.gitignore" "/home/srv/tool/ana.php" "/ssh:yao@f1#2746:/srv/fenzhi/ajax/check_url.php" "/fo/old/2014.org" "/fo/old/old.2014" "/sudo:root@f3#35072:/etc/audit/audit.rules" "/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/crontab" "/sudo:root@f2#54872:/etc/audit/audit.rules" "/ssh:yao@f2#54872|sudo:root@f2#54872:/srv/bin/bakcx.sh" "/sudo:root@f1#2746:/etc/audit/audit.rules" "/ssh:yao@f1#2746|sudo:root@f1#2746:/srv/fenzhi/xinshui1.php" "/ssh:yao@f1#2746:/etc/audit/" "/home/srv/gz/xinshui1.php" "/sudo:root@f2#54872:/srv/bin/sphinx-update.sh" "/sudo:root@f2#54872:/srv/bin/baksql.sh" "/sudo:root@f2#54872:/srv/bin/bakcx.sh" "/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/crontab" "/ssh:yao@f1#2746:/srv/fenzhi/index.html" "/doc/cat /tmp/auth" "/ssh:yao@f1#2746:/srv/student/job.cls.php" "/fo/xyb.jin/.projectile" "/srv/gz/test/t_base.pt" "/srv/gz/test/t_xs_html.pt" "/srv/gz/test/t_run.pt" "/srv/gz/test/t_jiancha.pt" "/mnt/mac/fz/fz/MainViewController.m" "/ssh:yao@f1#2746:/srv/android/start.cls.php" "/ssh:yao@f1#2746:/srv/fenzhi/start.cls.php" "/ssh:yao@f1#2746:/srv/m/job1.cls.php" "/home/srv/gz/job1.cls.php" "/home/srv/gz/job.cls.php" "/ssh:yao@f1#2746:/srv/m/job.cls.php"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-
 (desktop-create-buffer 206
-  nil
-  "gz"
-  'dired-mode
-  '(flx-ido-mode projectile-mode)
-  160
+  "/root/.emacs.d/set/org-config.el"
+  "org-config.el"
+  'emacs-lisp-mode
+  '(flx-ido-mode projectile-mode auto-complete-mode hs-minor-mode)
+  1
   '(nil nil)
-  t
-  '("/home/srv/gz/")
-  '((truncate-lines . t)))
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/doc/todo.org"
-  "todo.org"
-  'org-mode
-  '(abbrev-mode flx-ido-mode projectile-mode)
-  70004
-  '(50295 nil)
+  "/root/.emacs.d/set/misc-config.el"
+  "misc-config.el"
+  'emacs-lisp-mode
+  '(flx-ido-mode projectile-mode auto-complete-mode)
+  886
+  '(1 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  6104
+  '(2162 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/in.el"
+  "in.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  422
+  '(1056 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/cmd.el"
+  "cmd.el"
+  'emacs-lisp-mode
+  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
+  8874
+  '(8874 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/doc/lisp.org"
   "lisp.org"
   'org-mode
   '(auto-fill-mode abbrev-mode flx-ido-mode projectile-mode)
-  79767
-  '(79848 nil)
+  18197
+  '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
@@ -73,6 +105,28 @@
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
+  "/doc/todo.org"
+  "todo.org"
+  'org-mode
+  '(abbrev-mode flx-ido-mode projectile-mode)
+  70004
+  '(50295 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  nil
+  "gz"
+  'dired-mode
+  '(flx-ido-mode projectile-mode)
+  160
+  '(nil nil)
+  t
+  '("/home/srv/gz/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
   "/doc/z"
   "z"
   'text-mode
@@ -93,17 +147,6 @@
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/root/.emacs.d/set/misc-config.el"
-  "misc-config.el"
-  'emacs-lisp-mode
-  '(flx-ido-mode projectile-mode auto-complete-mode)
-  886
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/root/.emacs.d/set/mode-line-config.el"
@@ -139,17 +182,6 @@
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/root/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
-  6104
-  '(2162 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
   "/root/.emacs.d/.emacs.desktop"
   ".emacs.desktop"
   'emacs-lisp-mode
@@ -170,26 +202,4 @@
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/root/.emacs.d/cmd.el"
-  "cmd.el"
-  'emacs-lisp-mode
-  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
-  8874
-  '(8874 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/root/.emacs.d/in.el"
-  "in.el"
-  'emacs-lisp-mode
-  '(abbrev-mode flx-ido-mode projectile-mode auto-complete-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
 
