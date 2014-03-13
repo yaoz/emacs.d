@@ -20,7 +20,6 @@
                       ;; multi-web-mode
                       ;; helm
                       ;; web-mode
-
                       nginx-mode
                       crontab-mode
                       remember
