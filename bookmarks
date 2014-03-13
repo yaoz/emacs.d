@@ -2,7 +2,20 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("欲患" 0 2
+(#1=(#("懒/放逸" 0 4
+      (bmkp-full-record #1#))
+    (end-position . 22576)
+    (filename . "/fo/doc/ji.org")
+    (buffer-name . "ji.org")
+    (front-context-string . "/放逸\n")
+    (rear-context-string . "\n* 懒")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 3)
+    (time 21281 3508 761312 913000)
+    (created 21281 3356 372880 384000)
+    (position . 22576))
+#1=(#("欲患" 0 2
       (bmkp-full-record #1#))
     (end-position . 52815)
     (filename . "/home/fo/xyb.jin/zh.org")
@@ -181,8 +194,8 @@
 #1=(#("mulu.html" 0 9
       (bmkp-full-record #1#))
     (filename .
-              #("/srv/tool/mulu.html" 1 5
-                (face flx-highlight-face)))
+	      #("/srv/tool/mulu.html" 1 5
+		(face flx-highlight-face)))
     (buffer-name . "mulu.html")
     (front-context-string . "\">git手册</a><br>\n")
     (rear-context-string . "scm.com/book/zh/")
@@ -195,8 +208,8 @@
 #1=(#("f3/audit.rules" 0 14
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/audit/audit.rules" 21 25
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/audit/audit.rules" 21 25
+		(face flx-highlight-face)))
     (buffer-name . "audit.rules<3>")
     (front-context-string . "-b 320\n\n# Feel f")
     (rear-context-string . "or busy systems\n")
@@ -209,12 +222,12 @@
 #1=(#("f2/audit.rules" 0 14
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/audit/audit.rules" 4 5
-                (face flx-highlight-face)
-                6 8
-                (face flx-highlight-face)
-                21 25
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/audit/audit.rules" 4 5
+		(face flx-highlight-face)
+		6 8
+		(face flx-highlight-face)
+		21 25
+		(face flx-highlight-face)))
     (buffer-name . "audit.rules<2>")
     (front-context-string . "-k SRV\n# -w /var")
     (rear-context-string . "\n-w /srv/ -p wa ")
@@ -227,8 +240,8 @@
 #1=(#("f1/audit.rules" 0 14
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/audit/audit.rules" 20 24
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/audit/audit.rules" 20 24
+		(face flx-highlight-face)))
     (buffer-name . "audit.rules")
     (front-context-string . "_etc\n-w /srv/ -p")
     (rear-context-string . "tc/ -p wa -k CFG")
@@ -241,8 +254,8 @@
 #1=(#("f2/bakcx.sh" 0 11
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/srv/bin/bakcx.sh" 21 25
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f2#54872|sudo:root@f2#54872:/srv/bin/bakcx.sh" 21 25
+		(face flx-highlight-face)))
     (buffer-name . "bakcx.sh")
     (front-context-string . "6YEW6YFKG8551245")
     (rear-context-string . "/sh\nsshpass -p '")
@@ -304,8 +317,8 @@
 #1=(#("l1/crontab" 0 10
       (bmkp-full-record #1#))
     (filename .
-              #("/etc/crontab" 1 5
-                (face flx-highlight-face)))
+	      #("/etc/crontab" 1 5
+		(face flx-highlight-face)))
     (buffer-name . "crontab")
     (front-context-string)
     (rear-context-string . "t  dropbox stop\n")
@@ -353,38 +366,38 @@
     (time 21252 29422 155247 80000)
     (visits . 1)
     (filename .
-              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/postfix/main.cf" 21 25
-                (face flx-highlight-face)
-                25 33
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/postfix/main.cf" 21 25
+		(face flx-highlight-face)
+		25 33
+		(face flx-highlight-face)))
     (front-context-string . "# See /usr/share")
     (rear-context-string)
     (position . 1))
 #1=(#("phpmail" 0 7
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f1#2746:/var/log/phpmail" 18 22
-                (face flx-highlight-face)
-                22 26
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f1#2746:/var/log/phpmail" 18 22
+		(face flx-highlight-face)
+		22 26
+		(face flx-highlight-face)))
     (front-context-string . "Mailer Error: SM")
     (rear-context-string)
     (position . 1))
 #1=(#("l1/php.ini" 0 10
       (bmkp-full-record #1#))
     (filename .
-              #("/etc/php5/fpm/php.ini" 1 5
-                (face flx-highlight-face)))
+	      #("/etc/php5/fpm/php.ini" 1 5
+		(face flx-highlight-face)))
     (front-context-string . "\n\n; If html_erro")
     (rear-context-string . "html_errors = On")
     (position . 16381))
 #1=(#("l1/php5-fpm.log" 0 15
       (bmkp-full-record #1#))
     (filename .
-              #("/var/log/php5-fpm.log" 1 5
-                (face flx-highlight-face)
-                5 9
-                (face flx-highlight-face)))
+	      #("/var/log/php5-fpm.log" 1 5
+		(face flx-highlight-face)
+		5 9
+		(face flx-highlight-face)))
     (front-context-string . "[05-Jan-2014 06:")
     (rear-context-string)
     (position . 1))
@@ -403,8 +416,8 @@
 #1=(#("f1/apachedefault" 0 16
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/apache2/sites-available/default" 24 30
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/apache2/sites-available/default" 24 30
+		(face flx-highlight-face)))
     (front-context-string . "\n	DocumentRoot /")
     (rear-context-string . "aster@localhost\n")
     (position . 65))
@@ -413,8 +426,8 @@
     (time 21252 29725 750238 664000)
     (visits . 0)
     (filename .
-              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/php5/apache2/php.ini" 20 24
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/php5/apache2/php.ini" 20 24
+		(face flx-highlight-face)))
     (front-context-string . "; /path, what th")
     (rear-context-string . "ession files in\n")
     (position . 48604)
@@ -422,8 +435,8 @@
 #1=(#("app.php" 0 7
       (bmkp-full-record #1#))
     (filename .
-              #("/srv/test/l/app/config/app.php" 12 16
-                (face flx-highlight-face)))
+	      #("/srv/test/l/app/config/app.php" 12 16
+		(face flx-highlight-face)))
     (front-context-string . "\n	),\n\n	/*\n	|----")
     (rear-context-string . "ceProvider', */\n")
     (position . 3977))
@@ -509,10 +522,10 @@
     (time 21279 54167 116351 167000)
     (visits . 12)
     (filename .
-              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php5-fpm.log" 36 40
-                (face flx-highlight-face)
-                40 44
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php5-fpm.log" 36 40
+		(face flx-highlight-face)
+		40 44
+		(face flx-highlight-face)))
     (front-context-string . "[10-Feb-2014 14:")
     (rear-context-string . "6 sec), logging\n")
     (position . 332))
@@ -537,20 +550,20 @@
 #1=(#("ip.php" 0 6
       (bmkp-full-record #1#))
     (filename .
-              #("/srv/bin/ip.php" 1 5
-                (face flx-highlight-face)
-                5 9
-                (face flx-highlight-face)))
+	      #("/srv/bin/ip.php" 1 5
+		(face flx-highlight-face)
+		5 9
+		(face flx-highlight-face)))
     (front-context-string . "<?php\n$hosts=arr")
     (rear-context-string)
     (position . 1))
 #1=(#("f2/nginx.conf" 0 13
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/nginx/nginx.conf" 38 42
-                (face flx-highlight-face)
-                42 48
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f2#54872|sudo:root@f2#54872:/etc/nginx/nginx.conf" 38 42
+		(face flx-highlight-face)
+		42 48
+		(face flx-highlight-face)))
     (front-context-string . "	# multi_accept ")
     (rear-context-string . "nnections 1300;\n")
     (position . 98))
@@ -559,10 +572,10 @@
     (time 21268 16054 581240 356000)
     (visits . 0)
     (filename .
-              #("/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/nginx/nginx.conf" 38 42
-                (face flx-highlight-face)
-                42 48
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f3#35072|sudo:root@f3#35072:/etc/nginx/nginx.conf" 38 42
+		(face flx-highlight-face)
+		42 48
+		(face flx-highlight-face)))
     (front-context-string . "#\nuser www-data;")
     (rear-context-string)
     (position . 1))
@@ -587,18 +600,18 @@
 #1=(#("FlickrPaginator.m" 0 17
       (bmkp-full-record #1#))
     (filename .
-              #("/home/src/page/NMPaginator/FlickrPaginator.m" 6 10
-                (face flx-highlight-face)))
+	      #("/home/src/page/NMPaginator/FlickrPaginator.m" 6 10
+		(face flx-highlight-face)))
     (front-context-string . "//\n//  FlickrPag")
     (rear-context-string)
     (position . 1))
 #1=(#("MainViewController.m" 0 20
       (bmkp-full-record #1#))
     (filename .
-              #("/mnt/mac/fz/fz/MainViewController.m" 1 5
-                (face flx-highlight-face)
-                5 9
-                (face flx-highlight-face)))
+	      #("/mnt/mac/fz/fz/MainViewController.m" 1 5
+		(face flx-highlight-face)
+		5 9
+		(face flx-highlight-face)))
     (front-context-string . "#import \"MainVie")
     (rear-context-string)
     (position . 1))
@@ -617,10 +630,10 @@
 #1=(#("l1/fx.clj" 0 9
       (bmkp-full-record #1#))
     (filename .
-              #("/home/src/log/src/log/fx.clj" 14 18
-                (face flx-highlight-face)
-                18 22
-                (face flx-highlight-face)))
+	      #("/home/src/log/src/log/fx.clj" 14 18
+		(face flx-highlight-face)
+		18 22
+		(face flx-highlight-face)))
     (front-context-string . "(ns log.fx\n  (:r")
     (rear-context-string)
     (position . 1))
@@ -633,10 +646,10 @@
 #1=(#("f1/nginx.conf" 0 13
       (bmkp-full-record #1#))
     (filename .
-              #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/nginx/nginx.conf" 36 40
-                (face flx-highlight-face)
-                40 46
-                (face flx-highlight-face)))
+	      #("/ssh:yao@f1#2746|sudo:root@f1#2746:/etc/nginx/nginx.conf" 36 40
+		(face flx-highlight-face)
+		40 46
+		(face flx-highlight-face)))
     (front-context-string . "#\nuser www-data;")
     (rear-context-string)
     (position . 1))
@@ -651,8 +664,8 @@
     (time 21279 58883 721054 730000)
     (visits . 12)
     (filename .
-              #("/fo/doc/zefa.org" 1 4
-                (face flx-highlight-face)))
+	      #("/fo/doc/zefa.org" 1 4
+		(face flx-highlight-face)))
     (front-context-string . "* 正见观,首楞严 \n** 见\n")
     (rear-context-string)
     (position . 1))
@@ -683,12 +696,12 @@
 #1=(#("l1/nginx.conf" 0 13
       (bmkp-full-record #1#))
     (filename .
-              #("/etc/nginx/nginx.conf" 1 5
-                (face flx-highlight-face)
-                5 11
-                (face flx-highlight-face)
-                11 14
-                (face flx-highlight-face)))
+	      #("/etc/nginx/nginx.conf" 1 5
+		(face flx-highlight-face)
+		5 11
+		(face flx-highlight-face)
+		11 14
+		(face flx-highlight-face)))
     (front-context-string . "#\nuser www-data;")
     (rear-context-string)
     (position . 1))
