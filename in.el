@@ -8,7 +8,7 @@
   (package-refresh-contents))
 
 (defvar my-packages '(
-		      org-publish
+		      org
 		      s
                       bookmark+
                       ;; markdown-mode
