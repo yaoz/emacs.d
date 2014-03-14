@@ -216,6 +216,11 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
     )))
 (global-set-key (kbd "<f9>") 'my-browse-url)
 
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "google-chrome"
+      browse-url-generic-args '("--user-data-dir=/home/yao/.google"))
+
+
 (defun my-jump ()
   "跳转到书签"
   (interactive)
