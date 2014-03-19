@@ -182,16 +182,18 @@
       (bmkp-full-record #1#))
     (filename .
               #("/srv/tool/mulu.html" 1 5
+                (face flx-highlight-face)
+                5 10
                 (face flx-highlight-face)))
     (buffer-name . "mulu.html")
-    (front-context-string . "\">git手册</a><br>\n")
-    (rear-context-string . "scm.com/book/zh/")
+    (front-context-string . "<title>本地</title")
+    (rear-context-string)
     (front-context-region-string)
     (rear-context-region-string)
     (visits . 0)
-    (time . #2=(21273 21982 584717 898000))
+    (time . #2=(21289 1853 658480 97000))
     (created . #2#)
-    (position . 2062))
+    (position . 1))
 #1=(#("f3/audit.rules" 0 14
       (bmkp-full-record #1#))
     (filename .
