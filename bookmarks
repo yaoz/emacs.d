@@ -4,17 +4,17 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (#1=(#("欲患" 0 2
       (bmkp-full-record #1#))
-    (end-position . 52815)
+    (end-position . 52814)
     (filename . "/home/fo/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "!云何是欲患?曰：于此，善男子，")
     (rear-context-string . "而生喜乐，是欲味也。\n　　诸比丘")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 3)
-    (time 21279 61910 820651 761000)
+    (visits . 4)
+    (time 21289 16928 809618 494000)
     (created 21279 52539 637133 581000)
-    (position . 52815))
+    (position . 52814))
 #1=(#("四食,子肉" 0 5
       (bmkp-full-record #1#))
     (filename . "/home/fo/xyb/xyb.org")
@@ -344,8 +344,8 @@
     (position . 580252))
 #1=(#("404" 0 3
       (bmkp-full-record #1#))
-    (time 21277 27666 615603 237000)
-    (visits . 0)
+    (time 21289 14731 70575 254000)
+    (visits . 3)
     (filename . "/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/nginx/404.log")
     (front-context-string . "2014/02/12 06:32")
     (rear-context-string)
@@ -508,8 +508,8 @@
 #1=(#("error_php" 0 9
       (bmkp-full-record #1#))
     (end-position . 332)
-    (time 21279 54167 116351 167000)
-    (visits . 12)
+    (time 21289 9401 151725 57000)
+    (visits . 14)
     (filename .
               #("/ssh:yao@f1#2746|sudo:root@f1#2746:/var/log/php5-fpm.log" 36 40
                 (face flx-highlight-face)
