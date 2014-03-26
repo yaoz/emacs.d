@@ -547,3 +547,17 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; (mapcar (function dos2unixall) (buffer-list))
 
 
+;; use apsell as ispell backend  
+(setq-default ispell-program-name "aspell")  
+;; use American English as ispell default dictionary  
+(ispell-change-dictionary "american" t) 
+
+(let ((default-directory "~/.emacs.d/el-get/"))
+	(normal-top-level-add-subdirs-to-load-path))
+
+
+(setq yas-snippet-dirs
+      '("~/.emacs.d/snippets"                 ;; personal snippets
+        ))
+
+;;(yas-global-mode 1) ;; or M-x yas-reload-all if you've started YASnippet already

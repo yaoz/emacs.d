@@ -3,6 +3,9 @@
 (let ((default-directory "~/.emacs.d/elpa/"))
 	(normal-top-level-add-subdirs-to-load-path))
 
+(let ((default-directory "~/.emacs.d/el-get/"))
+	(normal-top-level-add-subdirs-to-load-path))
+
 
 (global-set-key [backtab]
     (lambda ()

@@ -1,6 +1,11 @@
 /elpa/
+/el-get/
+/url/
 *~
 *.elc
+*.dat
+*.eld
 *.zip
+tramp
 session*
 \#*
