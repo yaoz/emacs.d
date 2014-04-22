@@ -74,9 +74,9 @@
 ;; mini最大高度
 (setq max-mini-window-height 10)
 
-(defun ze () (interactive) (find-file "/fo/doc/zefa.org"))
-(defun ji () (interactive) (find-file "/fo/doc/ji.org"))
-(defun ku () (interactive) (find-file "/fo/doc/ku.org"))
+(defun ze () (interactive) (find-file "/home/fo/doc/zefa.org"))
+(defun ji () (interactive) (find-file "/home/fo/doc/ji.org"))
+(defun ku () (interactive) (find-file "/home/fo/doc/ku.org"))
 (defun xinshui1 () (interactive) (find-file "/ssh:yao@f1#2746:/srv/fenzhi/xinshui1.php"))
 (defun xinshuicls () (interactive) (find-file "/ssh:yao@f1#2746:/srv/fenzhi/xinshui.cls.php"))
 (defun iptables-f1 () (interactive) (find-file "/ssh:yao@f1#2746:/etc/iptables.up.rules"))
@@ -192,6 +192,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
             ;; 	(replace-regexp-in-string 
             ;; 	 "Linux.*\\|the .*\\|you have new.*\\|individual.*\\|permitt.*\\|connect.*\\|debian.*\\|last login.*\\|spawn ssh.*\\|logout\\|yao@.*exit.*\\|exit\\|\r" ""  rs))
             ;;    ))
+
             )
         (message "No recognized program file suffix for this file.")
         ))
@@ -304,10 +305,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 ;; (require 'helm)
 ;; (require 'helm-config)
-
-;(require 'yasnippet)
-;(yas-global-mode 1)
-;(global-set-key (kbd "C-i") 'yas/expand)
 
 ;; (require 'smart-tab)
 ;; (setq smart-tab-using-hippie-expand t)
@@ -539,25 +536,64 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;;   "返回major buffer-mode 名"
 ;;   (with-current-buffer buffer-or-string
 ;;      major-mode))
-;; (defun dos2unixall (buffer-or-string)
-;;   (if (string-equal "text-mode" (with-current-buffer buffer-or-string major-mode))
-;;       (progn (switch-to-buffer (buffer-name buffer-or-string))
-;;              (set-buffer-file-coding-system 'unix 't))
-;; ))
+
+(defun dos2unixall (buffer-or-string)
+  ;; (if (string-equal "html-mode" (with-current-buffer buffer-or-string major-mode))
+  (if (string-match "\\.php" (buffer-name buffer-or-string))
+      (progn (switch-to-buffer (buffer-name buffer-or-string))
+             ;; (message (buffer-name buffer-or-string))
+             (let ((enc (symbol-name (symbol-value 'buffer-file-coding-system))))
+               (message "====== %S" enc)
+               ;; (if (or (string-equal "utf-8-dos" enc) (string-equal "utf-8-with-signature-dos" enc) (string-equal "raw-text-dos" enc) (string-equal "chinese-gbk-dos" enc))
+               (if (string-match "dos" enc)
+                   (set-buffer-file-coding-system 'unix 't))
+               ) )))
+
+;; (message "%s" (symbol-value 'buffer-file-coding-system))
+(dos2unixall (get-buffer "map1.php"))
 ;; (mapcar (function dos2unixall) (buffer-list))
 
 
 ;; use apsell as ispell backend  
-(setq-default ispell-program-name "aspell")  
+;; (setq-default ispell-program-name "aspell")  
 ;; use American English as ispell default dictionary  
 (ispell-change-dictionary "american" t) 
 
-(let ((default-directory "~/.emacs.d/el-get/"))
-	(normal-top-level-add-subdirs-to-load-path))
+;; 字体大小,滚轮, font
+(global-set-key (kbd "<C-mouse-4>") 'text-scale-increase)
+(global-set-key (kbd "<C-mouse-5>") 'text-scale-decrease)
 
 
+
+;; (defun wy-go-to-char (n char)
+;;   "Move forward to Nth occurence of CHAR.
+;; Typing `wy-go-to-char-key' again will move forwad to the next Nth
+;; occurence of CHAR."
+;;   (interactive "p\ncGo to char: ")
+;;   (search-forward (string char) nil nil n)
+;;   (while (char-equal (read-char)
+;; 		     char)
+;;     (search-forward (string char) nil nil n))
+;;   (setq unread-command-events (list last-input-event)))
+
+;; (define-key global-map (kbd "C-c a") 'wy-go-to-char)
+
+(defun match-paren (arg)
+  "Go to the matching paren if on a paren; otherwise insert %."
+  (interactive "p")
+  (cond ((looking-at "\\s\(") (forward-list 1) (backward-char 1))
+	((looking-at "\\s\)") (forward-char 1) (backward-list 1))
+	(t (self-insert-command (or arg 1)))))
+
+
+
+(require 'yasnippet)
 (setq yas-snippet-dirs
-      '("~/.emacs.d/snippets"                 ;; personal snippets
+      '("~/.emacs.d/snippets/"                 ;; personal snippets
+      ;; "~/.emacs.d/elpa/yasnippet-20140314.255/snippets/"
         ))
+(yas/reload-all)
+;; (yas/global-mode 1)
 
-;;(yas-global-mode 1) ;; or M-x yas-reload-all if you've started YASnippet already
+
+(org-display-inline-images t t)

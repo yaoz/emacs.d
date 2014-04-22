@@ -1,0 +1,14 @@
+# name: pt
+# --
+<?php
+require_once (dirname(__FILE__)."/t_base.pt");
+#require_once (dirname(__FILE__)."/../xinshui.cls.php");
+/**
+ * @backupGlobals disabled
+ */
+class test_name extends my_test{ /*  */
+    function test_...(){
+    
+    }
+}
+?>

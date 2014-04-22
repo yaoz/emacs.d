@@ -1,10 +1,39 @@
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/set")
-(let ((default-directory "~/.emacs.d/elpa/"))
-	(normal-top-level-add-subdirs-to-load-path))
+
+;; (let ((default-directory "~/.emacs.d/elpa/"))
+;; 	(normal-top-level-add-subdirs-to-load-path))
 
 (let ((default-directory "~/.emacs.d/el-get/"))
 	(normal-top-level-add-subdirs-to-load-path))
+
+(add-to-list 'load-path "~/.emacs.d/el-get/tramp/lisp/")
+(add-to-list 'load-path "~/.emacs.d/el-get/session/lisp/")
+(add-to-list 'load-path "~/.emacs.d/el-get/org-mode/lisp/")
+
+
+(require 'el-get-config)
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(ac-config-default)
+
+;; (require 'nrepl-config)
+(require 'org-config)
+(require 'tabbar-config)
+;(require 'smart-mode-line-config) ;
+;(require 'mysql-config)
+(require 'base-config)
+(require 'dired-config)
+(require 'php-config)
+(require 'misc-config)
+(require 'objc-config)
+(require 'recentf-config)
+(require 'mode-line-config)
+(require 'prj-config)
+(require 'fold-set)
+
+;(let ((default-directory "~/.emacs.d/el-get/"))
+;	(normal-top-level-add-subdirs-to-load-path))
 
 
 (global-set-key [backtab]
@@ -56,8 +85,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (setq tramp-default-user "root"
       tramp-default-host "192.168.1.101")
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20140212.457")
-(load-theme 'zenburn t)
 
 ;(setq frame-title-format '(multiple-frames "%b" ("" invocation-name)))
 ;(require  'gentooish)
@@ -72,24 +99,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (flx-ido-mode 1)
 ; disable ido faces to see flx highlights.
 (setq ido-use-faces nil)
-
-
-(require 'projectile)
-(setq projectile-use-native-indexing t)
-(setq projectile-enable-caching t)
-(setq projectile-show-paths-function 'projectile-hashify-with-relative-paths) 
-(setq projectile-indexing-method 'native)
-(projectile-global-mode)
-(setq projectile-completion-system 'ido)
-;(setq projectile-completion-system 'grizzl)
-(setq projectile-cache-file "~/.projectile.cache.emacs")
-(setq projectile-known-projects-file "~/.projectile-bookmarks.eld.emacs")
-
-
-
-
-(require 'expand-region)
-(global-set-key (kbd "C-=") 'er/expand-region)
 
 
 ;; backup policies
@@ -107,7 +116,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized))
-(require 'org-config)
+
 ;;设置字体
 (defun frame-setting ()
     (set-frame-font "Monaco-13")
@@ -121,28 +130,10 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 		  (frame-setting))))
   (frame-setting))
 
-
-
-(require 'smex) 
-(smex-initialize)
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-
-(require 'tabbar-config)
-(require 'fold-set)
 ;(require 'powerline)
-;(require 'smart-mode-line-config) ;
 
-(require 'nrepl-config)
-;(require 'mysql-config)
-(require 'base-config)
 (setq eshell-aliases-file "~/.emacs.d/set/eshell-alias.el")
 
-(require 'session)
-(setq session-save-file "~/.session.emacs")
-(add-hook 'after-init-hook 'session-initialize)
 
 (setq desktop-dirname             "~/.emacs.d/"
       desktop-base-file-name      ".emacs.desktop"
@@ -157,53 +148,18 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 (global-set-key "%" 'match-paren)
           
-(defun match-paren (arg)
-  "Go to the matching paren if on a paren; otherwise insert %."
-  (interactive "p")
-  (cond ((looking-at "\\s\(") (forward-list 1) (backward-char 1))
-	((looking-at "\\s\)") (forward-char 1) (backward-list 1))
-	(t (self-insert-command (or arg 1)))))
-
-;; (defun wy-go-to-char (n char)
-;;   "Move forward to Nth occurence of CHAR.
-;; Typing `wy-go-to-char-key' again will move forwad to the next Nth
-;; occurence of CHAR."
-;;   (interactive "p\ncGo to char: ")
-;;   (search-forward (string char) nil nil n)
-;;   (while (char-equal (read-char)
-;; 		     char)
-;;     (search-forward (string char) nil nil n))
-;;   (setq unread-command-events (list last-input-event)))
-
-;; (define-key global-map (kbd "C-c a") 'wy-go-to-char)
-
-
-
-
-
-
-
-(require 'dired-config)
-(require 'crontab-mode)
-(add-to-list 'auto-mode-alist '("crontab$" . crontab-mode))
 
 (setq mail-aliases t)
 
-(require 'nginx-mode)
-(add-to-list 'auto-mode-alist '("/nginx/" . nginx-mode))
-
 (require 'cmd)
-(require 'php-config)
-(require 'misc-config)
-(require 'objc-config)
-(require 'recentf-config)
+
 ;(require 'smart-tab)
 ;(global-smart-tab-mode 1)
 
 (speedbar-add-supported-extension ".clj")
 (add-to-list 'speedbar-fetch-etags-parse-list
     '("\\.clj" . speedbar-parse-c-or-c++tag))
-(require 'mode-line-config)
+
 ;(load "~/.emacs.d/elpa/nxhtml/autostart")
 
 
@@ -214,13 +170,10 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 
 
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-(ac-config-default)
 
 ;; 自动运行
 (add-hook 'auto-save-hook 'session-save-session)
-;; (add-hook 'auto-save-hook 'bookmark-save)
+
 
 
 (custom-set-variables
@@ -229,6 +182,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(safe-local-variable-values (quote ((require-final-newline))))
  '(session-use-package t nil (session))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
@@ -237,11 +191,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-(setq bmkp-bmenu-state-file (convert-standard-filename "~/.bmk-bmenu-state-emacs.el"))
-(setq bookmark-version-control t)
-;;每当设置书签的时候都保存书签文件，否则只在你退出 Emacs 时保存 
-(setq bookmark-save-flag 1)
 
 
 
@@ -253,3 +202,40 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
       (custom-set-faces
        '(default ((t (:family "\313\316\314\345" :foundry "outline" :slant normal :weight normal :height 143 :width normal)))))
       ))
+
+
+
+ ;; '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+;; (add-hook 'auto-save-hook 'bookmark-save)
+(setq bmkp-bmenu-state-file (convert-standard-filename "~/.bmk-bmenu-state-emacs.el"))
+(setq bookmark-version-control t)
+;;每当设置书签的时候都保存书签文件，否则只在你退出 Emacs 时保存 
+(setq bookmark-save-flag 1)
+
+
+
+(require 'nginx-mode)
+(add-to-list 'auto-mode-alist '("/nginx/" . nginx-mode))
+
+
+;(require 'crontab-mode)
+;(add-to-list 'auto-mode-alist '("crontab$" . crontab-mode))
+
+(require 'expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
+
+(require 'smex) 
+(smex-initialize)
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;; This is your old M-x.
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/el-get/zenburn-theme")
+(load-theme 'zenburn t)
+
+(require 'session)
+(setq session-save-file "~/.session.emacs")
+(add-hook 'after-init-hook 'session-initialize)
+
+(require 'magit)

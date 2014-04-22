@@ -105,6 +105,10 @@ That is, a string used to represent it on the tab bar."
       "Web"
       )
      ((memq major-mode
+            '(org-mode graphviz-dot-mode))
+      "Org"
+      )
+     ((memq major-mode
             '(objc-mode ob))
       "Objc"
       )

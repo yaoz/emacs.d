@@ -28,7 +28,7 @@
         ;; helm
         ;; web-mode
         nginx-mode
-        crontab-mode
+;        crontab-mode
         remember
         session
         clojure-mode
@@ -36,7 +36,7 @@
         ;; clojure-test-mode  ;;;;;
         ;; ac-nrepl ;;;;;;
         fuzzy
-        cider   ;; nrepl
+;        cider   ;; nrepl
         projectile
         ;; grizzl
         expand-region
@@ -59,21 +59,4 @@
 
 
 (el-get 'sync my-el-get-packages)
-
-
-;; <?php
-;; require_once (dirname(__FILE__)."/t_base.pt");
-;; require_once (dirname(__FILE__)."/../xinshui.cls.php");
-;; /**
-;;  * @backupGlobals disabled
-;;  */
-;; class sql_gone extends my_test{ /* 测试失连问题 */
-
-;;     function test_xs_data(){
-
-;;     }
-
-
-;; }
-
-;; ?>
+(provide 'el-get-config)
