@@ -162,12 +162,14 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
             ("vbs" . "cscript")
             ;; ("m" . "echo ")
             ("m" . "gcc `gnustep-config --objc-flags` -std=c99 -lgnustep-base -o /tmp/z")
+            ("dot" . "dot -Tpng ")             ;无用
             )
           )
          (fName (replace-regexp-in-string ".*:" "" (buffer-file-name))) ;去除主机名,可以远程执行
-         (fSuffix (file-name-extension fName))
-         (progName (cdr (assoc fSuffix suffixMap)))
-         (cmdStr (concat progName " \""   fName "\""))
+         (fName-no-houzhui (replace-regexp-in-string "\\..*" "" fName)) ;去除后缀的文件名
+         (fSuffix (file-name-extension fName)) ;后缀
+         (progName (cdr (assoc fSuffix suffixMap))) ;程序名
+         (cmdStr (concat progName " \""   fName "\"")) ;命令行
          )
     ;; (when (buffer-modified-p)
     ;;   (when (y-or-n-p "Buffer modified. Do you want to save first?")
@@ -179,9 +181,14 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
       (if progName
           (progn
             (message (concat "Running… " fSuffix progName "@" fName))
-            (if (string-equal fSuffix "m") ;  objc
-                (shell-command (concat cmdStr ";/tmp/z"))
-              (shell-command cmdStr))
+            (cond                       ;根据后缀执行命令
+             ((string-equal fSuffix "m") (shell-command (concat cmdStr ";/tmp/z"))) ;  objc
+             ((string-equal fSuffix "dot") (progn
+                                             ;; (message (concat cmdStr " -o " fName-no-houzhui ".png"))
+                                             (shell-command (concat cmdStr " -o " fName-no-houzhui ".png"))
+                                             (graphviz-dot-preview)
+                                             )) ;图片
+             (t (shell-command cmdStr)))
             )
         (message "No recognized program file suffix for this file.")
         ))
