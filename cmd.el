@@ -182,17 +182,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
             (if (string-equal fSuffix "m") ;  objc
                 (shell-command (concat cmdStr ";/tmp/z"))
               (shell-command cmdStr))
-
-             ;; (shell-command cmdStr "*run-current-file output*" )
-
-            ;; (let ((rs (shell-command-to-string cmdStr )))
-            ;;   (message 
-            ;;    (replace-regexp-in-string 
-            ;; 	"^\n$" "" 
-            ;; 	(replace-regexp-in-string 
-            ;; 	 "Linux.*\\|the .*\\|you have new.*\\|individual.*\\|permitt.*\\|connect.*\\|debian.*\\|last login.*\\|spawn ssh.*\\|logout\\|yao@.*exit.*\\|exit\\|\r" ""  rs))
-            ;;    ))
-
             )
         (message "No recognized program file suffix for this file.")
         ))
