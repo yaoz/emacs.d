@@ -10,7 +10,11 @@
 
 
 ;; auto-complete
-
+;;`(setq my-packages
+;;              ',(mapcar #'bookmark+ #'nginx-mode
+;;                        (el-get-list-package-names-with-status "installed")))
+;;(el-get 'sync my-packages)
+ 
 (setq my-el-get-packages
       '(
         ;; yasnippet
@@ -46,7 +50,7 @@
         ;; evil		;
         ;; ace-jump-mode
         color-theme
-        zenburn-theme
+        ;;zenburn-theme
         highlight-symbol
         tabbar
         ;; smart-mode-line
@@ -57,6 +61,15 @@
         paredit
         ))
 
-
+;;(el-get-bundle org-mode)
 (el-get 'sync my-el-get-packages)
+
+;(el-get-bundle zenburn-theme
+;  :url "/root/dl/zenburn-theme.el"
+;  :url "https://github.com/bbatsov/zenburn-emacs/raw/master/zenburn-theme.el"
+;  :url "https://raw.githubusercontent.com/bbatsov/zenburn-emacs/master/zenburn-theme.el"
+;)
+;  (load-theme 'zenburn t))
+;(add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
+;(el-get-bundle zenburn-theme)
 (provide 'el-get-config)

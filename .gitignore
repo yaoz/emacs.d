@@ -1,6 +1,11 @@
 /elpa/
 /el-get/
 /url/
+.session
+ido.last
+projectile.cache
+recentf
+smex-items
 *~
 *.elc
 *.dat

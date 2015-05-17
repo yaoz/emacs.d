@@ -1,3 +1,4 @@
+(require 's)
 (defun buffer-exists (bufname) (not (eq nil (get-buffer bufname))))
 
 (defun dos2unix ()
@@ -118,8 +119,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;(add-to-list
 ;  'tramp-default-proxies-alist
 ;  '("remotedomain.com" "root" "/ssh:%h:"))
-(defun f1dir () (interactive) (dired "/ssh:yao@f1#2746:/home/yao"))
-(defun f2dir () (interactive) (dired "/ssh:yao@f2#54872:/home/yao"))
 (defun f3dir () (interactive) (dired "/ssh:yao@f3#35072:/home/yao"))
 
 (defun git ()
@@ -225,6 +224,12 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
   (interactive)
   (bookmark-jump (s-trim (replace-regexp-in-string "file:" "" (current-line)))))
 (global-set-key (kbd "<f10>") 'my-jump)
+;无用,org自带跳转
+(defun my-open ()
+  "跳转到文件"
+  (interactive)
+  (find-file (current-line)))
+(global-set-key (kbd "<f12>") 'my-open)
 
 (defun my-exec-line ()
   "运行一行sh"
@@ -237,12 +242,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
   (shell-command (current-line) "*Shell Command Output*") 
   )
 (global-set-key (kbd "<f11>") 'my-exec-line)
-
-(defun my-open ()
-  "跳转到书签"
-  (interactive)
-  (find-file (current-line)))
-(global-set-key (kbd "<f12>") 'my-open)
 
 
 (defun sudo ()
@@ -583,13 +582,18 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 
 
-(require 'yasnippet)
-(setq yas-snippet-dirs
-      '("~/.emacs.d/snippets/"                 ;; personal snippets
-      ;; "~/.emacs.d/elpa/yasnippet-20140314.255/snippets/"
-        ))
-(yas/reload-all)
+;(require 'yasnippet)
+;(setq yas-snippet-dirs
+;      '("~/.emacs.d/snippets/"                 ;; personal snippets
+;      ;; "~/.emacs.d/elpa/yasnippet-20140314.255/snippets/"
+;        ))
+;(yas/reload-all)
 ;; (yas/global-mode 1)
 
 
 (org-display-inline-images t t)
+
+
+(global-set-key [f2] 'projectile-grep)
+
+(provide 'cmd)

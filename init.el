@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/my")
 (add-to-list 'load-path "~/.emacs.d/set")
 
 ;; (let ((default-directory "~/.emacs.d/elpa/"))
@@ -13,9 +13,9 @@
 
 
 (require 'el-get-config)
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-(ac-config-default)
+;;(require 'auto-complete-config)
+;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+;;(ac-config-default)
 
 ;; (require 'nrepl-config)
 (require 'org-config)
@@ -24,9 +24,9 @@
 ;(require 'mysql-config)
 (require 'base-config)
 (require 'dired-config)
-(require 'php-config)
+;(require 'php-config)
 (require 'misc-config)
-(require 'objc-config)
+;(require 'objc-config)
 (require 'recentf-config)
 (require 'mode-line-config)
 (require 'prj-config)
@@ -117,7 +117,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-;;设置字体
+;;设置字体 英文好看
 (defun frame-setting ()
     (set-frame-font "Monaco-13")
     (set-fontset-font (frame-parameter nil 'font)
@@ -142,9 +142,11 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
       desktop-save                t
       desktop-files-not-to-save   "^$" ;reload tramp paths
       desktop-load-locked-desktop t)
-(load "desktop") 
-(desktop-load-default) 
-(desktop-read)
+;(load "desktop") 
+;(desktop-load-default) 
+;(desktop-read)
+    (desktop-save-mode 1)
+
 
 (global-set-key "%" 'match-paren)
           
@@ -156,9 +158,9 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 ;(require 'smart-tab)
 ;(global-smart-tab-mode 1)
 
-(speedbar-add-supported-extension ".clj")
-(add-to-list 'speedbar-fetch-etags-parse-list
-    '("\\.clj" . speedbar-parse-c-or-c++tag))
+;(speedbar-add-supported-extension ".clj")
+;(add-to-list 'speedbar-fetch-etags-parse-list
+;    '("\\.clj" . speedbar-parse-c-or-c++tag))
 
 ;(load "~/.emacs.d/elpa/nxhtml/autostart")
 
@@ -176,32 +178,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
- '(safe-local-variable-values (quote ((require-final-newline))))
- '(session-use-package t nil (session))
- '(tabbar-separator (quote (0.5))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-
-
-
-
-(if (eq system-type 'windows-nt)
-    (progn
-      (prefer-coding-system 'utf-8)
-      (setq file-name-coding-system 'gbk)
-      (custom-set-faces
-       '(default ((t (:family "\313\316\314\345" :foundry "outline" :slant normal :weight normal :height 143 :width normal)))))
-      ))
 
 
 
@@ -239,3 +215,18 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (add-hook 'after-init-hook 'session-initialize)
 
 (require 'magit)
+(setq magit-last-seen-setup-instructions "1.4.0")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(session-use-package t nil (session))
+ '(tabbar-separator (quote (0.5))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

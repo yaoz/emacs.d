@@ -82,7 +82,7 @@ That is, a string used to represent it on the tab bar."
       "Common"
       )
      ((member (buffer-name)
-              '("xyz" "day" "m3" "abi" "for" "nws" "eng" "f_g" "tim" "tmp"))
+              '("dao.org" "ji.org" "zefa.org" "mie.org" "ku.org" "jin.org" "bei.org" "o.org"))
       "Main"
       )
      ((eq major-mode 'dired-mode)

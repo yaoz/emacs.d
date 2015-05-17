@@ -1,4 +1,4 @@
-(require 'org-sou)
+(require 'org-sou) ;sou bmk 链接定义
 (add-hook 'org-mode-hook
           '(lambda ()
              (define-key org-mode-map [(control tab)] nil)))
