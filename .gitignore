@@ -3,11 +3,13 @@
 /url/
 .session
 ido.last
+lock
 projectile.cache
 recentf
 smex-items
 *~
 *.elc
+*.swp
 *.dat
 *.eld
 *.zip

@@ -42,13 +42,6 @@
   (find-file (concat default-directory (buffer-name)))
   )
 
-(defun l2 ()
-  "nrepl 直接连第二台机器"
-  (interactive)
-  (if (buffer-exists "*nrepl*")
-      (switch-to-buffer "*nrepl*")
-    (nrepl-connect "192.168.1.101" "4001")))
-
 (setq password-cache-expiry nil)
 
 
@@ -251,35 +244,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
     (find-alternate-file fName)
     (message fName)))
   
-(defun aa ()
-  (interactive)
-  (nrepl-interactive-eval "(print 111)"))
-;; nrepl-interactive-eval-print 打印到当前
-
-
-(defun nrepl-eval (form)
-  (interactive)
-  (clj-load)
-  (let ((result-buffer (nrepl-popup-buffer "*nrepl-result*" nil)))
-    (nrepl-send-string (format "(clojure.pprint/pprint %s)" form)
-                       (nrepl-popup-eval-out-handler result-buffer)
-                       (nrepl-current-ns)
-                       (nrepl-current-tooling-session))))
-
-(defun uv () (interactive) (nrepl-eval "(log.view/uv 14)"))
-(defun uvdir () (interactive) (nrepl-eval "(log.view/uvdir)"))
-(defun gsr () (interactive) (nrepl-eval "(log.view/gsr 200)"))
-(defun ipduan () (interactive) (nrepl-eval "(log.view/?ipduan)"))
-
-(defun ex () (interactive) (nrepl-eval "(log.ex/-main)"))
-
-
-(defun clj-load () 
-  (interactive)
-  (nrepl-load-file "/home/src/log/src/log/ex.clj")
-  (nrepl-load-file "/home/src/log/src/log/view.clj")
-  (nrepl-load-file "/home/src/log/src/log/cli.clj"))
-
 
 (defun nginx-reload () (interactive) (shell-command "sudo /etc/init.d/nginx reload"))
 (defun nginx-restart () (interactive) (shell-command "sudo /etc/init.d/nginx restart"))
@@ -304,9 +268,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; (require 'smart-tab)
 ;; (setq smart-tab-using-hippie-expand t)
 ;; (global-smart-tab-mode t)
-
-(provide 'cmd)
-
 
 ;; https://github.com/joonhwan/dotEmacs/blob/master/my-projectile.el#L55
 ;; (setq projectile-enable-caching t

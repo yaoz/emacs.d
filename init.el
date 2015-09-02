@@ -12,12 +12,16 @@
 (add-to-list 'load-path "~/.emacs.d/el-get/org-mode/lisp/")
 
 
+(require 'package) ;; You might already have this line
+;; (add-to-list 'package-archives
+             ;; '("melpa" . "http://melpa.org/packages/"))
+;; (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (require 'el-get-config)
 ;;(require 'auto-complete-config)
 ;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 ;;(ac-config-default)
 
-;; (require 'nrepl-config)
+(require 'cloj-config)
 (require 'org-config)
 (require 'tabbar-config)
 ;(require 'smart-mode-line-config) ;
@@ -216,17 +220,3 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 (require 'magit)
 (setq magit-last-seen-setup-instructions "1.4.0")
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
- '(session-use-package t nil (session))
- '(tabbar-separator (quote (0.5))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
