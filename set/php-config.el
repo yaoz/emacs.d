@@ -5,9 +5,9 @@
      (define-key php-mode-map (kbd "M-p")  'php-complete-function)))
 
 (add-hook 'html-mode-hook 'turn-off-auto-fill)
-
+(add-hook 'php-mode-hook 'company-mode)
 (add-to-list 'auto-mode-alist '("\\.tpl\\'" . html-mode))
-(require 'php-eldoc)
+;; (require 'php-eldoc)
 (add-to-list 'auto-mode-alist '("\\.pt$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 ;(add-to-list 'auto-mode-alist '("\\.cls\\.php$" . php-mode))

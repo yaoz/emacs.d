@@ -13,8 +13,7 @@
 
 
 (require 'package) ;; You might already have this line
-;; (add-to-list 'package-archives
-             ;; '("melpa" . "http://melpa.org/packages/"))
+ (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 ;; (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (require 'el-get-config)
 ;;(require 'auto-complete-config)

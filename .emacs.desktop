@@ -2,50 +2,204 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Sep  2 15:27:41 2015
+;; Created Thu Sep 10 13:11:30 2015
 ;; Desktop file format version 206
 ;; Emacs version 24.4.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21990 42221 670262 929000) (desktop . "206") "root@yao.yao.com" nil nil ((((font-backend xft x) (font . "-unknown-Monaco-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Monaco-13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 10) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . fullboth) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (client . "Unprintable entity") (environment "DISPLAY=:0.0" "GPG_AGENT_INFO=/tmp/gpg-PXIjW4/S.gpg-agent:1159:1" "SESSION_MANAGER=local/yao:@/tmp/.ICE-unix/1142,unix/yao:/tmp/.ICE-unix/1142" "XDG_CONFIG_DIRS=/etc/xdg" "CLUTTER_IM_MODULE=xim" "XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share" "PWD=/root" "QT_IM_MODULE=fcitx" "XDG_VTNR=7" "TEXTDOMAINDIR=/usr/share/locale/" "GDMSESSION=lightdm-xsession" "SHELL=/bin/bash" "GLADE_CATALOG_PATH=:" "SSH_AUTH_SOCK=/tmp/ssh-gWcuNvacFJBJ/agent.1050" "XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/root" "XMODIFIERS=@im=fcitx" "XAUTHORITY=/root/.Xauthority" "XDG_CURRENT_DESKTOP=XFCE" "LANG=zh_CN.utf8" "XDG_MENU_PREFIX=xfce-" "XDG_RUNTIME_DIR=/run/user/0" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "GLADE_PIXMAP_PATH=:" "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" "XDG_SESSION_ID=1" "GTK_IM_MODULE=fcitx" "LOGNAME=root" "GLADE_MODULE_PATH=:" "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Uyjg4Gkctn,guid=9603e2c40dc85bf3a0d1bf7855e6a450" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "DESKTOP_SESSION=lightdm-xsession" "QT4_IM_MODULE=fcitx" "HOME=/root" "SSH_AGENT_PID=1101" "TEXTDOMAIN=im-config" "XDG_SEAT=seat0" "LANGUAGE=zh_CN:zh" "USER=root") (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (frameset--id . "3135-26EB-973A-16BB") (frameset--mini t . t) (height . 35) (width . 134) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0.0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 84) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 21) (min-pixel-width-safe . 20)) leaf (pixel-width . 1366) (pixel-height . 722) (total-width . 136) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 10 10 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 845) (start . 1))) (((tool-bar-lines . 1) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (display-type . mono) (background-mode . dark) (cursor-color . "#FFFFEF") (font . "tty") (height . 10) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "E155-560A-EAF7-1008") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "lisp.org" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 58046) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (22001 4354 949084 748000) (desktop . "206") "root@www.chuanyike.com" nil nil ((((font-backend xft x) (font . "-unknown-Monaco-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Monaco-13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 10) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . fullboth) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (client . "Unprintable entity") (environment "LS_OPTIONS=--color=auto" "M3_HOME=/home/src/apache-maven-3.1.0" "M3=/home/src/apache-maven-3.1.0/bin" "JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-i386" "PWD=/root" "QT_IM_MODULE=xim" "XDG_VTNR=1" "CLASSPATH=.:/usr/lib/jvm/java-1.7.0-openjdk-i386/lib" "CCL_DEFAULT_DIRECTORY=/srv/ccl" "FVWM_MODULEDIR=/usr/lib/fvwm/2.6.5" "SHELL=/bin/bash" "XMODIFIERS=@im=fcitx" "XAUTHORITY=/root/.Xauthority" "LANG=zh_CN.UTF-8" "DISPLAY=:0" "XDG_RUNTIME_DIR=/run/user/0" "PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/opt/node/bin:/opt/bin:/home/src/apache-maven-3.1.0/bin" "WINDOWPATH=1" "HISTCONTROL=ignoredups" "LEIN_ROOT=/home/src/cl" "TERM=xterm-color" "XDG_SESSION_ID=1" "_=/usr/bin/startx" "HOSTDISPLAY=l1:0" "GTK_IM_MODULE=xim" "LOGNAME=root" "HIVE_HOME=/home/yao/hive" "FVWM_USERDIR=/root/.fvwm" "HUSHLOGIN=FALSE" "XDG_SESSION_COOKIE=91b9ba20f5e86fd7ba8794ad52328e01-1441844754.942896-139373651" "HOME=/root" "SHLVL=1" "XDG_SEAT=seat0" "LANGUAGE=zh_CN:zh" "USER=root" "MAIL=/var/mail/root") (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (frameset--id . "E451-329A-026B-4A20") (frameset--mini t . t) (height . 41) (width . 142) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 84) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 21) (min-pixel-width-safe . 20)) leaf (pixel-width . 1440) (pixel-height . 854) (total-width . 144) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "tip.org" (selected . t) (hscroll . 0) (fringes 10 10 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 173854) (start . 173239))) (((tool-bar-lines . 1) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (display-type . mono) (background-mode . dark) (cursor-color . "#FFFFEF") (font . "tty") (height . 10) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "6B7B-626A-E453-3EA5") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "mac.org" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1861) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("buy1" "buy" "12" "meiyue" "plus" "totime" "to-time" "buling" "totime" "jz1" "spy" "label" "price" "time" "hover" "plot"))
+(setq search-ring '("ssh-key" "smallCellSide" "vb" "pod" "php" "data" "order by id" "order" "list" "phpize" "root" "image" "phpmyadmin" "color" "col" "self"))
 (setq regexp-search-ring '("insert.*wd_wen" "insert.*gz_user " "num" "on line" "sea\\W" "sea[]" "msh_src" " s(" "su" "mysql_insert_id" "sphin" "sph" "suo"))
-(setq register-alist '((48 . "\n;; (defn buy1\n;;   [qian jz]\n;;   (/ (/ 1000 1.006) jz)\n;;   )\n")))
-(setq file-name-history '("/doc/z" "/doc/tip.org" "/doc/php.org" "/doc/todo.org" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/srv/rickshaw-master.zip" "/srv/flot-master.zip" "/home/jj/project.clj" "/home/zzzzz" "/home/jj/src/jj/math.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "~/dl/3436219.txt" "/doc/lisp.org" "/doc/tip.org" "/doc/php.org" "/doc/todo.org" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/srv/rickshaw-master.zip" "/srv/flot-master.zip" "/home/jj/project.clj" "/home/zzzzz" "/home/jj/src/jj/math.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/doc/z" "~/dl/3436219.txt" "/doc/lisp.org" "/root/dl/3436219.txt" "/root/dl/3422515.txt" "/root/dl/3506478.txt" "/doc/tip.org" "/doc/php.org" "/doc/todo.org" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/dl/3422515.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/srv/rickshaw-master.zip" "/srv/flot-master.zip" "/home/jj/project.clj" "/home/zzzzz" "/doc/z" "/home/jj/src/jj/math.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/doc/lisp.org" "/doc/tip.org" "/doc/php.org" "/doc/todo.org" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/dl/3422515.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/srv/rickshaw-master.zip" "/srv/flot-master.zip" "/home/jj/project.clj" "/home/zzzzz" "/doc/z" "/home/jj/src/jj/math.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/doc/lisp.org" "/doc/tip.org" "/doc/php.org" "/doc/todo.org" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/dl/3422515.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/srv/rickshaw-master.zip" "/srv/flot-master.zip" "/home/jj/project.clj" "/home/zzzzz" "/doc/z" "/home/jj/src/jj/math.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/doc/lisp.org" "/doc/tip.org" "/doc/php.org" "/doc/todo.org" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/dl/3422515.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/srv/rickshaw-master.zip" "/srv/flot-master.zip" "/home/jj/project.clj" "/home/zzzzz" "/doc/z" "/home/jj/src/jj/math.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/doc/lisp.org" "/srv/jj.html" "/home/srv/flot-master/examples/interacting/index.html" "/home/zzzzz" "/home/jj/zzzzz" "/home/zzzzz" "/srv/flot-master/examples/axes-multiple/index.html" "/srv/flot-master.zip" "/srv/rickshaw-master/examples/lines.html" "/srv/rickshaw-master.zip" "/etc/hosts" "/srv/z.html" "/srv/.z.html.swp" "/etc/nginx/sites-enabled/default" "/etc/nginx/nginx.conf" "/doc/php.org" "/doc/todo.org" "/etc/apt/sources.list" "~/.emacs.d/set/misc-config.el" "/doc/z" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/dl/3506478.txt" "~/dl/3422515.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/home/jj/src/jj/math.clj" "/home/jj/project.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/doc/tip.org" "/doc/lisp.org" "/doc/todo.org" "/etc/apt/sources.list" "~/.emacs.d/set/misc-config.el" "/doc/z" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/dl/3506478.txt" "~/dl/3422515.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/home/jj/src/jj/math.clj" "/home/jj/project.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/doc/php.org" "/doc/tip.org" "/doc/lisp.org" "/home/jj/src/jj/core.clj" "/doc/php.org" "/doc/tip.org" "/doc/todo.org" "/etc/apt/sources.list" "~/.emacs.d/set/misc-config.el" "/doc/z" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/dl/3506478.txt" "~/dl/3422515.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/home/jj/src/jj/math.clj" "/home/jj/src/jj/date.clj" "/home/jj/project.clj" "/home/jj/src/jj/core.clj" "/doc/lisp.org" "/home/fx/project.clj" "/home/jj/src/jj/date.clj" "/home/jj/src/jj/core.clj" "/home/fx/src/log/date.clj" "/home/fx/src/log/fx.clj" "/home/jj/src/jj/math.clj" "/home/fx/src/log/math.clj" "/home/fx/src/log/misc.clj" "/home/jj/src/jj/core.clj" "/root/dl/3422515.txt" "/root/dl/3506478.txt" "/doc/php.org" "/doc/tip.org" "/doc/todo.org" "/etc/apt/sources.list" "~/.emacs.d/set/misc-config.el" "/doc/z" "/home/jj/project.clj" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/.lein/profiles.clj" "~/dl/3506478.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/doc/lisp.org" "/doc/tip.org" "/doc/todo.org" "/etc/apt/sources.list" "~/.emacs.d/set/misc-config.el" "/doc/z" "/home/jj/project.clj" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.bashrc" "~/.lein/profiles.clj" "/doc/php.org" "~/dl/3506478.txt" "~/.emacs.d/my/cmd.el" "~/.emacs.d/set/cloj-config.el" "/doc/lisp.org" "/doc/todo.org" "/etc/apt/sources.list" "~/.emacs.d/set/misc-config.el" "/doc/z" "/home/jj/project.clj" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el"))
+(setq register-alist '((48 . "//\n//  AppDelegate.swift\n//  yi\n//\n//  Created by yao on 15/9/10.\n//  Copyright (c) 2015‘Äê yao. All rights reserved.\n//\n\nimport UIKit\n\n@UIApplicationMain\nclass AppDelegate: UIResponder, UIApplicationDelegate {\n\n    var window: UIWindow?\n\n\n    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {\n        // Override point for customization after application launch.\n        return true\n    }\n\n    func applicationWillResignActive(application: UIApplication) {\n        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.\n        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.\n    }\n\n    func applicationDidEnterBackground(application: UIApplication) {\n        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.\n        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.\n    }\n\n    func applicationWillEnterForeground(application: UIApplication) {\n        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.\n    }\n\n    func applicationDidBecomeActive(application: UIApplication) {\n        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.\n    }\n\n    func applicationWillTerminate(application: UIApplication) {\n        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.\n    }\n\n\n}\n\n")))
+(setq file-name-history '("/ssh:yao@mac:/Users/yao/Desktop/app/yi/.git/COMMIT_EDITMSG" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi1/yi/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi1/yi/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/Podfile" "/ssh:yao@mac:/Users/yao/Desktop/app/yi" "/ssh:yao@mac:/Users/yao/Desktop/app/yi1/yi/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Podfile" "/ssh:yao@mac:/Users/yao/Desktop/app/test/Podfile" "/ssh:yao@mac:/Users/yao/Desktop/app/test/test/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/test" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/a.playground/Contents.swift" "/ssh:yao@mac:/Users/yao/z.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/a.playground/Contents.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/a.playground/Sources/SupportCode.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/a.playground/Contents.swift" "/ssh:yao@mac:/Users/yao/.bashrc" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Podfile" "/etc/nginx/nginx.conf" "/srv/yi/json.php" "/srv/yi/yi.cls.php" "/srv/yi/u" "/ssh:yao@mac:/Users/yao/z.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Pods/MJRefresh/README.md" "~/.emacs.d/elpa/org-20150907/org-loaddefs.el" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.emacs.d/set/cloj-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.emacs.d/my/cmd.el" "/doc/z" "/etc/wpa_supplicant/wpa_supplicant.conf" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/aa" "/doc/php.org" "/doc/tip.org" "/doc/todo.org" "/doc/lisp.org" "~/.bashrc" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/ViewController.swift" "/doc/mac.org" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/mjswift/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/my.m" "/doc/mac.org" "~/.emacs.d/elpa/org-20150907/org-loaddefs.el" "/doc/lisp.org" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.bashrc" "~/.emacs.d/set/cloj-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.emacs.d/my/cmd.el" "/doc/todo.org" "/doc/php.org" "/doc/tip.org" "/doc/z" "/etc/wpa_supplicant/wpa_supplicant.conf" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/aa" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Pods/MJRefresh/MJRefresh/MJRefresh.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/a.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/my.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/b.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Podfile" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Pods/MJRefresh/README.md" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2/b.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/ViewController.swift" "/doc/mac.org" "/etc/wpa_supplicant/action_wpa.sh" "~/.emacs.d/elpa/cider-20150908.444/cider-autoloads.el" "~/.emacs.d/elpa/clojure-mode-20150908.251/clojure-mode-autoloads.el" "~/.emacs.d/elpa/org-20150907/org-loaddefs.el" "~/.emacs.d/elpa/org-20150907/org-autoloads.el" "~/.emacs.d/elpa/swift-mode-20150907.2231/swift-mode-autoloads.el" "~/.emacs.d/elpa/cider-20150908.444/cider-autoloads.el" "~/.emacs.d/elpa/clojure-mode-20150908.251/clojure-mode-autoloads.el" "~/.emacs.d/elpa/org-20150907/org-loaddefs.el" "~/.emacs.d/elpa/org-20150907/org-autoloads.el" "~/.emacs.d/elpa/swift-mode-20150907.2231/swift-mode-autoloads.el" "/ssh:yao@mac:/Users/yao/ZLSwiftRefresh-master/Demo/ZLSwiftRefresh/Example/Example1ViewController.swift" "/ssh:yao@mac:/Users/yao/z.swift" "/ssh:yao@mac:/Users/yao/ZLSwiftRefresh-master.zip" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2/b.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2/mj2/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Pods/MJRefresh/README.md" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2/mj2/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2/mj2/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2/Podfile" "/ssh:yao@mac:/Users/yao/Desktop/app/mj2" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Podfile" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/b.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/b.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/aa" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Podfile" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.bashrc" "~/.emacs.d/set/cloj-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "~/.emacs.d/my/cmd.el" "/doc/todo.org" "/doc/php.org" "/doc/tip.org" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/a.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/my.h" "/doc/z" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Podfile" "/doc/lisp.org" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/aa" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Pods/MJRefresh/MJRefresh/MJRefresh.h" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJCollectionViewController.m" "/etc/wpa_supplicant/wpa_supplicant.conf" "/ssh:yao@mac:/Users/yao/Desktop/ios/0/fz/MainViewController.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/my.m" "/doc/mac.org" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/ViewController.swift" "/etc/wpa_supplicant/action_wpa.sh" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Pods/MJRefresh/MJRefresh/MJRefresh.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/aa" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJCollectionViewController.m" "~/.emacs.d/elpa/swift-mode-20150903.2028/swift-mode-autoloads.el" "~/.emacs.d/elpa/swift-mode-20150903.2028/swift-mode-autoloads.el" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/.git/COMMIT_EDITMSG" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/Podfile" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/aa" "/ssh:yao@mac:/Users/yao/Desktop/ios/0/fz/MainViewController.m" "/tmp/a.css" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/Cs.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj1" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJCollectionViewController.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/mjswift/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/mjswift/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/my.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/my.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/a.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/ObjcObject.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/ObjcObject.h" "/ssh:yao@mac:" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el" "~/.emacs.d/set/org-sou.el" "~/.emacs.d/set/php-config.el" "~/.emacs.d/set/prj-config.el" "~/.emacs.d/set/tabbar-config.el" "~/.bashrc" "~/.emacs.d/set/cloj-config.el" "~/.emacs.d/init.el" "~/.emacs.d/set/el-get-config.el" "/etc/wpa_supplicant/wpa_supplicant.conf" "~/.emacs.d/my/cmd.el" "/doc/lisp.org" "/doc/todo.org" "/doc/php.org" "/doc/mac.org" "/doc/tip.org" "/doc/z" "/etc/wpa_supplicant/action_wpa.sh" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/a.h" "/etc/wpa_supplicant/action_wpa.sh" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/ObjcObject.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/mjswift-Bridging-Header.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/mjswift/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/mjswift/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/ObjcObject.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift/ObjcObject.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mjswift" "/ssh:yao@mac:/Users/yao/Desktop/app/mj/mj/File" "/ssh:yao@mac:/Users/yao/Desktop/app/mj/File" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJCollectionViewController.h" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/main.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mj/mj/main.m" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJCollectionViewController.h" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJCollectionViewController.m" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJTableViewController.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mj/mj/ViewController.h" "/ssh:yao@mac:/Users/yao/Desktop/app/mj/mj/ViewController.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mj/mj/AppDelegate.m" "/ssh:yao@mac:/Users/yao/Desktop/app/mj/mj/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/main.m" "/ssh:yao@mac:/Users/yao/ZLSwiftRefresh-master/Demo/ZLSwiftRefresh/Example/Example2ViewController.swift" "/ssh:yao@mac:/Users/yao/ZLSwiftRefresh-master/Demo/ZLSwiftRefresh/Example/Example1ViewController.swift" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJCollectionViewController.m" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJDIYHeader.m" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/MJExample.m" "/ssh:yao@mac:/Users/yao/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/AppDelegate.h" "/ssh:yao@mac:/Users/yao/MJRefresh-master/LICENSE" "/ssh:yao@mac:/Users/yao/Desktop/app/Swift-UICollectionView-AFNetworking-master/swifttest/ContainerController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/Swift-UICollectionView-AFNetworking-master/swifttest/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/Swift-UICollectionView-AFNetworking-master/swifttest/CollectionView.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/Swift-UICollectionView-AFNetworking-master/swifttest/CollectionView.xib" "/ssh:yao@mac:/Users/yao/Desktop/app/Swift-UICollectionView-AFNetworking-master/swifttest/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/Swift-UICollectionView-AFNetworking-master/Podfile" "/ssh:yao@mac:/Users/yao/z.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/CHTCollectionViewWaterfallLayout.swift" "/ssh:yao@mac:/Users/yao/Desktop/ios/0/fz/MainViewController.m" "/ssh:yao@mac:/Users/yao/Desktop/ios/0/fz/fzAppDelegate.m" "/ssh:yao@mac:/Users/yao/Desktop/ios/0/fz/MyPaginator.m" "/ssh:yao@mac:/Users/yao/Desktop/ios/0/fz/main.m" "/ssh:yao@mac:/Users/yao/Desktop/app/cht/Demo/Demo/ViewController.m" "/ssh:yao@mac:/Users/yao/Desktop/app/cht/Demo/Demo/AppDelegate.m" "/ssh:yao@mac:/Users/yao/Desktop/app/cht/SwiftDemo/CHTWaterfallSwiftDemo/CHTWaterfallSwiftDemo/ImageUICollectionViewCell.xib" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/NTWaterfallViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/Macro.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/refresher-master/Refresher/PullToRefreshView.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/refresher-master/Refresher/Animator.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/refer" "/ssh:yao@mac:/Users/yao/Desktop/app/yi1/yi/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/ViewController.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi1/yi/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/.projectile" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/CHTCollectionViewWaterfallLayout.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/AppDelegate.swift" "/ssh:yao@mac:/Users/yao/Desktop/app/cell/PinterestSwift/NTHorizontalPageViewCell.swift" "/ssh:yao@mac:" "~/.emacs.d/set/misc-config.el" "~/.emacs.d/set/mode-line-config.el" "~/.emacs.d/set/org-config.el"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/root/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(abbrev-mode projectile-mode flx-ido-mode hs-minor-mode company-mode)
-  845
-  '(4781 nil)
+  "/doc/tip.org"
+  "tip.org"
+  'org-mode
+  '(abbrev-mode projectile-mode flx-ido-mode company-mode)
+  173854
+  '(173841 t)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/root/.emacs.d/set/el-get-config.el"
-  "el-get-config.el"
-  'emacs-lisp-mode
-  '(projectile-mode flx-ido-mode hs-minor-mode company-mode)
-  1865
-  '(924 nil)
+  "/srv/yi/u"
+  "u"
+  'text-mode
+  '(auto-fill-mode projectile-mode flx-ido-mode)
+  1148
+  '(1284 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/Cs.swift"
+  "Cs.swift"
+  'swift-mode
+  '(projectile-mode flx-ido-mode company-mode)
+  475
+  '(202 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/ssh:yao@mac:/Users/yao/Desktop/app/yi/yi/ViewController.swift"
+  "ViewController.swift"
+  'swift-mode
+  '(projectile-mode flx-ido-mode company-mode)
+  1238
+  '(154 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "yi"
+  'dired-mode
+  '(projectile-mode flx-ido-mode)
+  255
+  '(nil nil)
+  t
+  '("/ssh:yao@mac:/Users/yao/Desktop/app/yi/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/ssh:yao@mac:/Users/yao/Desktop/app/yi/Podfile"
+  "Podfile"
+  'ruby-mode
+  '(projectile-mode flx-ido-mode)
+  113
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "test"
+  'dired-mode
+  '(projectile-mode flx-ido-mode)
+  207
+  '(nil nil)
+  t
+  '("/ssh:yao@mac:/Users/yao/Desktop/app/test/test/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "test"
+  'dired-mode
+  '(projectile-mode flx-ido-mode)
+  257
+  '(nil nil)
+  t
+  '("/ssh:yao@mac:/Users/yao/Desktop/app/test/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "a.playground"
+  'dired-mode
+  '(projectile-mode flx-ido-mode)
+  221
+  '(nil nil)
+  t
+  '("/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/a.playground/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "mj1"
+  'dired-mode
+  '(projectile-mode flx-ido-mode)
+  582
+  '(nil nil)
+  t
+  '("/ssh:yao@mac:/Users/yao/Desktop/app/mj1/mj1/")
+  '((truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/doc/mac.org"
+  "mac.org"
+  'org-mode
+  '(projectile-mode flx-ido-mode)
+  17681
+  '(17683 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/ssh:yao@mac:/Users/yao/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(projectile-mode flx-ido-mode hs-minor-mode)
+  6888
+  '(5937 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/srv/yi/json.php"
+  "json.php"
+  'php-mode
+  '(abbrev-mode projectile-mode flx-ido-mode hs-minor-mode company-mode)
+  957
+  '(732 nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/srv/yi/yi.cls.php"
+  "yi.cls.php"
+  'php-mode
+  '(abbrev-mode projectile-mode flx-ido-mode hs-minor-mode)
+  286
+  '(1 nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/root/.emacs.d/set/php-config.el"
+  "php-config.el"
+  'emacs-lisp-mode
+  '(abbrev-mode projectile-mode flx-ido-mode hs-minor-mode company-mode)
+  333
+  '(235 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/doc/php.org"
+  "php.org"
+  'org-mode
+  '(auto-fill-mode abbrev-mode projectile-mode flx-ido-mode company-mode)
+  693
+  '(314 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/root/.emacs.d/my/cmd.el"
   "cmd.el"
   'emacs-lisp-mode
-  '(projectile-mode flx-ido-mode hs-minor-mode company-mode)
-  9355
-  '(18793 nil)
+  '(projectile-mode flx-ido-mode hs-minor-mode)
+  18867
+  '(18867 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
@@ -55,88 +209,66 @@
   "lisp.org"
   'org-mode
   '(auto-fill-mode abbrev-mode projectile-mode flx-ido-mode company-mode)
-  58046
-  '(58046 nil)
+  105
+  '(865 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/home/jj/src/jj/core.clj"
-  "core.clj"
-  'clojure-mode
-  '(projectile-mode flx-ido-mode hs-minor-mode company-mode cider-mode)
-  278
-  '(298 nil)
+  "/doc/todo.org"
+  "todo.org"
+  'org-mode
+  '(abbrev-mode projectile-mode flx-ido-mode company-mode)
+  27891
+  '(50295 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/home/jj/src/jj/date.clj"
-  "date.clj"
-  'clojure-mode
-  '(projectile-mode flx-ido-mode hs-minor-mode company-mode cider-mode)
-  3032
-  '(106 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/home/jj/src/jj/math.clj"
-  "math.clj"
-  'clojure-mode
-  '(projectile-mode flx-ido-mode hs-minor-mode company-mode cider-mode)
-  1
+  "/etc/wpa_supplicant/wpa_supplicant.conf"
+  "wpa_supplicant.conf"
+  'conf-unix-mode
+  '(projectile-mode flx-ido-mode)
+  41
   '(1 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/home/zzzzz"
-  "zzzzz"
+  "/doc/z"
+  "z"
   'text-mode
-  '(auto-fill-mode projectile-mode flx-ido-mode)
-  1
-  '(37273 nil)
+  '(auto-fill-mode abbrev-mode projectile-mode flx-ido-mode company-mode)
+  973
+  '(984 nil)
   nil
   nil
-  nil)
+  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/home/jj/project.clj"
-  "project.clj"
-  'clojure-mode
-  '(projectile-mode flx-ido-mode hs-minor-mode company-mode cider-mode)
-  542
-  '(502 nil)
+  "/root/.emacs.d/set/el-get-config.el"
+  "el-get-config.el"
+  'emacs-lisp-mode
+  '(projectile-mode flx-ido-mode hs-minor-mode company-mode)
+  1508
+  '(924 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/srv/flot-master.zip"
-  "flot-master.zip"
-  'archive-mode
-  '(projectile-mode flx-ido-mode)
-  203
-  '(nil nil)
-  t
+  "/root/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(abbrev-mode projectile-mode flx-ido-mode hs-minor-mode company-mode)
+  5040
+  '(1171 nil)
   nil
-  '((buffer-file-coding-system . no-conversion-multibyte)))
-
-(desktop-create-buffer 206
-  "/srv/rickshaw-master.zip"
-  "rickshaw-master.zip"
-  'archive-mode
-  '(projectile-mode flx-ido-mode)
-  214
-  '(nil nil)
-  t
   nil
-  '((buffer-file-coding-system . no-conversion-multibyte)))
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
   "/root/.emacs.d/set/cloj-config.el"
@@ -148,39 +280,6 @@
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/root/.bashrc"
-  ".bashrc"
-  'sh-mode
-  '(projectile-mode flx-ido-mode hs-minor-mode)
-  343
-  '(356 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  nil
-  "my"
-  'dired-mode
-  '(projectile-mode flx-ido-mode company-mode)
-  167
-  '(nil nil)
-  t
-  '("/root/.emacs.d/my/")
-  '((truncate-lines . t)))
-
-(desktop-create-buffer 206
-  nil
-  "set"
-  'dired-mode
-  '(projectile-mode flx-ido-mode company-mode)
-  1
-  '(nil nil)
-  t
-  '("/root/.emacs.d/set/")
-  '((truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/root/.emacs.d/set/tabbar-config.el"
@@ -203,17 +302,6 @@
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/root/.emacs.d/set/php-config.el"
-  "php-config.el"
-  'emacs-lisp-mode
-  '(abbrev-mode projectile-mode flx-ido-mode hs-minor-mode company-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/root/.emacs.d/set/org-sou.el"
@@ -260,57 +348,24 @@
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/doc/todo.org"
-  "todo.org"
-  'org-mode
-  '(abbrev-mode projectile-mode flx-ido-mode company-mode)
-  27891
-  '(50295 nil)
+  "/root/.emacs.d/elpa/org-20150907/org-loaddefs.el"
+  "org-loaddefs.el"
+  'emacs-lisp-mode
+  '(projectile-mode flx-ido-mode hs-minor-mode)
+  87498
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/doc/php.org"
-  "php.org"
-  'org-mode
-  '(auto-fill-mode abbrev-mode projectile-mode flx-ido-mode company-mode)
-  693
-  '(314 nil)
   nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/doc/tip.org"
-  "tip.org"
-  'org-mode
-  '(abbrev-mode projectile-mode flx-ido-mode company-mode)
-  55472
-  '(55446 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/doc/z"
-  "z"
-  'text-mode
-  '(auto-fill-mode abbrev-mode projectile-mode flx-ido-mode company-mode)
-  995
-  '(984 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/root/dl/3436219.txt"
-  "3436219.txt"
-  'text-mode
-  '(auto-fill-mode projectile-mode flx-ido-mode)
-  6
-  '(1 t)
-  nil
-  nil
-  '((buffer-file-coding-system . chinese-gbk-dos) (overwrite-mode)))
+  "yao"
+  'dired-mode
+  '(projectile-mode flx-ido-mode)
+  1677
+  '(194 nil)
+  t
+  '("/ssh:yao@mac:/Users/yao/")
+  '((truncate-lines . t)))
 

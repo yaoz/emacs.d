@@ -116,7 +116,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 (defun git ()
   (interactive)
-  (magit-status "."))
+  (magit-status ))
 
 (defun mail2 ()
   (interactive)
@@ -154,6 +154,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
             ("vbs" . "cscript")
             ;; ("m" . "echo ")
             ("m" . "gcc `gnustep-config --objc-flags` -std=c99 -lgnustep-base -o /tmp/z")
+	    ("swift" . "xcrun swift")
             ("dot" . "dot -Tpng ")             ;无用
             )
           )
@@ -557,4 +558,27 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 (global-set-key [f2] 'projectile-grep)
 
+
+(add-hook 'swift-mode-hook 'company-mode)
+
+(global-set-key (kbd "C-i") 'company-complete)
+(global-set-key (kbd "M-i") 'company-complete)
+
+;; (defun complete-or-indent ()
+;;     (interactive)
+;;     (if (company-manual-begin)
+;;         (company-complete-common)
+;;       (indent-according-to-mode)))
+
+
+(defun indent-or-complete ()
+  (interactive)
+  (if (looking-at "\\_>")
+      (company-complete-common)
+    (indent-according-to-mode)))
+
+;; (global-set-key [tab] 'complete-or-indent)
+(global-set-key [tab] 'indent-or-complete)
 (provide 'cmd)
+
+

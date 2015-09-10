@@ -2,19 +2,6 @@
 (add-to-list 'load-path "~/.emacs.d/el-get/el-get")
 (require 'el-get nil 'noerror)
 
-;; (url-retrieve
-;;  "https://github.com/dimitri/el-get/raw/master/el-get-install.el"
-;;  (lambda (s)
-;;    (end-of-buffer)
-;;    (eval-print-last-sexp)))
-
-
-;; auto-complete
-;;`(setq my-packages
-;;              ',(mapcar #'bookmark+ #'nginx-mode
-;;                        (el-get-list-package-names-with-status "installed")))
-;;(el-get 'sync my-packages)
- 
 (setq my-el-get-packages
       '(
         ;; yasnippet
