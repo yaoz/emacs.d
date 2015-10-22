@@ -33,6 +33,7 @@
         ;; grizzl
         expand-region
         flx
+		flx-ido
         ;; flx-ido ;;;;;;;;;;;; 好像不需要
         ;; color-theme-solarized
         ;; evil		;

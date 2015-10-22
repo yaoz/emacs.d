@@ -7,6 +7,9 @@
 (let ((default-directory "~/.emacs.d/el-get/"))
 	(normal-top-level-add-subdirs-to-load-path))
 
+(let ((default-directory "~/.emacs.d/elpa/"))
+	(normal-top-level-add-subdirs-to-load-path))
+
 (add-to-list 'load-path "~/.emacs.d/el-get/tramp/lisp/")
 (add-to-list 'load-path "~/.emacs.d/el-get/session/lisp/")
 (add-to-list 'load-path "~/.emacs.d/el-get/org-mode/lisp/")
@@ -15,7 +18,7 @@
 (require 'package) ;; You might already have this line
  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 ;; (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-(require 'el-get-config)
+;(require 'el-get-config)
 ;;(require 'auto-complete-config)
 ;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 ;;(ac-config-default)
@@ -85,8 +88,8 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (require 'tramp)
 (setq tramp-default-method "ssh")
 ;; (setq tramp-default-method "scp")
-(setq tramp-default-user "root"
-      tramp-default-host "192.168.1.101")
+;(setq tramp-default-user "root"
+;      tramp-default-host "192.168.1.101")
 
 
 ;(setq frame-title-format '(multiple-frames "%b" ("" invocation-name)))
@@ -210,12 +213,12 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/el-get/zenburn-theme")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20151003.2346")
 (load-theme 'zenburn t)
 
-(require 'session)
-(setq session-save-file "~/.session.emacs")
-(add-hook 'after-init-hook 'session-initialize)
+;(require 'session)
+;(setq session-save-file "~/.session.emacs")
+;(add-hook 'after-init-hook 'session-initialize)
 
 (require 'magit)
 (setq magit-last-seen-setup-instructions "1.4.0")

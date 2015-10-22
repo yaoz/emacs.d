@@ -560,6 +560,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 
 (add-hook 'swift-mode-hook 'company-mode)
+(add-hook 'java-mode-hook 'company-mode)
 
 (global-set-key (kbd "C-i") 'company-complete)
 (global-set-key (kbd "M-i") 'company-complete)
