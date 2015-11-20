@@ -114,12 +114,19 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (setq kept-new-versions 5)
 (setq delete-old-versions t)
 
-(defvar backup-dir (expand-file-name "/home/.emacs.d/backup/"))
+(defvar backup-dir (expand-file-name "/home/.emacs.d/backups/"))
 (defvar autosave-dir (expand-file-name "/home/.emacs.d/autosave/"))
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
 (setq auto-save-list-file-prefix autosave-dir)
 (setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
 
+;; (add-to-list 'backup-directory-alist
+;;              (cons "/home/.emacs.d/backups/"))
+;; (setq tramp-backup-directory-alist backup-directory-alist)
+
+
+(add-to-list 'backup-directory-alist
+             (cons tramp-file-name-regexp nil))
 
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
@@ -213,7 +220,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20151003.2346")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20151101.1158")
 (load-theme 'zenburn t)
 
 ;(require 'session)
@@ -222,3 +229,16 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 (require 'magit)
 (setq magit-last-seen-setup-instructions "1.4.0")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(tabbar-separator (quote (0.5))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -102,7 +102,7 @@ That is, a string used to represent it on the tab bar."
       )
      ((memq major-mode
             '(php-mode html-mode js-mode css-mode nginx-mode magit-diff-mode))
-      "Web"
+      "php"
       )
      ((memq major-mode
             '(java-mode nxml-mode))
