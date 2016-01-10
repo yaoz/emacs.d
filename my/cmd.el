@@ -144,7 +144,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
             ("php" . "php")
             ("pt" . "phpunit")
             ("pl" . "perl")
-            ("py" . "python")
+            ("py" . "python3")
             ("py3" . ,(if (string-equal system-type "windows-nt") "c:/Python32/python.exe" "python3"))
             ("rb" . "ruby")
             ("js" . "node")             ; node.js
@@ -544,13 +544,13 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 
 
-;(require 'yasnippet)
-;(setq yas-snippet-dirs
-;      '("~/.emacs.d/snippets/"                 ;; personal snippets
-;      ;; "~/.emacs.d/elpa/yasnippet-20140314.255/snippets/"
-;        ))
-;(yas/reload-all)
-;; (yas/global-mode 1)
+(require 'yasnippet)
+(setq yas-snippet-dirs
+     '("~/.emacs.d/snippets/"                 ;; personal snippets
+     ;; "~/.emacs.d/elpa/yasnippet-20140314.255/snippets/"
+       ))
+(yas/reload-all)
+(yas/global-mode 1)
 
 
 (org-display-inline-images t t)
@@ -580,6 +580,15 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 ;; (global-set-key [tab] 'complete-or-indent)
 (global-set-key [tab] 'indent-or-complete)
+
+(autoload 'jedi:setup "jedi" nil t) 
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)                 ; optional
+
+
+;; (setq flycheck-swift-sdk-path nil)
+;; (setq swift nil)
+
 (provide 'cmd)
 
 

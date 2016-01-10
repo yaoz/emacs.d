@@ -1,0 +1,30 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pgsql
+# key: pgsql
+# binding: direct-keybinding
+# --
+from sqlalchemy import create_engine, Column, Integer
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+from sqlalchemy.ext.mutable import MutableDict
+from sqlalchemy.dialects.postgresql import HSTORE
+
+
+Base = declarative_base()
+engine = create_engine("postgresql://dbuser:secure@localhost/exampledb")
+Session = sessionmaker(bind=engine)
+session = Session()
+
+
+class MyClass(Base):
+    __tablename__ = 'people'
+    id = Column(Integer, primary_key=True)
+    info = Column(MutableDict.as_mutable(HSTORE))
+
+
+my_object = session.query(MyClass).filter(MyClass.id == 3).first()
+# my_object = session.query(MyClass).filter(MyClass.id == 3).first()
+my_object.info['some_key'] = 'some 姚双'
+
+session.commit()

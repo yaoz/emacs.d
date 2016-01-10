@@ -101,8 +101,12 @@ That is, a string used to represent it on the tab bar."
       "Mail"
       )
      ((memq major-mode
-            '(php-mode html-mode js-mode css-mode nginx-mode magit-diff-mode))
+            '(php-mode js-mode css-mode nginx-mode magit-diff-mode))
       "php"
+      )
+     ((memq major-mode
+		 '(python-mode html-mode))
+      "python"
       )
      ((memq major-mode
             '(java-mode nxml-mode))

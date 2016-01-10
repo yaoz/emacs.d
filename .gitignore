@@ -16,3 +16,4 @@ smex-items
 tramp
 session*
 \#*
+.python-environments/

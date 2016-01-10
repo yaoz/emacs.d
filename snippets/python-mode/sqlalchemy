@@ -1,0 +1,35 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: sqlalchemy
+# key: sqlalchemy
+# binding: direct-keybinding
+# --
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+
+Base = declarative_base()
+engine = create_engine("mysql+pymysql://script:05575960@localhost/test")
+Session = sessionmaker(bind=engine)
+session = Session()
+
+
+class User(Base):
+    __tablename__ = 'users'
+    id = Column(Integer, primary_key=True)
+    name = Column(String(20))
+    fullname = Column(String(20))
+    password = Column(String(20))
+
+    def __repr__(self):
+        return "<User(name='%s', fullname='%s', password='%s')>" % (
+            self.name, self.fullname, self.password)
+
+# Base.metadata.create_all(engine)
+
+ed_user = User(name='ed', fullname='Ed Jones', password='edsp')
+# print(ed_user)
+session.add(ed_user)
+# session.commit()
+our_user = session.query(User).filter_by(name='ed').first()
+# print(our_user)

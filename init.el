@@ -220,7 +220,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20151101.1158")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20160103.1612")
 (load-theme 'zenburn t)
 
 ;(require 'session)
@@ -242,3 +242,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+(add-hook 'after-init-hook #'global-flycheck-mode)

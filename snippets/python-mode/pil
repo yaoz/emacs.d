@@ -1,0 +1,15 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pil
+# key: pil
+# binding: direct-keybinding
+# --
+from PIL import Image
+img=Image.open('/root/1.jpg')
+
+width,height = img.size
+
+targetWidth = 125
+
+i1 = img.resize((targetWidth, targetWidth * height / width),  Image.ANTIALIAS)
+print i1.tobytes()
+# i1.save('/tmp/1.jpg')
