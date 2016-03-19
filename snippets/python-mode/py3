@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: py3
+# key: py3
+# binding: direct-keybinding
+# --
+#!/usr/bin/python3

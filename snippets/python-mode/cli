@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: cli
+# key: cli
+# binding: direct-keybinding
+# --
+@click.group()
+def cli():
+    pass
+
+@cli.command()			#在需要的fn前使用
+
+
+if __name__ == '__main__':
+    cli()
