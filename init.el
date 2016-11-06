@@ -1,9 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/my")
 (add-to-list 'load-path "~/.emacs.d/set")
 
-;; (let ((default-directory "~/.emacs.d/elpa/"))
-;; 	(normal-top-level-add-subdirs-to-load-path))
-
 
 (let ((default-directory "~/.emacs.d/elpa/"))
 	(normal-top-level-add-subdirs-to-load-path))
@@ -12,14 +9,13 @@
 
 (require 'package) ;; You might already have this line
 
-
-
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize) ;; You might already have this line
 
 ;; (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 ;; (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+
 ;;(require 'auto-complete-config)
 ;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 ;;(ac-config-default)

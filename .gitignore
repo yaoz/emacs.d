@@ -1,7 +1,7 @@
 /elpa/
-/el-get/
 /url/
 .session
+.emacs.desktop
 ido.last
 lock
 projectile.cache
