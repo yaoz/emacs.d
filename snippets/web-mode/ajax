@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: ajax
+# key: ajax
+# --
+<script type="text/javascript">
+
+$(function() {
+    $('.pl').bind('click', function() {
+var id = this.id
+      $.get("/pl/" + this.id , {},
+        function(req) {
+	 $("#" + id + " span").text(req)
+          <!-- alert("评论成功") -->
+      });
+    })
+    return false;
+});
+</script>

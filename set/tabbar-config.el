@@ -82,7 +82,7 @@ That is, a string used to represent it on the tab bar."
       "Common"
       )
      ((member (buffer-name)
-              '("dao.org" "ji.org" "zefa.org" "mie.org" "ku.org" "jin.org" "bei.org" "o.org" "zh.org" "xyb.org" "ch.org"))
+              '("dao.org" "ji.org" "zefa.org" "mie.org" "ku.org" "jin.org" "bei.org" "o.org" "zh.org" "xyb.org" "ch.org" "xin.org"))
       "Main"
       )
      ((eq major-mode 'dired-mode)
@@ -101,12 +101,18 @@ That is, a string used to represent it on the tab bar."
       "Mail"
       )
      ((memq major-mode
-            '(php-mode js-mode css-mode nginx-mode magit-diff-mode))
+            '(php-mode nginx-mode magit-diff-mode ))
       "php"
       )
+
      ((memq major-mode
-		 '(python-mode html-mode))
+     		 '(python-mode))
       "python"
+      )
+     
+     ((memq major-mode
+	    '(ruby-mode rails-mode coffee-mode web-mode js-mode css-mode yaml-mode scss-mode sass-mode feature-mode))
+      "ruby"
       )
      ((memq major-mode
             '(java-mode nxml-mode))

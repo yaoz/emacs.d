@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: style
+# key: style
+# --
+<style>
+div { border:1px solid ;} 
+</style>

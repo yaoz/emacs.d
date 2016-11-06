@@ -1,0 +1,31 @@
+# -*- mode: snippet -*-
+# name: html
+# key: html
+# --
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test</title>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="/js/font/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="/js/bs/css/bootstrap.min.css" />
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/bs/js/bootstrap.min.js"></script>
+	
+    </head>
+    <body>
+	<h1>你好，世界！</h1>
+	<a class="btn btn-primary btn-lg" href="#"><i class="icon-thumbs-up"></i></a>
+	<a class="btn btn-default" href="#"><i class="icon-thumbs-up icon-large text-primary"></i></a>
+	<a class="btn btn-default" href="#"><i class="icon-thumbs-down icon-large text-danger"></i></a>
+	<a class="btn btn-success" href="#" role="button">Link</a>
+	<i class="icon-thumbs-down"></i> icon-camera-retro	
+	
+	<i class="icon-thumbs-up"></i> icon-camera-retro
+	
+    </body>
+</html>

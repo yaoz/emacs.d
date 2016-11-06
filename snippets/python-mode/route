@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: route
+# key: route
+# --
+
+@app.route("/tpl/")
+@app.route('/tpl/<name>')
+def tpl(name=None):
+    return render_template('test.html', name=name)

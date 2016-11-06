@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: erb
+# key: erb
+# binding: direct-keybinding
+# expand-env: ((some-var some-value))
+# type: command
+# --
+<%=  %>

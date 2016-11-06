@@ -116,7 +116,9 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 (defun git ()
   (interactive)
-  (magit-status ))
+  (magit-checkout "dev")
+  (magit-status )
+  )
 
 (defun mail2 ()
   (interactive)
@@ -135,7 +137,62 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 
 
+(defun test ()
+  (interactive)
+  (let* (
+         (fName (replace-regexp-in-string ".*:" "" (buffer-file-name))) ;去除主机名,可以远程执行
+         (fName-no-houzhui (replace-regexp-in-string "\\..*" "" fName)) ;去除后缀的文件名
+         (fSuffix (file-name-extension fName)) ;后缀
+         (cmdStr (concat  "/srv/lin/bin/rake test \""   fName "\"")) ;命令行
+         )
+    (when (buffer-modified-p)		;保存
+      (save-buffer))
+    (progn
+      (message (concat "Running… " fSuffix "@" fName cmdStr))
+      (shell-command cmdStr))
+    ))
+  
 
+(defun lin-test ()
+  (interactive)
+  (message (concat "测试所有"))
+  (shell-command (concat  "/srv/lin/bin/rake test")))
+
+
+(defun lin-testc ()
+  (interactive)
+  (message (concat "测试 控制器"))
+  (shell-command (concat  "/srv/lin/bin/rake test:controllers")))
+
+
+(defun lin-redo ()
+  (interactive)
+  (message (concat "测试 控制器"))
+  (shell-command (concat  "/srv/lin/bin/rake db:migrate:redo STEP=2")))
+
+(defun lin-testm ()
+  (interactive)
+  (message (concat "测试 模型"))
+  (shell-command (concat  "/srv/lin/bin/rake test:models")))
+
+
+(defun lin-testi ()
+  (interactive)
+  (message (concat "测试 集成测试"))
+  (shell-command (concat  "/srv/lin/bin/rake test:integration")))
+
+
+(defun tongbu ()
+  (interactive)
+  (message (concat "同步"))
+  (shell-command (concat  "fab -f /srv/command/cmd.py tongbulin")))
+
+(defun cucumber ()
+  (interactive)
+  (message (concat "同步"))
+  (shell-command (concat  "/srv/lin/bin/spring cucumber")))
+
+;; (file-name-directory )
 (defun run-current-file ()
   (interactive)
   (let* (
@@ -147,6 +204,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
             ("py" . "python3")
             ("py3" . ,(if (string-equal system-type "windows-nt") "c:/Python32/python.exe" "python3"))
             ("rb" . "ruby")
+	    ("rails" . "rails r ")
             ("js" . "node")             ; node.js
             ("sh" . "bash")
             ("exp" . "expect")
@@ -427,23 +485,23 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; 搜索历史长度,好像不能用
 (setq history-length 250)
 
-(require 'generic-x)
+;;(require 'generic-x)
 
-(define-generic-mode 'sphinx-mode                         ;; name of the mode to create
+;;(define-generic-mode 'sphinx-mode                         ;; name of the mode to create
   ;; '(?#) ;; '(("#")) ;; nil
-  ()
+;;  ()
   ;; '(("#" . "\\$"))
-  '("source" "index" "indexer" "searchd" "type" "sql_host" "sql_user" "sql_pass" "sql_db" "sql_port" "sql_query_pre" "sql_query"
-    "path" "docinfo" "mlock" "morphology" "min_word_len" "charset_type" "charset_table" "min_prefix_len" "ngram_len" "ngram_chars"
-    "html_strip" "sql_attr_uint" "sql_attr_timestamp" "sql_query_info" "mem_limit" "searchd" "listen" "listen" "log" "query_log" "read_timeout" "client_timeout" "max_children" "pid_file" "max_matches" "seamless_rotate" "preopen_indexes" "unlink_old" "mva_updates_pool" "max_packet_size" "max_filters" "max_filter_values" "select" "from" "where" "set" "utf8" "session" "query_cache_type" "OFF" "left" "join" "as" "count" "max" "names" "replace" "into" "and" "or" "limit" "order" "by" "desc" "asc" "id")                     ;; 关键词
-  '(
-    ("\\(#.*\\)" 1 'font-lock-comment-face)
-    ("\\b[0-9]+\\b" . font-lock-constant-face)
-    ("[,\\.:{}=()<>]" . 'font-lock-type-face))     ;; ';' is a built-in 
-  '("sphinx\\.conf$")                      ;; files for which to activate this mode 
+;;  '("source" "index" "indexer" "searchd" "type" "sql_host" "sql_user" "sql_pass" "sql_db" "sql_port" "sql_query_pre" "sql_query"
+;;    "path" "docinfo" "mlock" "morphology" "min_word_len" "charset_type" "charset_table" "min_prefix_len" "ngram_len" "ngram_chars"
+;;    "html_strip" "sql_attr_uint" "sql_attr_timestamp" "sql_query_info" "mem_limit" "searchd" "listen" "listen" "log" "query_log" "read_timeout" "client_timeout" "max_children" "pid_file" "max_matches" "seamless_rotate" "preopen_indexes" "unlink_old" "mva_updates_pool" "max_packet_size" "max_filters" "max_filter_values" "select" "from" "where" "set" "utf8" "session" "query_cache_type" "OFF" "left" "join" "as" "count" "max" "names" "replace" "into" "and" "or" "limit" "order" "by" "desc" "asc" "id")                     ;; 关键词
+;;  '(
+;;    ("\\(#.*\\)" 1 'font-lock-comment-face)
+;;    ("\\b[0-9]+\\b" . font-lock-constant-face)
+;;    ("[,\\.:{}=()<>]" . 'font-lock-type-face))     ;; ';' is a built-in 
+;;  '("sphinx\\.conf$")                      ;; files for which to activate this mode 
   ;; (list (lambda () (setq comment-start "#")))  
-  nil
-  )
+;;  nil
+;;  )
 
 ;; (electric-indent-mode 1)
 ;; (setq auto-indent-on-visit-file t) ;; If you want auto-indent on for files
@@ -549,7 +607,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
      '("~/.emacs.d/snippets/"                 ;; personal snippets
      ;; "~/.emacs.d/elpa/yasnippet-20140314.255/snippets/"
        ))
-(yas/reload-all)
+;; (yas/reload-all)
 (yas/global-mode 1)
 
 
@@ -561,6 +619,9 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 (add-hook 'swift-mode-hook 'company-mode)
 (add-hook 'java-mode-hook 'company-mode)
+(add-hook 'ruby-mode-hook 'company-mode)
+(add-hook 'web-mode-hook 'company-mode)
+(add-hook 'html-mode-hook 'company-mode)
 
 (global-set-key (kbd "C-i") 'company-complete)
 (global-set-key (kbd "M-i") 'company-complete)
@@ -592,3 +653,29 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 (provide 'cmd)
 
 
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.rails\\'" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jinja\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(setq web-mode-code-indent-offset 2)
+
+
+(add-to-list 'auto-mode-alist '("\\.blade\\.php\\'" . web-mode))
+(setq web-mode-engines-alist
+      '(("php"    . "\\.phtml\\'")
+        ("blade"  . "\\.blade\\.")
+	("django"    . "\\.html\\'")
+	("jinja"    . "\\.jinja\\'")
+	("erb"    . "\\.erb\\'")
+	))
+
+
+(add-hook 'projectile-mode-hook 'projectile-rails-on)
+(require 'feature-mode)
+(setq feature-default-i18n-file "/srv/lin/i18n.yml")
+(setq feature-default-language "zh-CN")
+
+
+(add-to-list 'auto-mode-alist '("\\.pde\\'" . arduino-mode))
+;; (require 'ediprolog)

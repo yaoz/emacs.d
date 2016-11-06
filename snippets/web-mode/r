@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: r
+# key: r
+# binding: direct-keybinding
+# expand-env: ((some-var some-value))
+# type: command
+# --
+
+
+asdfasf

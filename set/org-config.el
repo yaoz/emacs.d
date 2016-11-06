@@ -73,6 +73,8 @@
 ;; (add-hook 'org-mode-hook 'nolinum)
 (add-hook 'org-mode-hook 'turn-off-auto-fill)
 
+(setq max-specpdl-size 10000)
+
 (require 'ox-html)
 (setq org-publish-project-alist
       '(

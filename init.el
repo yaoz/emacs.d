@@ -4,26 +4,37 @@
 ;; (let ((default-directory "~/.emacs.d/elpa/"))
 ;; 	(normal-top-level-add-subdirs-to-load-path))
 
-(let ((default-directory "~/.emacs.d/el-get/"))
-	(normal-top-level-add-subdirs-to-load-path))
 
 (let ((default-directory "~/.emacs.d/elpa/"))
 	(normal-top-level-add-subdirs-to-load-path))
 
-(add-to-list 'load-path "~/.emacs.d/el-get/tramp/lisp/")
-(add-to-list 'load-path "~/.emacs.d/el-get/session/lisp/")
-(add-to-list 'load-path "~/.emacs.d/el-get/org-mode/lisp/")
 
 
 (require 'package) ;; You might already have this line
- (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+
+
+
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+(package-initialize) ;; You might already have this line
+
+;; (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 ;; (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-;(require 'el-get-config)
 ;;(require 'auto-complete-config)
 ;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 ;;(ac-config-default)
+(require 'smex) 
+(smex-initialize)
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;; This is your old M-x.
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
-(require 'cloj-config)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20160327.520")
+(load-theme 'zenburn t)
+
+
+;;(require 'cloj-config)
 (require 'org-config)
 (require 'tabbar-config)
 ;(require 'smart-mode-line-config) ;
@@ -37,9 +48,6 @@
 (require 'mode-line-config)
 (require 'prj-config)
 (require 'fold-set)
-
-;(let ((default-directory "~/.emacs.d/el-get/"))
-;	(normal-top-level-add-subdirs-to-load-path))
 
 
 (global-set-key [backtab]
@@ -130,18 +138,19 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-;;设置字体 英文好看
-(defun frame-setting ()
-    (set-frame-font "Monaco-13")
-    (set-fontset-font (frame-parameter nil 'font)
-		      'gb18030 '("文泉驿等宽微米黑" . "unicode-bmp")))
+ ;;设置字体 英文好看
+ ;;设置字体 英文好看
+ (defun frame-setting ()
+     (set-frame-font "DejaVu Sans Mono-13")
+     (set-fontset-font (frame-parameter nil 'font)
+ 		      'gb18030 '("文泉驿等宽微米黑" . "unicode-bmp")))
  
-(if (and (fboundp 'daemonp) (daemonp))
-    (add-hook 'after-make-frame-functions
-	      (lambda (frame)
-		(with-selected-frame frame
-		  (frame-setting))))
-  (frame-setting))
+ (if (and (fboundp 'daemonp) (daemonp))
+     (add-hook 'after-make-frame-functions
+ 	      (lambda (frame)
+ 		(with-selected-frame frame
+ 		  (frame-setting))))
+   (frame-setting))
 
 ;(require 'powerline)
 
@@ -155,18 +164,14 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
       desktop-save                t
       desktop-files-not-to-save   "^$" ;reload tramp paths
       desktop-load-locked-desktop t)
-;(load "desktop") 
-;(desktop-load-default) 
-;(desktop-read)
     (desktop-save-mode 1)
 
 
-(global-set-key "%" 'match-paren)
+(global-set-key  (kbd "C-%") 'match-paren)
           
 
-(setq mail-aliases t)
+;; (setq mail-aliases t)
 
-(require 'cmd)
 
 ;(require 'smart-tab)
 ;(global-smart-tab-mode 1)
@@ -213,16 +218,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
 
-(require 'smex) 
-(smex-initialize)
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-
-(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20160103.1612")
-(load-theme 'zenburn t)
-
 ;(require 'session)
 ;(setq session-save-file "~/.session.emacs")
 ;(add-hook 'after-init-hook 'session-initialize)
@@ -235,6 +230,9 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(package-selected-packages
+   (quote
+    (zenburn-theme yasnippet yaml-mode web-mode tabbar smex scss-mode sass-mode projectile-rails php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck flx-ido feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -245,3 +243,4 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
+(require 'cmd)

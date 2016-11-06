@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: faker
+# key: faker
+# --
+from faker import Factory
+fake = Factory.create('zh_CN')
+print(fake.name())
