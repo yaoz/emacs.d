@@ -1,4 +1,4 @@
-(require 's)
+;; (require 's)
 (defun buffer-exists (bufname) (not (eq nil (get-buffer bufname))))
 
 (defun dos2unix ()
@@ -671,7 +671,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 	))
 
 
-(add-hook 'projectile-mode-hook 'projectile-rails-on)
+;;(add-hook 'projectile-mode-hook 'projectile-rails-on)
 (require 'feature-mode)
 (setq feature-default-i18n-file "/srv/lin/i18n.yml")
 (setq feature-default-language "zh-CN")
