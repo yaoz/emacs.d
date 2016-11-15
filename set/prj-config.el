@@ -1,10 +1,5 @@
-(add-to-list 'load-path "~/.emacs.d/el-get/dash/")
-(add-to-list 'load-path "~/.emacs.d/el-get/epl/")
-(add-to-list 'load-path "~/.emacs.d/el-get/projectile/")
-
-
 (require 'projectile)
-(setq projectile-known-projects-file "~/.projectile-bookmarks.eld.emacs")
+(setq projectile-known-projects-file "~/.emacs.d/.projectile-bookmarks.eld.emacs")
 ;; (setq projectile-cache-file "~/.projectile.cache.emacs")
 (setq projectile-use-native-indexing t)
 (setq projectile-enable-caching t)
@@ -13,6 +8,9 @@
 (projectile-global-mode)
 (setq projectile-completion-system 'ido)
 ;; (setq projectile-completion-system 'grizzl)
+
+(require 'helm-projectile)
+(helm-projectile-on)
 
 
 (provide 'prj-config)

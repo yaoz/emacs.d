@@ -13,75 +13,13 @@
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize) ;; You might already have this line
 
-;; (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
-;; (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
-;;(require 'auto-complete-config)
-;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-;;(ac-config-default)
-;; https://github.com/thierryvolpiatto/emacs-tv-config/blob/master/init-helm-thierry.el
-(helm-mode 1)
-(global-set-key (kbd "M-x")                          'undefined)
-(global-set-key (kbd "M-x")                          'helm-M-x)
-(global-set-key (kbd "M-y")                          'helm-show-kill-ring)
-(global-set-key (kbd "C-x C-f")                      'helm-find-files)
-(global-set-key (kbd "C-c <SPC>")                    'helm-all-mark-rings)
-(global-set-key (kbd "C-x r b")                      'helm-filtered-bookmarks)
-(global-set-key (kbd "C-h r")                        'helm-info-emacs)
-(global-set-key (kbd "C-:")                          'helm-eval-expression-with-eldoc)
-(global-set-key (kbd "C-,")                          'helm-calcul-expression)
-(global-set-key (kbd "C-h d")                        'helm-info-at-point)
-(global-set-key (kbd "C-h i")                        'helm-info)
-(global-set-key (kbd "C-x C-d")                      'helm-browse-project)
-(global-set-key (kbd "<f1>")                         'helm-resume)
-(global-set-key (kbd "C-h C-f")                      'helm-apropos)
-(global-set-key (kbd "C-h a")                        'helm-apropos)
-(global-set-key (kbd "<f5> s")                       'helm-find)
-(global-set-key (kbd "<f2>")                         'helm-execute-kmacro)
-(global-set-key (kbd "C-c i")                        'helm-imenu-in-all-buffers)
-;;(global-set-key (kbd "<f11> o")                      'helm-org-agenda-files-headings)
-(global-set-key (kbd "C-s")                          'helm-occur)
-(define-key global-map [remap jump-to-register]      'helm-register)
-(define-key global-map [remap list-buffers]          'helm-mini)
-(define-key global-map [remap dabbrev-expand]        'helm-dabbrev)
-(define-key global-map [remap find-tag]              'helm-etags-select)
-(define-key global-map [remap xref-find-definitions] 'helm-etags-select)
-(define-key global-map (kbd "M-g a")                 'helm-do-grep-ag)
-(define-key global-map (kbd "M-g g")                 'helm-grep-do-git-grep)
-(define-key global-map (kbd "M-g i")                 'helm-gid)
-(define-key global-map (kbd "C-x r p") 'helm-projects-history)
-
-;; (require 'helm-config) ;;无用
-
-(setq  helm-apropos-fuzzy-match                        t
-      helm-M-x-fuzzy-match                            t
-      helm-lisp-fuzzy-completion                      t
-      helm-completion-in-region-fuzzy-match           t
-helm-buffers-fuzzy-matching t)
-
-;; 补全smex m-x flx-ido c-x c-f
-
-;; (require 'flx-ido)
-;; (ido-mode 1)
-;; (ido-everywhere 1)
-;; (flx-ido-mode 1)
-;; ; disable ido faces to see flx highlights.
-;; (setq ido-use-faces nil)
-
-;; (require 'smex) 
-;; (smex-initialize)
-;; (global-set-key (kbd "M-x") 'smex)
-;; (global-set-key (kbd "M-X") 'smex-major-mode-commands)
-
-;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-
-;;(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/zenburn-theme-20160327.520")
 (load-theme 'zenburn t)
 
 
 ;;(require 'cloj-config)
 (require 'org-config)
+(require 'helm-config)
 (require 'tabbar-config)
 ;(require 'smart-mode-line-config) ;
 ;(require 'mysql-config)
@@ -161,14 +99,14 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (setq kept-new-versions 5)
 (setq delete-old-versions t)
 
-(defvar backup-dir (expand-file-name "/home/.emacs.d/backups/"))
-(defvar autosave-dir (expand-file-name "/home/.emacs.d/autosave/"))
+(defvar backup-dir (expand-file-name "~/.emacs.d/backups/"))
+(defvar autosave-dir (expand-file-name "~/.emacs.d/autosave/"))
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
 (setq auto-save-list-file-prefix autosave-dir)
 (setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
 
 ;; (add-to-list 'backup-directory-alist
-;;              (cons "/home/.emacs.d/backups/"))
+;;              (cons "~/.emacs.d/backups/"))
 ;; (setq tramp-backup-directory-alist backup-directory-alist)
 
 
@@ -177,19 +115,18 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
- ;;设置字体 英文好看
- ;;设置字体 英文好看
- (defun frame-setting ()
-     (set-frame-font "DejaVu Sans Mono-13")
-     (set-fontset-font (frame-parameter nil 'font)
- 		      'gb18030 '("文泉驿等宽微米黑" . "unicode-bmp")))
+;;设置字体 英文好看
+(defun frame-setting ()
+  (set-frame-font "DejaVu Sans Mono-13")
+  (set-fontset-font (frame-parameter nil 'font)
+		    'gb18030 '("文泉驿等宽微米黑" . "unicode-bmp")))
  
- (if (and (fboundp 'daemonp) (daemonp))
-     (add-hook 'after-make-frame-functions
+(if (and (fboundp 'daemonp) (daemonp))
+    (add-hook 'after-make-frame-functions
  	      (lambda (frame)
  		(with-selected-frame frame
  		  (frame-setting))))
-   (frame-setting))
+  (frame-setting))
 
 ;(require 'powerline)
 
@@ -271,7 +208,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
  '(package-selected-packages
    (quote
-    (helm markdown-mode zenburn-theme yasnippet yaml-mode web-mode tabbar scss-mode sass-mode php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
+    (w3m helm-dash helm-projectile helm markdown-mode zenburn-theme yasnippet yaml-mode web-mode tabbar scss-mode sass-mode php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

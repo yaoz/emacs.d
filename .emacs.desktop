@@ -2,99 +2,39 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Nov 14 19:44:47 2016
+;; Created Tue Nov 15 12:51:22 2016
 ;; Desktop file format version 208
-;; Emacs version 25.1.1
+;; Emacs version 25.1.3
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22569 41903 297305 627000) (desktop . "208") "yao@linux-gj4f" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "DejaVu Sans Mono-13") (border-width . 0) (internal-border-width . 1) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "#31363b") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground . "#31363b") (scroll-bar-background . "#31363b") (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 33) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (client . "Unprintable entity") (environment "_=/usr/local/bin/emacsclient" "JAVA_ROOT=/usr/lib64/jvm/jre" "COLORTERM=1" "XAUTHORITY=/root/.xauthh1gtU2" "G_BROKEN_FILENAMES=1" "QT_IM_SWITCHER=imsw-multi" "VDPAU_DRIVER=va_gl" "LESSCLOSE=lessclose.sh %s %s" "XDG_CURRENT_DESKTOP=KDE" "GTK_IM_MODULE=fcitx" "XAUTHLOCALHOSTNAME=linux-gj4f" "PROFILEHOME=" "DISPLAY=:0" "XDG_RUNTIME_DIR=/run/user/0" "PKG_CONFIG_PATH=:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig" "LESSOPEN=lessopen.sh %s" "GOPATH=/home/yao/mygo" "MAN_KEEP_FORMATTING=yes" "XDG_DATA_DIRS=/usr/local/share:/usr/share" "CLASSPATH=.:/usr/lib/jvm/default-java/lib" "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Eed6b0Hvot,guid=edee0fb1700c4ff3570c64195828fd84" "CVS_RSH=ssh" "XDG_SESSION_DESKTOP=KDE" "MACHTYPE=x86_64-suse-linux" "G_FILENAME_ENCODING=@locale,UTF-8,GB2312,GB18030,GBK,ISO-8859-1" "LOGNAME=yao" "LESS=-M -I -R" "WINDOWMANAGER=/usr/bin/startkde" "XCURSOR_THEME=breeze_cursors" "LS_OPTIONS=-A -N --color=tty -T 0" "ALSA_CONFIG_PATH=/etc/alsa-pulse.conf" "LESS_ADVANCED_PREPROCESSOR=no" "KDE_SESSION_VERSION=5" "OSTYPE=linux" "SDL_AUDIODRIVER=pulse" "LANGUAGE=" "COLORFGBG=15;0" "SHLVL=3" "QT_SYSTEM_DIR=/usr/share/desktop-data" "XDG_SEAT=seat0" "HOME=/root" "GPG_TTY=/dev/pts/0" "AUDIODRIVER=pulseaudio" "SSH_ASKPASS=/usr/lib/ssh/ksshaskpass" "KONSOLE_DBUS_SESSION=/Sessions/1" "PYTHONSTARTUP=/etc/pythonstart" "KDE_SESSION_UID=1000" "LANG=zh_CN.UTF-8" "JAVA_HOME=/usr/lib/jvm/default-java" "XMODIFIERS=@im=fcitx" "XDG_SESSION_TYPE=x11" "PWD=/root" "INPUTRC=/home/yao/.inputrc" "JAVA_BINDIR=/usr/lib64/jvm/jre/bin" "LEIN_ROOT=true" "QT_IM_MODULE=fcitx" "CPU=x86_64" "DESKTOP_SESSION=/usr/share/xsessions/plasma5" "PATH=/home/yao/bin:/usr/local/bin:/usr/bin:/sbin:/usr/sbin:/bin:/usr/bin/X11:/usr/games" "MAIL=/var/spool/mail/yao" "MINICOM=-c on" "XDG_CONFIG_DIRS=/etc/xdg" "CSHEDIT=emacs" "PAGER=less" "SESSION_MANAGER=local/linux-gj4f:@/tmp/.ICE-unix/1442,unix/linux-gj4f:/tmp/.ICE-unix/1442" "CONFIG_SITE=/usr/share/site/x86_64-unknown-linux-gnu" "FROM_HEADER=" "HOSTTYPE=x86_64" "SSH_AUTH_SOCK=/tmp/ssh-AfdIHNjMdNKt/agent.1298" "QEMU_AUDIO_DRV=pa" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "XNLSPATH=/usr/share/X11/nls" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "LS_COLORS=no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:" "USER=yao" "JRE_HOME=/usr/lib64/jvm/jre" "KDE_FULL_SESSION=true" "XDG_SESSION_CLASS=user" "GTK_MODULES=canberra-gtk-module" "SHELL_SESSION_ID=c20007524bf14000bb8fac75b1522278" "XSESSION_IS_UP=yes" "INPUT_METHOD=fcitx" "OLDPWD=/root/.emacs.d/elpa" "MORE=-sl" "WINDOWID=50331653" "GTK_RC_FILES=/etc/gtk/gtkrc:/home/yao/.gtkrc:/home/yao/.config/gtkrc" "GS_LIB=/home/yao/.fonts" "KONSOLE_PROFILE_NAME=\351\205\215\347\275\256\346\226\271\346\241\210 2" "KONSOLE_DBUS_SERVICE=:1.22" "GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/yao/.gtkrc-2.0:/home/yao/.config/gtkrc-2.0" "PROFILEREAD=true" "HISTSIZE=1000" "SHELL=/bin/bash" "HOST=linux-gj4f" "TERM=xterm" "GPG_AGENT_INFO=/tmp/gpg-UZmIIq/S.gpg-agent:1352:1" "XKEYSYMDB=/usr/X11R6/lib/X11/XKeysymDB" "HOSTNAME=linux-gj4f" "SSH_AGENT_PID=1351" "XDG_SESSION_ID=1" "KDE_MULTIHEAD=false" "NNTPSERVER=news" "MANPATH=/usr/local/man:/usr/local/share/man:/usr/share/man" "XDG_VTNR=7" "LESSKEY=/etc/lesskey.bin") (display-type . color) (background-mode . dark) (cursor-color . "#31363b") (frameset--id . "616B-BBA0-A721-472C") (frameset--mini t . t) (width . 134) (modeline . t) (minibuffer . t) (unsplittable) (left . 2) (top . 0) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 100) (min-pixel-height-ignore . 80) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 20) (min-pixel-width-safe . 20)) leaf (pixel-width . 1356) (pixel-height . 580) (total-width . 135) (total-height . 29) (normal-height . 1.0) (normal-width . 1.0) (buffer ".projectile<.emacs.d>" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 62) (start . 1))) (((foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (display-type . mono) (background-mode . dark) (cursor-color . "#FFFFEF") (tool-bar-lines . 1) (vertical-scroll-bars) (font . "tty") (height . 9) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "3486-2978-14FA-1D86") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "read.py" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 367) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (22570 37962 895731 51000) (desktop . "208") "yao@linux-gj4f" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "DejaVu Sans Mono-13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "#31363b") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground . "#31363b") (scroll-bar-background . "#31363b") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (client . "Unprintable entity") (environment "_=/usr/local/bin/emacsclient" "XAUTHORITY=/tmp/xauth-1000-_0" "COLORTERM=1" "JAVA_ROOT=/usr/lib64/jvm/jre" "QT_IM_SWITCHER=imsw-multi" "G_BROKEN_FILENAMES=1" "VDPAU_DRIVER=va_gl" "LESSCLOSE=lessclose.sh %s %s" "XDG_CURRENT_DESKTOP=KDE" "XAUTHLOCALHOSTNAME=linux-gj4f" "GTK_IM_MODULE=fcitx" "XDG_RUNTIME_DIR=/run/user/1000" "PROFILEHOME=" "DISPLAY=:0" "GOPATH=/home/yao/mygo" "LESSOPEN=lessopen.sh %s" "MAN_KEEP_FORMATTING=yes" "CLASSPATH=.:/usr/lib/jvm/default-java/lib" "XDG_DATA_DIRS=/usr/local/share:/usr/share" "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-lnN1czkrDi,guid=8ebd8e242dc76328339efb3a582a4ec4" "CVS_RSH=ssh" "XDG_SESSION_DESKTOP=KDE" "LESS=-M -I -R" "LOGNAME=yao" "MACHTYPE=x86_64-suse-linux" "G_FILENAME_ENCODING=@locale,UTF-8,GB2312,GB18030,GBK,ISO-8859-1" "WINDOWMANAGER=/usr/bin/startkde" "LS_OPTIONS=-N --color=tty -T 0" "XCURSOR_THEME=breeze_cursors" "SDL_AUDIODRIVER=pulse" "KDE_SESSION_VERSION=5" "OSTYPE=linux" "ALSA_CONFIG_PATH=/etc/alsa-pulse.conf" "LESS_ADVANCED_PREPROCESSOR=no" "LANGUAGE=" "QT_SYSTEM_DIR=/usr/share/desktop-data" "SHLVL=2" "HOME=/home/yao" "COLORFGBG=15;0" "XDG_SEAT=seat0" "AUDIODRIVER=pulseaudio" "GPG_TTY=/dev/pts/2" "SSH_ASKPASS=/usr/lib/ssh/ksshaskpass" "KONSOLE_DBUS_SESSION=/Sessions/3" "PYTHONSTARTUP=/etc/pythonstart" "KDE_SESSION_UID=1000" "LANG=zh_CN.UTF-8" "JAVA_HOME=/usr/lib/jvm/default-java" "XMODIFIERS=@im=fcitx" "XDG_SESSION_TYPE=x11" "PWD=/home" "INPUTRC=/home/yao/.inputrc" "QT_IM_MODULE=fcitx" "JAVA_BINDIR=/usr/lib64/jvm/jre/bin" "LEIN_ROOT=true" "CPU=x86_64" "DESKTOP_SESSION=/usr/share/xsessions/plasma5" "MAIL=/var/spool/mail/yao" "PATH=/home/yao/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games" "MINICOM=-c on" "XDG_CONFIG_DIRS=/etc/xdg" "CSHEDIT=emacs" "PAGER=less" "CONFIG_SITE=/usr/share/site/x86_64-unknown-linux-gnu" "SESSION_MANAGER=local/linux-gj4f:@/tmp/.ICE-unix/1413,unix/linux-gj4f:/tmp/.ICE-unix/1413" "FROM_HEADER=" "QEMU_AUDIO_DRV=pa" "HOSTTYPE=x86_64" "SSH_AUTH_SOCK=/tmp/ssh-2yPdf7yAZ6PM/agent.1305" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "XNLSPATH=/usr/share/X11/nls" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "LS_COLORS=no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:" "USER=yao" "JRE_HOME=/usr/lib64/jvm/jre" "XDG_SESSION_CLASS=user" "KDE_FULL_SESSION=true" "GTK_MODULES=canberra-gtk-module" "SHELL_SESSION_ID=06e95af8f81040009894543f1d65f064" "XSESSION_IS_UP=yes" "INPUT_METHOD=fcitx" "OLDPWD=/home/yao" "WINDOWID=50331653" "MORE=-sl" "GS_LIB=/home/yao/.fonts" "GTK_RC_FILES=/etc/gtk/gtkrc:/home/yao/.gtkrc:/home/yao/.config/gtkrc" "KONSOLE_PROFILE_NAME=\351\205\215\347\275\256\346\226\271\346\241\210 2" "KONSOLE_DBUS_SERVICE=:1.22" "GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/yao/.gtkrc-2.0:/home/yao/.config/gtkrc-2.0" "PROFILEREAD=true" "HISTSIZE=1000" "HOST=linux-gj4f" "TERM=xterm" "SHELL=/bin/bash" "GPG_AGENT_INFO=/tmp/gpg-n6ndg4/S.gpg-agent:1359:1" "XKEYSYMDB=/usr/X11R6/lib/X11/XKeysymDB" "HOSTNAME=linux-gj4f" "KDE_MULTIHEAD=false" "SSH_AGENT_PID=1358" "XDG_SESSION_ID=1" "NNTPSERVER=news" "MANPATH=/usr/local/man:/usr/local/share/man:/usr/share/man" "XDG_VTNR=7" "LESSKEY=/etc/lesskey.bin") (display-type . color) (background-mode . dark) (cursor-color . "#31363b") (sticky) (frameset--id . "557D-39B5-2375-E52E") (frameset--mini t . t) (height . 34) (width . 135) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 100) (min-pixel-height-ignore . 80) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 20) (min-pixel-width-safe . 20)) leaf (pixel-width . 1366) (pixel-height . 580) (total-width . 136) (total-height . 29) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (((foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (display-type . mono) (background-mode . dark) (cursor-color . "#FFFFEF") (tool-bar-lines . 1) (vertical-scroll-bars) (font . "tty") (height . 9) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "F436-2BC4-35BA-6368") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs.d" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 819) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("ido" "smex" "helm" "emacs" "occur" "inf" "jedi" "epc" "matplot" "plt" "show" "markdowni" "py_bindings/py_table_of_contents_bindings" "‘Õý‘Ôò" "wget" "markdown"))
 (setq regexp-search-ring '("hlem"))
-(setq register-alist '((48 . "\n;; (let ((default-directory \"~/.emacs.d/elpa/\"))\n;; 	(normal-top-level-add-subdirs-to-load-path))\n")))
-(setq file-name-history '("/doc/.projectile" "/doc/tip.org" "/doc/tip.old" "~/.emacs.d/init.el" "~/.emacs.d/.projectile" "~/.emacs.d/my/cmd.el" "~/.emacs.d/tramp" "" "/root/.emacs.d/init.el" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_core/py_optimization/py_optimization.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_core/py_image_arithmetics/py_image_arithmetics.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_gui/py_image_display/py_image_display.markdown" "/home/yao/cv/read.py" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_core/py_basic_ops/py_basic_ops.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_bindings/py_bindings_basics/py_bindings_basics.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_tutorials.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/mkdocs.yml" "/home/yao/cv/CMakeLists.txt" "/home/yao/cv/a.cpp" "/home/yao/.pip/pip.conf" "/doc/py.org" "/home/yao/.bashrc" "/doc/lisp.org" "/home/yao/.emacs.d/.git/config" "/doc/.git/config" "/doc/lisp.org" "/home/yao/.emacs.d/.gitignore" "/home/yao/.ssh/id_rsa.pub" "/home/yao/‘ÏÂ‘ÔØ/.emacs.d/init.el" "/home/yao/.emacs.d/init.el" "/root/.emacs.d/ido.last" "/root/.emacs.d/session.275dd7706-23f9-4603-a2d4-75360d0acdb2" "/doc/py.org" "/srv/mh/mh/urls.py" "/srv/mh/mh/settings.py" "/srv/command/cmd.py" "/srv/mh/bangdans/models.py" "/srv/mh/bangdans/admin.py" "/srv/mh/z.py" "/srv/mh/bangdans/views.py" "/srv/mh/bangdans/urls.py" "/srv/bang.py/my/model.py" "/srv/mh/bangdans/templates/detail.html" "/srv/mh/bangdans/templates/index.html" "/etc/hosts" "/root/.emacs.d/set/tabbar-config.el" "/srv/bang.py/z.py" "/root/z.rst" "/srv/z1/config/routes.rb"))
+(setq register-alist '((48 . "\n(require 'w3m-load)\n(require 'mime-w3m)\n(autoload 'w3m \"w3m\" \"interface for w3m on emacs\" t) \n\n;; ‘Éè‘ÖÃw3m‘Ö÷‘Ò³\n(setq w3m-home-page \"http://www.google.com\")\n\n;; ‘Ä¬‘ÈÏ‘ÏÔ‘Ê¾‘Í¼‘Æ¬\n(setq w3m-default-display-inline-images t)\n(setq w3m-default-toggle-inline-images t)\n\n;; ‘Ê¹‘ÓÃcookies\n(setq w3m-use-cookies t)\n\n;;‘Éè‘¶¨w3m‘ÔË‘ÐÐ‘µÄ‘²Î‘Êý‘£¬‘·Ö‘±ð‘Îª‘Ê¹‘ÓÃcookie‘ºÍ‘Ê¹‘ÓÃ‘¿ò‘¼Ü  \n(setq w3m-command-arguments '(\"-cookie\" \"-F\"))               \n\n;; ‘Ê¹‘ÓÃw3m‘×÷‘Îª‘Ä¬‘ÈÏ‘ä¯‘ÀÀ‘Æ÷\n(setq browse-url-browser-function 'w3m-browse-url)                \n(setq w3m-view-this-url-new-session-in-background t)\n\n\n;;‘ÏÔ‘Ê¾‘Í¼‘±ê                                                      \n(setq w3m-show-graphic-icons-in-header-line t)                  \n(setq w3m-show-graphic-icons-in-mode-line t) \n\n;;C-c C-p ‘´ò‘¿ª‘£¬‘Õâ‘¸ö‘ºÃ‘ÓÃ                                        \n(setq w3m-view-this-url-new-session-in-background t)  \n\n          \n(add-hook 'w3m-fontify-after-hook 'remove-w3m-output-garbages)                                    \n(defun remove-w3m-output-garbages ()                            \n\"‘È¥‘µôw3m‘Êä‘³ö‘µÄ‘À¬‘»ø.\"                                            \n(interactive)                                                   \n(let ((buffer-read-only))                                       \n(setf (point) (point-min))                                      \n(while (re-search-forward \"[\\200-\\240]\" nil t)                  \n(replace-match \" \"))                                            \n(set-buffer-multibyte t))                                       \n(set-buffer-modified-p nil))\n")))
+(setq file-name-history '("~/.emacs.d/my/cmd.el" "/doc/lisp.org" "~/.ssh/id_rsa.pub" "/doc/.git/config" "~/.emacs.d/.git/config" "/doc/.projectile" "/doc/tip.org" "/doc/tip.old" "~/.emacs.d/init.el" "~/.emacs.d/.projectile" "~/.emacs.d/tramp" "" "/root/.emacs.d/init.el" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_core/py_optimization/py_optimization.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_core/py_image_arithmetics/py_image_arithmetics.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_gui/py_image_display/py_image_display.markdown" "/home/yao/cv/read.py" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_core/py_basic_ops/py_basic_ops.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_bindings/py_bindings_basics/py_bindings_basics.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/docs/py_tutorials.markdown" "/home/yao/dl/opencv-3.1.0/doc/py_tutorials/mkdocs.yml" "/home/yao/cv/CMakeLists.txt" "/home/yao/cv/a.cpp" "/home/yao/.pip/pip.conf" "/doc/py.org" "/home/yao/.bashrc" "/home/yao/.emacs.d/.git/config" "/home/yao/.emacs.d/.gitignore" "/home/yao/.ssh/id_rsa.pub" "/home/yao/‘ÏÂ‘ÔØ/.emacs.d/init.el" "/home/yao/.emacs.d/init.el" "/root/.emacs.d/ido.last" "/root/.emacs.d/session.275dd7706-23f9-4603-a2d4-75360d0acdb2" "/doc/py.org" "/srv/mh/mh/urls.py" "/srv/mh/mh/settings.py" "/srv/command/cmd.py" "/srv/mh/bangdans/models.py" "/srv/mh/bangdans/admin.py" "/srv/mh/z.py" "/srv/mh/bangdans/views.py" "/srv/mh/bangdans/urls.py" "/srv/bang.py/my/model.py" "/srv/mh/bangdans/templates/detail.html" "/srv/mh/bangdans/templates/index.html" "/etc/hosts" "/root/.emacs.d/set/tabbar-config.el" "/srv/bang.py/z.py" "/root/z.rst" "/srv/z1/config/routes.rb"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/root/.emacs.d/.projectile"
-  ".projectile"
-  'text-mode
-  '(auto-fill-mode helm-mode projectile-mode auto-revert-mode yas-minor-mode flycheck-mode)
-  62
-  '(62 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (55))))
-
-(desktop-create-buffer 208
-  "/root/.emacs.d/init.el"
+  "/home/yao/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
   '(helm-mode projectile-mode auto-revert-mode hs-minor-mode yas-minor-mode flycheck-mode)
-  4071
-  '(2924 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (2924 1732 8047 760 868 869 1))))
-
-(desktop-create-buffer 208
-  "/doc/.projectile"
-  ".projectile"
-  'text-mode
-  '(auto-fill-mode helm-mode projectile-mode auto-revert-mode yas-minor-mode flycheck-mode)
-  25
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/yao/doc/.bashrc"
-  ".bashrc"
-  'sh-mode
-  '(helm-mode projectile-mode auto-revert-mode hs-minor-mode yas-minor-mode flycheck-mode)
   1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/doc/tip.org"
-  "tip.org"
-  'org-mode
-  '(helm-mode projectile-mode auto-revert-mode yas-minor-mode flycheck-mode)
-  1
-  '(nil nil)
+  '(6151 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
+  '((mark-ring (6151 1 2975 2975))))
 
 (desktop-create-buffer 208
-  "/doc/tip.old"
-  "tip.old"
-  'text-mode
-  '(auto-fill-mode helm-mode projectile-mode auto-revert-mode yas-minor-mode flycheck-mode)
-  46
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/root/.emacs.d/set/prj-config.el"
-  "prj-config.el"
+  "/home/yao/.emacs.d/set/fold-set.el"
+  "fold-set.el"
   'emacs-lisp-mode
   '(helm-mode projectile-mode auto-revert-mode hs-minor-mode yas-minor-mode flycheck-mode)
-  317
+  29
   '(nil nil)
   nil
   nil
@@ -102,23 +42,95 @@
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
+  "/home/yao/.emacs.d/set/el-get-config.el"
+  "el-get-config.el"
+  'emacs-lisp-mode
+  '(helm-mode projectile-mode auto-revert-mode hs-minor-mode yas-minor-mode flycheck-mode)
+  520
+  '(520 nil)
   nil
-  "set"
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (520))))
+
+(desktop-create-buffer 208
+  "/home/yao/.emacs.d/my/cmd.el"
+  "cmd.el"
+  'emacs-lisp-mode
+  '(helm-mode projectile-mode auto-revert-mode hs-minor-mode yas-minor-mode flycheck-mode)
+  8898
+  '(22067 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (22119 22119 22073 22067 22119 22066 22121 21980 22119 22118 22119 22118 9290 9144 9117 9107))))
+
+(desktop-create-buffer 208
+  "/doc/lisp.org"
+  "lisp.org"
+  'org-mode
+  '(helm-mode projectile-mode auto-revert-mode yas-minor-mode flycheck-mode)
+  43787
+  '(1572 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1572 2797 2746 43788 2137 13115 2551 2551 24063 2716 24148 24162 24163 24148 24162 1))))
+
+(desktop-create-buffer 208
+  "/doc/tip.org"
+  "tip.org"
+  'org-mode
+  '(helm-mode projectile-mode auto-revert-mode yas-minor-mode flycheck-mode)
+  194419
+  '(176184 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (176143 5289 5289 27265 176143))))
+
+(desktop-create-buffer 208
+  nil
+  "*eww*"
+  'eww-mode
+  '(helm-mode projectile-mode yas-minor-mode)
+  31157
+  '(1 nil)
+  t
+  '(:history ((:point 1 :title "Feature Detection" :url "file:////home/yao/.docsets/OpenCV%20Python.docset/Contents/Resources/Documents/docs.opencv.org/3.0-last-rst/modules/imgproc/doc/feature_detection.html#//apple_ref/Function/cv2%2ECanny") (:title "‘Íø‘Ò×" :url "http://www.163.com/" :point 1916) (:title "‘ÌÔ‘±¦‘Íø - ‘ÌÔ‘£¡‘ÎÒ‘Ï²‘»¶" :url "https://www.taobao.com/" :point 1693) (:title "" :url "http://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1462357247335_R&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&word=%E9%AB%98%E6%B8%85%E5%8A%A8%E6%BC%AB" :point 1) (:title "‘°Ù‘¶È‘Í¼‘Æ¬-‘·¢‘ÏÖ‘¶à‘²Ê‘ÊÀ‘½ç" :url "http://image.baidu.com/" :point 89) (:title "‘°Ù‘¶È‘Ò»‘ÏÂ‘£¬‘Äã‘¾Í‘Öª‘µÀ" :url "http://www.baidu.com/baidu.html?from=noscript" :point 36) (:title "‘°Ù‘¶È‘Ò»‘ÏÂ‘£¬‘Äã‘¾Í‘Öª‘µÀ" :url "http://www.baidu.com/" :point 1) (:url "http://www.baidu.com/" :title "" :point 1)))
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t) (eww-history-position . 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  ".emacs.d"
   'dired-mode
   '(helm-mode projectile-mode yas-minor-mode)
-  1031
-  '(170 nil)
+  819
+  '(171 nil)
   t
-  '("/root/.emacs.d/set/")
+  '("/home/yao/.emacs.d/")
   '((truncate-lines . t))
-  '((mark-ring (170))))
+  '((mark-ring (171))))
+
+(desktop-create-buffer 208
+  "/doc/.git/config"
+  "config"
+  'conf-unix-mode
+  '(helm-mode projectile-mode yas-minor-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/home/yao/cv/read.py"
   "read.py"
   'python-mode
   '(helm-mode projectile-mode yas-minor-mode flycheck-mode auto-complete-mode)
-  1
+  188
   '(nil nil)
   nil
   nil
@@ -126,26 +138,14 @@
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/root/.emacs.d/my/cmd.el"
-  "cmd.el"
+  "/home/yao/.emacs.d/set/misc-config.el"
+  "misc-config.el"
   'emacs-lisp-mode
   '(helm-mode projectile-mode auto-revert-mode hs-minor-mode yas-minor-mode flycheck-mode)
-  4518
+  353
   '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/root/.emacs.d/tramp"
-  "tramp"
-  'emacs-lisp-mode
-  '(helm-mode projectile-mode hs-minor-mode yas-minor-mode flycheck-mode)
-  177
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
