@@ -680,7 +680,8 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 (add-to-list 'auto-mode-alist '("\\.pde\\'" . arduino-mode))
 ;; (require 'ediprolog)
 
-(setq browse-url-browser-function 'eww-browse-url)
-
-
+;; (setq browse-url-browser-function 'eww-browse-url)
+(setq helm-dash-browser-func 'eww)
+;; Windmove windows move
+(windmove-default-keybindings 'meta)
 
