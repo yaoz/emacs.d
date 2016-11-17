@@ -199,7 +199,8 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 ;(add-hook 'after-init-hook 'session-initialize)
 
 (require 'magit)
-(setq magit-last-seen-setup-instructions "1.4.0")
+;(setq magit-last-seen-setup-instructions "1.4.0")
+(setq magit-auto-revert-mode nil)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
