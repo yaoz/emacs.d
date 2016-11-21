@@ -2,6 +2,7 @@
 /url/
 .session
 .emacs.desktop
+.projectile-bookmarks.eld.emacs
 ido.last
 lock
 projectile.cache
