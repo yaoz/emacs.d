@@ -114,4 +114,37 @@
 (setq org-confirm-shell-link-function nil)
 (setq org-confirm-elisp-link-function nil)
 
+
+
+(require 'iimage)
+(add-to-list 'iimage-mode-image-regex-alist
+             (cons (concat "\\[\\[file:\\(~?" iimage-mode-image-filename-regex
+                           "\\)\\]")  1))
+
+(defun orgimage ()
+  "display images in your org file"
+  (interactive)
+  (if (face-underline-p 'org-link)
+      (set-face-underline-p 'org-link nil)
+      (set-face-underline-p 'org-link t))
+  (iimage-mode 'toggle))
+;; (add-hook 'org-mode-hook 'iimage-mode)
+;; (org-toggle-iimage-in-org)
+(add-hook 'org-babel-after-execute-hook 'orgimage 'append)
+
+
+(require 'ob-ipython)
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((ipython . t)
+   (python . t)
+   ;; other languages..
+   ))
+(setq python-shell-interpreter "ipython" )
+(setq python-shell-prompt-detect-failure-warning nil)
+(setq python-shell-completion-native-enable nil)
+(setq org-confirm-babel-evaluate nil) 	;执行前不需要询问
+;;; display/update images in the buffer after I evaluate
+;; (add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
+
 (provide 'org-config)

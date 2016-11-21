@@ -15,7 +15,10 @@
 
 
 (load-theme 'zenburn t)
+;; (setq python-indent-offset 4)
 
+;; 改变Emacs要你回答yes的行为,按y或空格键表示yes，n表示no。
+;; (fset 'yes-or-no-p 'y-or-n-p)
 
 ;;(require 'cloj-config)
 (require 'org-config)
@@ -209,7 +212,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
  '(package-selected-packages
    (quote
-    (w3m helm-dash helm-projectile helm markdown-mode zenburn-theme yasnippet yaml-mode web-mode tabbar scss-mode sass-mode php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
+    (ob-ipython w3m helm-dash helm-projectile helm markdown-mode zenburn-theme yasnippet yaml-mode web-mode tabbar scss-mode sass-mode php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

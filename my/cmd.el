@@ -1,4 +1,6 @@
-;; (require 's)
+(require 's)
+(require 'f)
+(require 'dash)
 (defun buffer-exists (bufname) (not (eq nil (get-buffer bufname))))
 
 (defun dos2unix ()
@@ -116,7 +118,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 (defun git ()
   (interactive)
-  (magit-checkout "dev")
+  ;; (magit-checkout "dev")
   (magit-status )
   )
 
