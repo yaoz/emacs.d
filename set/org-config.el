@@ -130,8 +130,8 @@
   (iimage-mode 'toggle))
 ;; (add-hook 'org-mode-hook 'iimage-mode)
 ;; (org-toggle-iimage-in-org)
-(add-hook 'org-babel-after-execute-hook 'orgimage 'append)
-
+;; (add-hook 'org-babel-after-execute-hook 'orgimage 'append)
+;; (add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
 
 (require 'ob-ipython)
 (org-babel-do-load-languages

@@ -1,1 +1,0 @@
-("~/doc/" "~/.emacs.d/" "~/下载/opencv-3.1.0/" "~/下载/z/DisplayImage/" "/home/yao/.emacs.d/" "/home/yao/doc/")
