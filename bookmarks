@@ -23,7 +23,7 @@
 #1=(#("欲患" 0 2
       (bmkp-full-record #1#))
     (end-position . 54535)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "!云何是欲患?曰：于此，善男子，")
     (rear-context-string . "而生喜乐，是欲味也。\n　　诸比丘")
@@ -35,7 +35,7 @@
     (position . 54535))
 #1=(#("四食,子肉" 0 5
       (bmkp-full-record #1#))
-    (filename . "/home/fo/xyb/xyb.org")
+    (filename . "~/xyb/xyb.org")
     (buffer-name . "xyb.org")
     (front-context-string . "子肉\n\n一\n\n[尔时，世尊]住舍")
     (rear-context-string . "生。” \n\n* [六三] 第三 ")
@@ -48,7 +48,7 @@
 #1=(#("出入息" 0 3
       (bmkp-full-record #1#))
     (end-position . 606123)
-    (filename . "/home/fo/xyb/xyb.org")
+    (filename . "~/xyb/xyb.org")
     (buffer-name . "xyb.org")
     (front-context-string . "于此有比丘，往阿兰若、往树下、往")
     (rear-context-string . "果、大功德耶?\n\n四\n\n诸比丘!")
@@ -60,7 +60,7 @@
     (position . 606123))
 #1=(#("现生法,诸法现前即不放逸住" 0 13
       (bmkp-full-record #1#))
-    (filename . "/home/fo/xyb/xyb.org")
+    (filename . "~/xyb/xyb.org")
     (buffer-name . "xyb.org")
     (front-context-string . "不摄护眼而所住者，其心为眼所识之")
     (rear-context-string . "为放逸住者耶?\n\n四\n\n诸比丘!")
@@ -73,7 +73,7 @@
 #1=(#("现生之法" 0 4
       (bmkp-full-record #1#))
     (end-position . 321714)
-    (filename . "/home/fo/xyb/xyb.org")
+    (filename . "~/xyb/xyb.org")
     (buffer-name . "xyb.org")
     (front-context-string . "此处有比丘以眼见色，感知色，且对")
     (rear-context-string . "知法耶?”\n\n四\n\n“优波婆那!")
@@ -86,7 +86,7 @@
 #1=(#("六处,牛皮" 0 5
       (bmkp-full-record #1#))
     (end-position . 592929)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "如是，此牛与皮结合。”诸姊!而彼")
     (rear-context-string . "之皮聚，以其皮覆其牛，如是言：“")
@@ -99,7 +99,7 @@
 #1=(#("修行如地风水火" 0 7
       (bmkp-full-record #1#))
     (end-position . 264678)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "以其净物、不净物等而恼之、或耻之")
     (rear-context-string . "、亦投弃脓水、亦投弃血液;然地不")
@@ -112,7 +112,7 @@
 #1=(#("法念处" 0 3
       (bmkp-full-record #1#))
     (end-position . 35383)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "　　诸比丘!比丘如何于法随观法而")
     (rear-context-string . "。如是，比丘于心随观心而住。 \n")
@@ -125,7 +125,7 @@
 #1=(#("心念处" 0 3
       (bmkp-full-record #1#))
     (end-position . 35060)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "　　诸比丘!比丘如何于心随观心而")
     (rear-context-string . "间。如是，比丘于受随欢爱而住。\n")
@@ -138,7 +138,7 @@
 #1=(#("受念处" 0 3
       (bmkp-full-record #1#))
     (end-position . 34752)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "　　诸比丘!比丘如何于受随观受而")
     (rear-context-string . "，如是，比丘于身随观身而住。\n\n")
@@ -151,7 +151,7 @@
 #1=(#("身念处" 0 3
       (bmkp-full-record #1#))
     (end-position . 33143)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "　　诸比丘!如何是比丘于身随观身")
     (rear-context-string . "间除去贪忧。[如是谓四念处]。\n")
@@ -163,7 +163,7 @@
     (position . 33143))
 #1=(#("五蕴!=五取蕴" 0 7
       (bmkp-full-record #1#))
-    (filename . "/fo/xyb/xyb.org")
+    (filename . "~/xyb/xyb.org")
     (buffer-name . "xyb.org")
     (front-context-string . "我为汝等说五蕴及五取蕴，且谛听!")
     (rear-context-string . "……乃至……\n\n三\n\n“诸比丘!")
@@ -176,7 +176,7 @@
 #1=(#("身中物对袋中谷物" 0 8
       (bmkp-full-record #1#))
     (end-position . 33752)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "观此身，从头顶至足底止，皆为皮肤")
     (rear-context-string . "而住。\n　　复次，诸比丘!比丘善")
@@ -188,7 +188,7 @@
     (position . 33752))
 #1=(#("何时修何觉支" 0 6
       (bmkp-full-record #1#))
-    (filename . "/fo/xyb/xyb.org")
+    (filename . "~/xyb/xyb.org")
     (buffer-name . "xyb.org")
     (front-context-string . "若异学修行者，如是说者，则应如是")
     (rear-context-string . "理趣经”。\n\n十一\n\n“诸比丘!")
@@ -279,7 +279,7 @@
     (filename . "/ssh:yao@f2#54872|sudo:root@f2#54872:/srv/bin/baksql.sh")
     (buffer-name . "baksql.sh")
     (front-context-string)
-    (rear-context-string . "l.gz /home/yao/\n")
+    (rear-context-string . "l.gz ~/\n")
     (front-context-region-string)
     (rear-context-region-string)
     (visits . 0)
@@ -313,7 +313,7 @@
 #1=(#("过去未来色" 0 5
       (bmkp-full-record #1#))
     (end-position . 548026)
-    (filename . "/home/fo/xyb/zh.org")
+    (filename . "~/xyb/zh.org")
     (buffer-name . "zh.org")
     (front-context-string . "　　“然者，诸比丘!如何为“追过")
     (rear-context-string . "怠\n　　此一夜贤者 谓静寂默者\n")
@@ -340,7 +340,7 @@
 #1=(#("何为五阴" 0 4
       (bmkp-full-record #1#))
     (end-position . 227938)
-    (filename . "/home/fo/xyb/xyb.org")
+    (filename . "~/xyb/xyb.org")
     (buffer-name . "xyb.org")
     (front-context-string . "* [七九] 第七 师子(二)\n")
     (rear-context-string . "增支部经典第四集三十三经一致\n\n")
