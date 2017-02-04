@@ -18,26 +18,8 @@
 ;;    (ob-ipython w3m helm-dash helm-projectile helm markdown-mode zenburn-theme yasnippet yaml-mode web-mode tabbar scss-mode sass-mode php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
 
 ;;company
-
-(defvar my/packages '(
-zenburn-theme
-magit
-helm
-expand-region
-php-mode
-tabbar
-projectile
-nginx-mode
-ob-ipython
-helm-projectile
-yasnippet
-web-mode
-feature-mode
-
-
-
-
- ) "Default packages")
+;; http://blog.csdn.net/u013225150/article/details/51577568
+(defvar my/packages '( zenburn-theme magit helm expand-region php-mode tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode ) "默认安装的软件包")
 
 (setq package-selected-packages my/packages)
 
