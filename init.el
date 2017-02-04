@@ -13,6 +13,49 @@
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize) ;; You might already have this line
 
+(require 'cl)
+
+;;    (ob-ipython w3m helm-dash helm-projectile helm markdown-mode zenburn-theme yasnippet yaml-mode web-mode tabbar scss-mode sass-mode php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
+
+;;company
+
+(defvar my/packages '(
+zenburn-theme
+magit
+helm
+expand-region
+php-mode
+tabbar
+projectile
+nginx-mode
+ob-ipython
+helm-projectile
+yasnippet
+web-mode
+feature-mode
+
+
+
+
+ ) "Default packages")
+
+(setq package-selected-packages my/packages)
+
+(defun my/packages-installed-p ()
+    (loop for pkg in my/packages
+      when (not (package-installed-p pkg)) do (return nil)
+      finally (return t)))
+
+(unless (my/packages-installed-p)
+    (message "%s" "Refreshing package database...")
+    (package-refresh-contents)
+    (dolist (pkg my/packages)
+      (when (not (package-installed-p pkg))
+    (package-install pkg))))
+
+
+
+
 
 (load-theme 'zenburn t)
 ;; (setq python-indent-offset 4)
@@ -35,7 +78,6 @@
 (require 'mode-line-config)
 (require 'prj-config)
 (require 'fold-set)
-
 
 (global-set-key [backtab]
     (lambda ()
@@ -204,23 +246,8 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (require 'magit)
 ;(setq magit-last-seen-setup-instructions "1.4.0")
 (setq magit-auto-revert-mode nil)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
- '(package-selected-packages
-   (quote
-    (ob-ipython w3m helm-dash helm-projectile helm markdown-mode zenburn-theme yasnippet yaml-mode web-mode tabbar scss-mode sass-mode php-mode org nginx-mode magit jump jinja2-mode jedi highlight-symbol flymake-ruby flycheck feature-mode expand-region ediprolog cucumber-goto-step company-irony company-c-headers coffee-mode bookmark+)))
- '(tabbar-separator (quote (0.5))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
 
 
-(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;;(add-hook 'after-init-hook #'global-flycheck-mode)
 (require 'cmd)

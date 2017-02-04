@@ -1,4 +1,3 @@
-
 ;; https://github.com/thierryvolpiatto/emacs-tv-config/blob/master/init-helm-thierry.el
 (helm-mode 1)
 (global-set-key (kbd "M-x")                          'undefined)

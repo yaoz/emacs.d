@@ -683,7 +683,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; (require 'ediprolog)
 
 ;; (setq browse-url-browser-function 'eww-browse-url)
-(setq helm-dash-browser-func 'eww)
+;;(setq helm-dash-browser-func 'eww)
 ;; Windmove windows move
-(windmove-default-keybindings 'meta)
+;;(windmove-default-keybindings 'meta)
 
