@@ -622,7 +622,7 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 (add-hook 'swift-mode-hook 'company-mode)
 (add-hook 'java-mode-hook 'company-mode)
 (add-hook 'ruby-mode-hook 'company-mode)
-(add-hook 'web-mode-hook 'company-mode)
+;;(add-hook 'web-mode-hook 'company-mode)
 (add-hook 'html-mode-hook 'company-mode)
 
 (global-set-key (kbd "C-i") 'company-complete)
@@ -655,22 +655,22 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 (provide 'cmd)
 
 
-(require 'web-mode)
-(add-to-list 'auto-mode-alist '("\\.rails\\'" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.jinja\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
-(setq web-mode-code-indent-offset 2)
+;;(require 'web-mode)
+;;(add-to-list 'auto-mode-alist '("\\.rails\\'" . ruby-mode))
+;;(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.jinja\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+;;(setq web-mode-code-indent-offset 2)
 
 
-(add-to-list 'auto-mode-alist '("\\.blade\\.php\\'" . web-mode))
-(setq web-mode-engines-alist
-      '(("php"    . "\\.phtml\\'")
-        ("blade"  . "\\.blade\\.")
-	("django"    . "\\.html\\'")
-	("jinja"    . "\\.jinja\\'")
-	("erb"    . "\\.erb\\'")
-	))
+;;(add-to-list 'auto-mode-alist '("\\.blade\\.php\\'" . web-mode))
+;;(setq web-mode-engines-alist
+;;      '(("php"    . "\\.phtml\\'")
+;;        ("blade"  . "\\.blade\\.")
+;;	("django"    . "\\.html\\'")
+;;	("jinja"    . "\\.jinja\\'")
+;;	("erb"    . "\\.erb\\'")
+;;	))
 
 
 ;;(add-hook 'projectile-mode-hook 'projectile-rails-on)
