@@ -644,14 +644,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; (global-set-key [tab] 'complete-or-indent)
 (global-set-key [tab] 'indent-or-complete)
 
-(autoload 'jedi:setup "jedi" nil t) 
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:complete-on-dot t)                 ; optional
-
-
-;; (setq flycheck-swift-sdk-path nil)
-;; (setq swift nil)
-
 (provide 'cmd)
 
 
@@ -687,3 +679,57 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; Windmove windows move
 ;;(windmove-default-keybindings 'meta)
 
+;;设置ESS的Working目录
+(setq ess-ask-for-ess-directory nil)
+(setq ess-set-working-directory "~/R/")
+;;设置默认语言
+;;(setq ess-ask-for-dialect nil)
+(setq ess-dialect "R")
+
+(add-to-list 'auto-mode-alist '("\\.R$" . R-mode))
+(add-to-list 'auto-mode-alist '("\\.r$" . R-mode))
+
+(setq ess-local-process-name "R")
+(setq ansi-color-for-comint-mode 'filter)
+(setq comint-prompt-read-only t)
+(setq comint-scroll-to-bottom-on-input t)
+(setq comint-scroll-to-bottom-on-output t)
+(setq comint-move-point-for-output t)
+
+(global-set-key [(meta i)] 'ess-eval-line)
+(global-set-key [(meta o)] 'ess-eval-region)
+(global-set-key [(meta p)] 'ess-eval-buffer)
+
+(setq kotlin-tab-width 4) 
+
+
+;; (require 'flx-ido)
+;; (ido-mode 1)
+;; (ido-everywhere 1)
+;; (flx-ido-mode 1)
+;; ;; disable ido faces to see flx highlights.
+;; (setq ido-enable-flex-matching t)
+;; (setq ido-use-faces nil)
+
+;; (setq projectile-completion-system 'flx-ido)
+
+
+;; (autoload 'jedi:setup "jedi" nil t) 
+;; (add-hook 'python-mode-hook 'jedi:setup)
+;; (setq jedi:complete-on-dot t)                 ; optional
+
+;; (add-hook 'python-mode-hook 'anaconda-mode)
+;; (add-hook 'python-mode-hook 'anaconda-eldoc-mode)
+
+;; (setq flycheck-swift-sdk-path nil)
+;; (setq swift nil)
+
+(package-initialize)
+(elpy-enable)
+
+(setq python-shell-unbuffered nil)
+(setq python-shell-prompt-detect-failure-warning nil)
+(setq python-shell-prompt-detect-enabled nil)
+
+(setenv "IPY_TEST_SIMPLE_PROMPT" "1")
+;; (global-set-key (kbd "C-M-k")                      'elpy-shell-send-region-or-buffer) ;;没有用

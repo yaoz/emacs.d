@@ -5,12 +5,11 @@
 (let ((default-directory "~/.emacs.d/elpa/"))
 	(normal-top-level-add-subdirs-to-load-path))
 
-
-
 (require 'package) ;; You might already have this line
-
+;; http://mirrors.163.com/elpa/melpa/ gnu org 
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+;; (add-to-list 'package-archives '("elpy" . "http://jorgenschaefer.github.io/packages/"))
 (package-initialize) ;; You might already have this line
 
 (require 'cl)
@@ -19,7 +18,7 @@
 
 ;;company
 ;; http://blog.csdn.net/u013225150/article/details/51577568
-(defvar my/packages '( zenburn-theme magit helm expand-region php-mode tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode ) "默认安装的软件包")
+(defvar my/packages '( zenburn-theme magit helm expand-region php-mode tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode elpy ) "默认安装的软件包")
 
 (setq package-selected-packages my/packages)
 
@@ -80,12 +79,22 @@
 ;(iswitchb-mode 1)
 ;(setq iswitchb-buffer-ignore '("^ " "*Messages*" "*Compile-Log*" "*GNU Emacs*","nrepl-server","nrepl-connection","nrepl-events","*Completions*"))
 
-;;复制c-c c-v c-x
-(setq cua-rectangle-mark-key (kbd "C-S-<return>"))
-(cua-mode t)
-(setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
-(transient-mark-mode 1) ;; No region when it is not highlighted
-(setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
+;; cua模式,会与c-c冲突,使用原有的复制模式,c-w 复制 c-v/y 粘贴,a-w 剪切
+
+;; ;;复制c-c c-v c-x
+;; (setq cua-rectangle-mark-key (kbd "C-S-<return>"))
+;; (cua-mode t)
+;; (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
+;; (transient-mark-mode 1) ;; No region when it is not highlighted
+;; (setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
+
+
+;; https://www.emacswiki.org/emacs/CopyAndPaste
+;; (setq mark-even-if-nonactive nil)
+
+(global-set-key (kbd "C-v")                      'yank)
+(global-set-key (kbd "C-w")                      'kill-ring-save)
+(global-set-key (kbd "M-w")                      'kill-region)
 
 
 
@@ -233,3 +242,18 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 ;;(add-hook 'after-init-hook #'global-flycheck-mode)
 (require 'cmd)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (elpy company-jedi jedi flx-ido kotlin-mode company ess zenburn-theme magit helm expand-region php-mode tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode)))
+ '(tabbar-separator (quote (0.5))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

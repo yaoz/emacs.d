@@ -30,15 +30,14 @@
 (define-key global-map (kbd "M-g i")                 'helm-gid)
 (define-key global-map (kbd "C-x r p") 'helm-projects-history)
 
-;; (require 'helm-config) ;;无用
 
 (setq  helm-apropos-fuzzy-match                        t
-      helm-M-x-fuzzy-match                            t
-      helm-lisp-fuzzy-completion                      t
-      helm-completion-in-region-fuzzy-match           t
-helm-buffers-fuzzy-matching t)
+       helm-M-x-fuzzy-match                            t
+       helm-lisp-fuzzy-completion                      t
+       helm-completion-in-region-fuzzy-match           t
+       helm-buffers-fuzzy-matching t)
 
 ;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+;; (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
 (provide 'helm-config)

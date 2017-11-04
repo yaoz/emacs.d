@@ -49,7 +49,7 @@
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 (define-key global-map "\C-ca" 'org-agenda)
-(define-key global-map "\C-cc" 'org-capture)
+;; (define-key global-map "\C-cc" 'org-capture)
 
 
 (setq org-capture-templates

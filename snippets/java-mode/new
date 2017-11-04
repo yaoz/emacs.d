@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: new
+# key: new
+# --
+package com.yao.st;
+
+public class test {
+}
