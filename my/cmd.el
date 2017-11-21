@@ -733,3 +733,10 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 (setenv "IPY_TEST_SIMPLE_PROMPT" "1")
 ;; (global-set-key (kbd "C-M-k")                      'elpy-shell-send-region-or-buffer) ;;没有用
+
+
+
+
+
+
+

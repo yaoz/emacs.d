@@ -58,6 +58,7 @@
 (require 'recentf-config)
 (require 'mode-line-config)
 (require 'prj-config)
+(require 'font-config)
 (require 'fold-set)
 
 (global-set-key [backtab]
@@ -151,18 +152,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-;;设置字体 英文好看
-(defun frame-setting ()
-  (set-frame-font "DejaVu Sans Mono-13")
-  (set-fontset-font (frame-parameter nil 'font)
-		    'gb18030 '("文泉驿等宽微米黑" . "unicode-bmp")))
- 
-(if (and (fboundp 'daemonp) (daemonp))
-    (add-hook 'after-make-frame-functions
- 	      (lambda (frame)
- 		(with-selected-frame frame
- 		  (frame-setting))))
-  (frame-setting))
 
 ;(require 'powerline)
 
@@ -242,6 +231,8 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 
 ;;(add-hook 'after-init-hook #'global-flycheck-mode)
 (require 'cmd)
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -249,7 +240,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (elpy company-jedi jedi flx-ido kotlin-mode company ess zenburn-theme magit helm expand-region php-mode tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode)))
+    (clojure-mode elpy company-jedi jedi flx-ido kotlin-mode company ess zenburn-theme magit helm expand-region php-mode tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

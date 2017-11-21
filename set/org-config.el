@@ -23,16 +23,10 @@
         ))
 
 ; Tags with fast selection keys
-(setq org-tag-alist (quote ((:startgroup)
-                            ("@办公室" . ?o)
-                            ("@家" . ?H)
-                            (:endgroup)
-                            ("WAITING" . ?w)
-                            ("HOLD" . ?h)
-                            ("ORG" . ?O)
-                            ("个人" . ?P)
-                            ("工作" . ?W)
-                            ("FLAGGED" . ??))))
+(setq org-tag-alist (quote (("发布" . ?f)
+                            ("个人" . ?m)
+                            ("工作" . ?w)
+			    )))
 
 ; Allow setting single tags without the menu
 (setq org-fast-tag-selection-single-key (quote expert))
@@ -147,4 +141,6 @@
 ;;; display/update images in the buffer after I evaluate
 ;; (add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
 
+(setq org-src-fontify-natively t)	;代码块中的语法高亮
+(setq org-tags-match-list-sublevels nil) ;tag搜索不包含继承的子标题.
 (provide 'org-config)
