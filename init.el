@@ -59,7 +59,9 @@
 (require 'mode-line-config)
 (require 'prj-config)
 (require 'font-config)
+(require 'run-config
 (require 'fold-set)
+
 
 (global-set-key [backtab]
     (lambda ()
