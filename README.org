@@ -1,3 +1,7 @@
 * Emacs 配置
 [[http://soutuapp.com/emacs/60.html][Emacs字体设置 font]]
+
 [[http://soutuapp.com/emacs/65.html][Emacs运行当前buffer]]
+
+[[http://soutuapp.com/emacs/68.html][tabbar buffer 标签 外观设置]]
+
