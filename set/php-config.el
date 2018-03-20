@@ -1,22 +1,45 @@
 (require 'php-mode)
-(setq php-completion-file "~/.emacs.d/php-completion-file")
-(eval-after-load 'php-mode
-  '(progn
-     (define-key php-mode-map (kbd "M-p")  'php-complete-function)))
 
-(add-hook 'html-mode-hook 'turn-off-auto-fill)
-(add-hook 'php-mode-hook 'company-mode)
-(add-to-list 'auto-mode-alist '("\\.tpl\\'" . html-mode))
+;; (add-hook 'php-mode-hook
+;;             '(lambda ()
+;;                (auto-complete-mode t)
+;;                (require 'ac-php)
+;;                (setq ac-sources  '(ac-source-php ) )
+;;                (yas-global-mode 1)
+;;                (ac-php-core-eldoc-setup ) ;; enable eldoc
+
+;;                (define-key php-mode-map  (kbd "C-]") 'ac-php-find-symbol-at-point)   ;goto define
+;;                (define-key php-mode-map  (kbd "C-t") 'ac-php-location-stack-back)    ;go back
+;;                ))
+
+
+(add-hook 'php-mode-hook
+          '(lambda ()
+             (require 'company-php)
+             (company-mode t)
+             (ac-php-core-eldoc-setup) ;; enable eldoc
+             (make-local-variable 'company-backends)
+             (add-to-list 'company-backends 'company-ac-php-backend)))
+
+;; (setq php-completion-file "~/.emacs.d/php-completion-file")
+;; (eval-after-load 'php-mode
+;;   '(progn
+;;      (define-key php-mode-map (kbd "M-p")  'php-complete-function)))
+
+;; (add-hook 'html-mode-hook 'turn-off-auto-fill)
+;; (add-hook 'php-mode-hook 'company-mode)
+;; (add-to-list 'auto-mode-alist '("\\.tpl\\'" . html-mode))
 ;; (require 'php-eldoc)
-(add-to-list 'auto-mode-alist '("\\.pt$" . php-mode))
-(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+;; (add-to-list 'auto-mode-alist '("\\.pt$" . php-mode))
+;; (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 ;(add-to-list 'auto-mode-alist '("\\.cls\\.php$" . php-mode))
 
-;(require 'web-mode)
+(require 'web-mode)
 ;(require 'smarty-mode)
  	
 ;(setq auto-mode-alist (append '(("\\.tpl$" . smarty-mode)) auto-mode-alist))
-;(add-to-list 'auto-mode-alist '("\\.tpl\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.twig\\'" . web-mode))
 
 
 
@@ -39,12 +62,12 @@
 ;; (setq c-basic-offset 4)
 ;; (setq c-basic-indent 4)
 
-(add-hook 'php-mode-hook 'my-php-mode-hook)
-(defun my-php-mode-hook ()
-  (setq-default indent-tabs-mode nil)
-  (setq-default tab-width 4)
-  (setq c-basic-offset 4)
-  (setq c-basic-indent 4))
+;; (add-hook 'php-mode-hook 'my-php-mode-hook)
+;; (defun my-php-mode-hook ()
+;;   (setq-default indent-tabs-mode nil)
+;;   (setq-default tab-width 4)
+;;   (setq c-basic-offset 4)
+;;   (setq c-basic-indent 4))
 
 
 ;; (defun my-php-mode-hook ()

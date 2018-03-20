@@ -127,13 +127,15 @@
 ;; (add-hook 'org-babel-after-execute-hook 'orgimage 'append)
 ;; (add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
 
-(require 'ob-ipython)
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((ipython . t)
-   (python . t)
-   ;; other languages..
-   ))
+;; 这几行代码会json error,org不能c-c c-j
+;;(require 'ob-ipython)
+;;(org-babel-do-load-languages
+;; 'org-babel-load-languages
+;; '((ipython . t)
+;;   (python . t)
+;;   ;; other languages..
+;;   ))
+
 (setq python-shell-interpreter "ipython" )
 (setq python-shell-prompt-detect-failure-warning nil)
 (setq python-shell-completion-native-enable nil)

@@ -658,14 +658,6 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 ;; (setq projectile-completion-system 'flx-ido)
 
-
-;; (autoload 'jedi:setup "jedi" nil t) 
-;; (add-hook 'python-mode-hook 'jedi:setup)
-;; (setq jedi:complete-on-dot t)                 ; optional
-
-;; (add-hook 'python-mode-hook 'anaconda-mode)
-;; (add-hook 'python-mode-hook 'anaconda-eldoc-mode)
-
 ;; (setq flycheck-swift-sdk-path nil)
 ;; (setq swift nil)
 
@@ -680,8 +672,17 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 ;; (global-set-key (kbd "C-M-k")                      'elpy-shell-send-region-or-buffer) ;;没有用
 
 
-
-
-
+(defun org-flag-drawer (flag)
+  "When FLAG is non-nil, hide the drawer we are within.
+    Otherwise make it visible."
+  (save-excursion
+    (beginning-of-line 1)
+    (when (looking-at "^[ \t]*:[a-zA-Z][a-zA-Z0-9]*:")
+      (let ((b (match-end 0)))
+        (if (re-search-forward
+             "^[ \t]*:END:"
+             (save-excursion (outline-next-heading) (point)) t)
+            (outline-flag-region b (point-at-eol) flag)
+          (user-error (concat (buffer-name) " :END: line missing at position %s" b)))))))
 
 

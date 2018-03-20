@@ -1,4 +1,4 @@
-;; {{{ tabbar
+;; tabbar
 (require 'tabbar)
 (set-face-attribute
  'tabbar-default nil
@@ -101,7 +101,7 @@ That is, a string used to represent it on the tab bar."
       "Mail"
       )
      ((memq major-mode
-            '(php-mode nginx-mode magit-diff-mode ))
+            '(php-mode web-mode nginx-mode magit-diff-mode ))
       "php"
       )
 

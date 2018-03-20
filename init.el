@@ -52,16 +52,16 @@
 ;(require 'mysql-config)
 (require 'base-config)
 (require 'dired-config)
-;(require 'php-config)
+(require 'php-config)
 (require 'misc-config)
 ;(require 'objc-config)
 (require 'recentf-config)
 (require 'mode-line-config)
 (require 'prj-config)
 (require 'font-config)
-(require 'run-config
+(require 'run-config)
 (require 'fold-set)
-
+(add-hook 'after-init-hook 'global-company-mode)
 
 (global-set-key [backtab]
     (lambda ()
@@ -242,7 +242,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (clojure-mode elpy company-jedi jedi flx-ido kotlin-mode company ess zenburn-theme magit helm expand-region php-mode tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode)))
+    (company-php php-mode clojure-mode elpy company-jedi jedi flx-ido kotlin-mode company ess zenburn-theme magit helm expand-region tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
