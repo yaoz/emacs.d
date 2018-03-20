@@ -8,7 +8,8 @@
   )
 
 (defun my-font-set ()
-  (font-set "WenQuanYi Zen Hei Mono" "WenQuanYi Zen Hei Mono" 18 18))
+  (cond ((eq system-type 'windows-nt) (font-set "SimSun" "SimSun" 18 18))
+	((eq system-type 'gnu/linux) (font-set "WenQuanYi Zen Hei Mono" "WenQuanYi Zen Hei Mono" 18 18))))
 
 (if (and (fboundp 'daemonp) (daemonp))
     (add-hook 'after-make-frame-functions
