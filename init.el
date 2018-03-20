@@ -1,6 +1,10 @@
 (add-to-list 'load-path "~/.emacs.d/my")
 (add-to-list 'load-path "~/.emacs.d/set")
 
+(if (not (file-exists-p "~/.emacs.d/elpa/"))
+    (make-directory "~/.emacs.d/elpa/"))
+    
+
 
 (let ((default-directory "~/.emacs.d/elpa/"))
 	(normal-top-level-add-subdirs-to-load-path))
