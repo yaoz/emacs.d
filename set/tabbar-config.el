@@ -111,7 +111,7 @@ That is, a string used to represent it on the tab bar."
       )
      
      ((memq major-mode
-	    '(ruby-mode rails-mode coffee-mode web-mode js-mode css-mode yaml-mode scss-mode sass-mode feature-mode))
+	    '(ruby-mode rails-mode coffee-mode web-mode js-mode css-mode yaml-mode xml-mode nxml-mode scss-mode sass-mode feature-mode))
       "ruby"
       )
      ((memq major-mode

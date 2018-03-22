@@ -686,3 +686,4 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
           (user-error (concat (buffer-name) " :END: line missing at position %s" b)))))))
 
 
+(add-to-list 'auto-mode-alist '("\\.wxml\\'" . xml-mode))
