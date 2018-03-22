@@ -687,3 +687,4 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 
 (add-to-list 'auto-mode-alist '("\\.wxml\\'" . xml-mode))
+
