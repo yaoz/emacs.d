@@ -29,13 +29,12 @@
 
 ;;设定语言环境为utf-8
 (setq current-language-environment "UTF-8")
-(setq default-input-method "chinese-py")
 (setq locale-coding-system 'utf-8)
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
-(set-selection-coding-system 'utf-8)
+;;(set-selection-coding-system 'utf-8) ;;结果发现emacs和其他win的窗口进行相互的复制粘贴时出现问题，表现为当从其他窗口复制文字，粘贴到emacs中，出现乱码（\xxx这种形式）。
 (prefer-coding-system 'utf-8)
-
+(setq default-buffer-file-coding-system 'utf-8)
 
 
 
