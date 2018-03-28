@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: wxml
+# key: wxml
+# --
+
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">text 文本</text>
+  </view>
+</view>
