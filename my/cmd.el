@@ -688,3 +688,16 @@ scp -P 35072 ex.tar.gz yao@f3:/home/yao"))
 
 (add-to-list 'auto-mode-alist '("\\.wxml\\'" . xml-mode))
 
+;; (setenv "PATH" (concat "d:\Program Files (x86)\Graphviz2.38\bin" (getenv "PATH")))
+;; (load "graphviz-dot-mode.el" nil t t)  
+
+;; (image-type-available-p 'gif)
+
+;; (image-type-available-p 'jpeg)
+
+;; (image-type-available-p 'tiff)
+
+;; (image-type-available-p 'xbm)
+;; (image-type-available-p 'png)
+
+;; (image-type-available-p 'xpm)

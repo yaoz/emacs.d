@@ -246,7 +246,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company-php php-mode clojure-mode elpy company-jedi jedi flx-ido kotlin-mode company ess zenburn-theme magit helm expand-region tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode)))
+    (graphviz-dot-mode company-php php-mode clojure-mode elpy company-jedi jedi flx-ido kotlin-mode company ess zenburn-theme magit helm expand-region tabbar projectile nginx-mode ob-ipython helm-projectile yasnippet web-mode feature-mode)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
