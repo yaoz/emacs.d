@@ -42,7 +42,7 @@
              ((string-equal fSuffix "m") (shell-command (concat cmdStr ";/tmp/z"))) ;  objc
              ((string-equal fSuffix "dot") (progn
                                              ;; (message (concat cmdStr " -o " fName-no-houzhui ".png"))
-                                             (shell-command (concat cmdStr " -o " fName-no-houzhui ".png"))
+                                             ;; (shell-command (concat cmdStr " -o " fName-no-houzhui ".png"))
                                              (graphviz-dot-preview)
                                              )) ;图片
              (t (shell-command cmdStr)))
